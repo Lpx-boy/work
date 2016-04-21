@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html ng-app="red-pack">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>10000红包体验金</title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			html {
+				font-family: "微软雅黑";
+				font-size: 62.5%;
+				/* 10÷16=62.5% */
+			}
+			
+			@media only screen and (min-width: 321px) {
+				html {
+					font-size: 67%!important;
+					/* 10.72÷16=67% */
+				}
+			}
+			
+			@media only screen and (min-width: 401px) {
+				html {
+					font-size: 80%!important;
+					/* 12.8÷16=80% */
+				}
+			}
+			
+			@media only screen and (min-width: 481px) {
+				html {
+					font-size: 94%!important;
+					/* 15.04÷16=94% */
+				}
+			}
+			
+			@media only screen and (min-width: 561px) {
+				html {
+					font-size: 109%!important;
+					/* 17.44÷16=109% */
+				}
+			}
+			
+			@media only screen and (min-width: 641px) {
+				html {
+					font-size: 125%!important;
+					/* 20÷16=125% */
+				}
+			}
+			
+			@media only screen and (min-width: 641px) {
+				article {
+					max-width: 32rem;
+				}
+			}
+			
+			article {
+				margin: 0 auto;
+				max-height: 64rem;
+				width: 100%;
+				height: 64rem;
+				background: url(images/1000red-pack.jpg) center/100% 100%;
+				display: flex;
+				align-items: center;
+			}
+			
+			article > form {
+				max-width: 26.8rem;
+				margin: 8rem auto 0;
+			}
+			
+			article > form > input {
+				width: 24.7rem;
+			}
+			
+			article > form .testing {
+				background-image: none;
+				border: none;
+				border-radius: 1rem;
+				display: block;
+				padding: 1rem;
+				font-size: .8rem;
+			}
+			
+			article > form .testing:focus {
+				outline: none;
+			}
+			
+			article > form > p {
+				margin: .5rem auto;
+				height: 1.35rem;
+				text-align: left;
+				font-weight: bold;
+				color: white;
+				letter-spacing: .2rem;
+			}
+			
+			article > form > span {
+				display: block;
+				overflow: hidden;
+			}
+			
+			article > form > span img {
+				width: 10rem;
+				height: 100%;
+			}
+			
+			article > form > span input {
+				float: left;
+			}
+			
+			article > form > span span {
+				float: right;
+				width: 10rem;
+				height: 3rem;
+				border-radius: 1rem;
+				overflow: hidden;
+			}
+			
+			article > form .testing-width {
+				width: 12rem;
+			}
+			
+			article > form .submit {
+				padding: 0.475rem;
+				width: 100%;
+				font-size: 1.5rem;
+				color: #ea0000;
+				background-color: #fff681;
+				height: inherit;
+			}
+			
+			article > form .submitTest {
+				color: #ff7070;
+				/*验证后的字体颜色*/
+				background-color: #e0d98a;
+				/*验证后的背景颜色*/
+			}
+			
+			article form > button {
+				padding: 1.2rem !important;
+				width: 100%;
+				font-size: 1.8rem !important;
+				color: #732a02;
+				font-weight: bold;
+				background: url(images/active-subimt.png) center/cover no-repeat !important;
+			}
+		</style>
+	</head>
+
+	<body ng-controller="packData">
+		<article>
+			<form name="redPack" ng-submit="save()">
+
+				<input class="testing" type="text" placeholder="手机号码" name="phone" ng-model="formDate.phone" ng-minlength=3 ng-maxlength=11 maxlength="15" ng-pattern="/^(13[0-9]|15[0|3|6|7|8|9]|18[8|9])\d{8}$/"/>
+
+				<p>
+					<span ng-messages="redPack.phone.$error">
+						<!--<span ng-message="" ng-cloak>请输入手机号码</span>-->
+						<span ng-message="minlength" ng-cloak>手机号码小于3位</span>
+						<span ng-message="maxlength" ng-cloak>手机号码超过11位</span>
+						<span ng-message="pattern" ng-cloak>请输入正确的手机号码</span>
+						<span ng-message="" ng-cloak>该手机号已注册，本活动也仅限邀请新注册用户</span><!--没写-->
+					</span>
+				</p>
+
+				<span>
+					<input class="testing testing-width" type="text" placeholder="图形验证码" name="graph" ng-model="formDate.graph" maxlength="4" ng-pattern="/^[A-Za-z0-9]{4}$/"/>
+					<span ng-init="testImg = 'http://www.kuaijiecaifu.com/global-verify.html'">
+						<img ng-click="testing()" ng-src="{{testImg}}"/>
+					</span>
+				</span>
+
+				<p>
+					<span ng-messages="redPack.graph.$error">
+						<span ng-message="pattern">图形验证码错误</span>
+					</span>
+				</p>
+
+				<span>
+					<input class="testing testing-width" type="text" placeholder="手机验证码" name="phoneTest" ng-model="formDate.phoneTest" maxlength="6" ng-pattern="/^[0-9]{6}$/"/>
+					<span>
+						<button class="testing submit" type="button">获取验证码</button>
+					</span>
+				</span>
+
+				<p>
+					<span ng-messages="redPack.phoneTest.$error">
+						<span ng-message="pattern">手机验证码错误</span>
+					</span>
+				</p>
+
+				<button type="submit" class="testing">马上领取吧！</button> 
+			</form>
+		</article>
+		<script src="../js/jquery-2.1.4.min.js"></script>
+		<script src="../js/angular.min.js"></script>
+		<script src="../js/angular-messages.min.js"></script>
+		<script>
+			var pack = angular.module('red-pack', ['ngMessages']);
+			pack.controller('packData', function($scope) {
+				$scope.testing = function() {
+					$scope.testImg = "http://www.kuaijiecaifu.com/Global-verify.html?random=" + Math.random();
+				}  
+			});   
+			function testingSave($scope, $http) {  
+				$scope.formDate = {}; //数据
+				$scope.save = function() {   
+					$http.post('php', $scope.formData)
+						.success(function(date) {
+							console.log(date);
+						});
+				}
+			}//没写
+		</script>
+	</body>
+
+</html>

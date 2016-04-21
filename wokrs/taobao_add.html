@@ -1,0 +1,37 @@
+<!DOCTYPE >
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>收货地址-淘宝网</title>
+		<link rel="stylesheet" href="//g.alicdn.com/tb/global/3.5.29/global-min.css">
+		<link href="//assets.alicdn.com/s/kissy/1.3.0/css/dpl/base-min.css" rel="stylesheet">
+		<link href="//g.alicdn.com//tb/mbis/0.4.13/address/css/address.css?t=20150910" rel="stylesheet" />
+	</head>
+	<body>
+		<form action="/member/fresh/deliver_address.htm" method="post">
+			<div class="item item-devision" id="J_ItemDivision">
+				<div id="J_CitySelect" class="ks-clear clearfix">
+					<select class="J_Country">
+						<option class="tsl" data-phase-id="d_p_chooseStation" value="">请选择国家</option>
+						<option class="tsl" data-phase-id="d_p_chinaInland" value="0" selected>中国大陆</option>
+						<option class="tsl" data-phase-id="d_p_taiWan" value="710000">台湾</option>
+						<option class="tsl" data-phase-id="d_p_gangAoTai" value="1">港澳</option>
+						<option class="tsl" data-phase-id="d_p_malaysia" value="125">马来西亚</option>
+						<option class="tsl" data-phase-id="d_p_foreignCountry" value="990000">海外其他</option>
+					</select>
+				</div>
+			</div>
+			<div class="item item-street" id="J_ItemStreet" style="display:none">
+
+				<div class="ks-combobox" id="J_ComboboxStreet" aria-pressed="false">
+					<div class="ks-combobox-input-wrap">
+						<textarea class="ks-combobox-input i-ta disabled tsl" aria-combobox="list" role="combobox" autocomplete="off" name="addressDetail" id="J_Street" data-inner_placeholder="d_p_input_inner_detailAddress" data-pattern="^[\s\S]{5,120}$" data-msg="d_p_detailAddress_msg"
+						data-ph="建议您如实填写详细收货地址，例如街道名称，门牌号码，楼层和房间号等信息" disabled="disabled"></textarea>
+					</div>
+				</div>
+			</div>
+		</form>
+		<script src="//g.alicdn.com/??kissy/k/1.4.7/seed-min.js,tb/global/3.5.29/global-min.js"></script>
+		<script src="//g.alicdn.com//tb/mbis/0.4.13/address/js/??taobao.js,address.js,index.js?t=20150910"></script>
+	</body>
+</html>

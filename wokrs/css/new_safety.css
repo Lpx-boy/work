@@ -1,0 +1,22 @@
+*{font-family:"微软雅黑";}
+body,a,img,p,div,h1,h2,h3,h4,h5{margin:0;padding:0;}
+img{display:block;border:none;}
+/*安全保障--banner*/
+.safety_banner{width:100%;height:420px;background:#507bc0;background-image:repeating-linear-gradient(#507bc0,#6392da);text-align:center;}
+.safety_banner img{display:inline-block;}
+	.safety_box{width:100%:overflow:hidden;margin-bottom:20px;}
+	.color_1{background:#e5f7fb;}
+	.color_2{background:white;}
+		.safety_centont{width:900px;margin:0 auto;height:328px;overflow:hidden;}
+			.centont_left{width:50%;float:left;height:280px;margin-top:24px;background:center top no-repeat url(../images/safety_icon.png)}
+				#icon_2{background:center -280px no-repeat url(../images/safety_icon.png)}
+				#icon_3{background:center -560px no-repeat url(../images/safety_icon.png)}
+				#icon_4{background:center -840px no-repeat url(../images/safety_icon.png)}
+				#icon_5{background:center -1120px no-repeat url(../images/safety_icon.png)}
+				#icon_6{background:center -1400px no-repeat url(../images/safety_icon.png)}
+				#icon_7{background:center -1680px no-repeat url(../images/safety_icon.png)}
+				#icon_8{background:center -1960px no-repeat url(../images/safety_icon.png)}
+			.centont_right{width:50%;float:left;height:328px;}
+				.centont_right h3{font-size:34px;color:#323232;margin-top:90px;margin-bottom:10px;margin-left:44px;letter-spacing:2px;}
+				.centont_right p{line-height:32px;margin-left:44px;font-size:16px;text-align:justify;}
+			

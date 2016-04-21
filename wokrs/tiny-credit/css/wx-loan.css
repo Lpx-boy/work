@@ -1,0 +1,167 @@
+html,
+body {
+	position: relative;
+	height: 100%;
+	font-size: 62.5%;
+}
+
+body {
+	background: #eee;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+.swiper-container {
+	max-width: 80rem;
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff; 
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.container > div {
+	position: relative;
+}
+.container > div > div {
+	display: block;
+} 
+.container > div > div > img { 
+	max-width: 100%;
+	height: auto;  
+	transition: all .5s;
+}
+.arrows > div > img {
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	margin-left: -5.1rem;
+	bottom: 1rem;
+	animation: arrows 1.2s infinite;
+}
+.arrows > div > a {
+	text-decoration: none;
+	position: absolute;
+	left: 50%;
+	margin-left: -14.6rem;
+	bottom: 1rem;
+	display: inline-block;
+	padding: 2.2rem 8.6rem;  
+	font-size: 3rem;
+	background-color: #00acb7;
+	border-radius: 5rem;
+	color: white;
+	transition: background-color .5s;
+}
+.arrows > div > a:focus {
+	background-color: #088890;
+}
+@media only screen and (min-width: 768px) {
+	.container > div > div > img {
+		margin: 2.5rem;
+	}
+}
+@media only screen and (max-width: 767px) and (min-width: 360px) {
+	.container > div > div > img {
+		margin: -2rem -5rem -4rem;
+		transform: scale(.7);
+		-webkit-transform: scale(.7);
+	}
+	.container > div > div > img:first-child {
+		margin-top: -11rem;
+	}
+	.arrows > div > a {
+		transform: scale(.6); 
+		-webkit-transform: scale(.6); 
+	}
+}
+@media only screen and (max-height: 480px) and (min-width: 320px) {
+	.container > div > div > img {
+		margin: -2rem -4rem -8rem;
+		transform: scale(.6);
+		-webkit-transform: scale(.6);
+	}
+	.container > div > div > img:first-child {
+		margin-top: -18rem;
+	}
+	.arrows > div > a {
+		transform: scale(.5);
+		-webkit-transform: scale(.5);
+		bottom: 0;
+	}
+}
+.swiper-slide-active > div img:first-child {  
+	animation: leftAm 2s;
+	-webkit-animation: leftAm 2s;
+} 
+
+.swiper-slide-active > div img:last-child { 
+	animation: rightAm 2s;
+	-webkit-animation: rightAm 2s;
+}
+/*css3--animate*/
+
+/*闪烁*/
+
+@keyframes arrows {
+	50% {
+		opacity: 0;
+	} 
+}
+@-webkit-keyframes arrows {
+	50% {
+		opacity: 0;
+	} 
+}
+
+/*left-animate*/
+@keyframes leftAm {
+	0% { 
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;		
+	} 
+}
+@-webkit-keyframes leftAm {
+	0% { 
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;		
+	} 
+}
+/*right-animate*/
+@keyframes rightAm {
+	0% {
+		opacity: 0;		
+	}
+	100% {
+		opacity: 1;		
+	} 
+}
+@-webkit-keyframes rightAm {
+	0% {
+		opacity: 0;		
+	}
+	100% {
+		opacity: 1;		
+	} 
+}

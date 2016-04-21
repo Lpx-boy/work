@@ -1,0 +1,93 @@
+/*您所在的位置*/
+.invest_site{width:1200px;margin:0 auto;line-height:46px;font-size:14px;overflow:hidden;}
+	.invest_site a{float:left;color:#323232;cursor:pointer;transition:color 0.5s;}
+		.invest_site a:hover{color:#2196F3;}
+		.invest_site span{display:inline-block;float:left;color:#727272}
+			.invest_site .text_pos{margin-right:16px;}
+			.invest_site .text_int{margin:0 4px;font-family:"宋体";line-height:49px;}
+/*净值标内容*/
+#net_main{width:1200px;margin-bottom:32px;}
+#inlay_net_box{background:white left -874px no-repeat url(../images/loan/acc_core_icon.png);border:solid 1px #cbcbcb;}
+/*净值--top*/
+#net_top{padding:0 24px;}
+	#net_top ul{margin:0;margin-top:64px;padding-bottom:14px;padding-left:54px;border-bottom:solid 2px #2196f3;}
+	#net_top ul li{font-size:14px;color:#646464;line-height:24px;}
+/*净值--bottom*/
+#net_bottom{padding:0 24px;}
+	#net_bottom p{margin:0;line-height:58px;font-size:16px;}
+	#net_bottom p span{color:#2196f3;}
+/*net--主要内容*/
+.net_matter{margin:0;list-style:none;padding:0;margin-left:54px;background:88% center no-repeat url(../images/loan/loan_net_bg.png);}
+.net_matter li{height:54px;line-height:54px;}
+.net_matter li span{float:left;width:76px;text-align:right;padding-right:6px;}
+	#bs{margin:0 14px}
+.per_from{width:25%;float:left;margin-top:10px;overflow:hidden;}
+
+/*提示文字*/
+#prompt_news{overflow:hidden;}
+	#prompt_news i{float:left;display:inline-block;width:24px;height:24px;margin-top:15px;margin-left:10px;margin-right:5px;}
+		.noraml_pro{background:right -21px no-repeat url(../images/loan/acc_core_icon.png);}
+		.error_pro{background:right -45px no-repeat url(../images/loan/acc_core_icon.png);}
+		.aright_pro{background:right -69px no-repeat url(../images/loan/acc_core_icon.png);}
+		
+	#prompt_text{width:auto;color:gray;font-size:12px;}
+
+/*蓝色border*/
+	.blue_border{border:solid 1px #66afe9;box-shadow: 0 0 4px #66afe9}
+/*总金额*/
+#loan_money{width:25%;padding-left:0;padding-right:0;}
+.for_money{outline:none;border:none;float:left;width:90%;height:20px;line-height:20px;text-align:right;}
+
+/*下拉选项*/
+.pull{width:25%;position:relative;}
+	.pull_center{outline:none;width:90%;text-align:right;padding-right:30px;}
+	.pull_center:focus{outline:none;}
+	.pull_center:active{outline:none;}
+	
+	.pull_menu{right:0}
+		.pull_menu li{line-height:30px;height:30px;padding-left:10px;cursor:pointer;transition:background 0.5s;}
+		.pull_menu li:hover{background:#509bdb;color:white;}
+	/* 元 */
+	#basic{position:absolute;right:42px;top:10px;width:auto;clear:both;padding:0;line-height:14px;z-index:999;}
+/*小箭头*/
+.arrows{height:34px;}
+#arrows{width:0;height:0;padding:0;}
+
+/*总分数*/
+.sum_point i{font-style:normal;}
+
+/*借款期限*/
+#loan_deadline{padding-right:13px;text-align:center;}
+#loan_deadline_menu{height:276px;overflow:auto;}
+
+/*还款方式*/
+#refund_text{text-align:center;}
+
+/*资金用途*/
+#fund_use{float:left;width:25%;}
+
+/*支付费用*/
+#last_p{padding-left:80px;float:left;}
+#last_p span{width:auto;}
+	#net_bottom .cost_1{color:#646464}
+		#net_bottom .cost_1 i{font-style:normal;color:#2196f3;}
+
+/*发布借款*/
+
+#issue_loan{width:40%;padding-left:76px;margin-top:30px;margin-bottom:20px;}
+	#issue_loan button{float:left;width:32%;margin-right:37px;margin-top:6px;line-height:26px;transition:background 0.5s;}
+	#issue_loan button:active{outline:none;}
+	#issue_loan button:hover{color:;border-color:#ccc;}
+	#issue_loan button:focus{outline:none;color:;border-color:#ccc}
+	
+	.issue_color{background:#2195f1;background-image:repeating-linear-gradient(#2195f1,#1977d3);color:white;}
+	.issue_color:focus{color:white;background:#1977d3}
+	.issue_color:active{color:white;background:#1977d3}
+	.issue_color:hover{background:#2195f1;background-image:repeating-linear-gradient(#2195f1,#1977d3);color:white;}
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,47 @@
+	/*右边--top*/
+
+		.details_rent{width:90%;padding:0;font-size:14px;font-family:"微软雅黑";margin-top:30px;margin-bottom:12px;}
+		.details_rent span{cursor:pointer;float:left;display:inline-block;height:25px;line-height:25px;background:-155px top no-repeat url(../images/loan/acc_core_icon.png);padding-left:30px;text-align:left;margin-right:40px;}
+		.details_rent .rent_icon_1{margin-left:8px;}
+			.per_data{color:#1ccde7}
+		.details_rent .rent_icon_2{background-position:-155px -25px;}
+			.contact{color:#ff0101}
+		.details_rent .rent_icon_3{background-position:-155px -50px;}
+			.work_news{color:#fe722d}
+		.details_rent .rent_icon_4{background-position:-155px -150px;}
+			.finance{color:#4db713}
+		.details_rent .rent_icon_5{background-position:-155px -176px;}
+			.joint{color:#1844a9}
+		.details_rent .rent_icon_6{background-position:-155px -200px;}
+			.data_up{color:#03a9f4;}
+		.details_rent .rent_icon_7{background-position:-155px -225px;margin:0;}
+			.exa_take{color:#3e8cd9;}	
+	
+/*财务状态*/
+/*月均收入*/
+#month_inc{width:25%;padding-left:0;padding-right:0;}
+/*收入构成描述*/
+#inc_text{width:25%;float:left;}
+/*月均支出*/
+#month_pay{width:25%;padding-left:0;padding-right:0;}
+/*支出构成描述*/
+#pay_text{width:25%;float:left;}
+/*住房条件*/
+#live_house{clear:both;}
+/*房产价值*/
+#house_worth{width:25%;padding-left:0;padding-right:0;}
+/*车辆价值*/
+#car_cost{width:25%;padding-left:0;padding-right:0;}
+#car_jz{display:none;}
+/*参股企业名称*/
+#share_ep_name{width:25%}
+/*参股企业出资额*/
+#share_ep_money{width:25%;padding-left:0;padding-right:0;}
+/*其他资产描述*/
+#rests_property{width:25%;float:left;}
+
+		
+		
+		
+		
+	

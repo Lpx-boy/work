@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/base.css">
+		<link rel="stylesheet" type="text/css" href="css/My_account.css">
+		<link rel="stylesheet" type="text/css" href="css/acc_centre.css">
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="js/ie.js"></script>
+		<meta charset="utf-8">
+		<title>账户中心--收货地址</title>
+	</head>
+
+	<body>
+		<!--顶部导航-->
+		<div class="container-fluid bg">
+			<div class="container" id="top_info">
+				<div class="row">
+					<div class="col-xs-6" id="align_left">
+						<span id="header_hot">客服热线 4000-233188</span>
+						<a href="" id="top_weix" title="微信">
+							<span class="weix_pic"></span>
+						</a>
+						<a href="" id="top_xinl" title="新浪微博"></a>
+					</div>
+					<script>
+						$("#top_weix").hover(function() {
+							$("#top_weix .weix_pic").stop(true, true).toggle("slow");
+						})
+					</script>
+					<div class="col-xs-6" id="align_right">
+						<a href="" title="登录">登录</a>
+						<a href="" title="注册">注册</a>
+						<a href="" title="充值">充值</a>
+						<a href="" title="帮助中心">帮助中心</a>
+						<a href="" title="新手指引">新手指引</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr class="header_hr">
+		<div class="container-fluid bg">
+			<div class="container" id="top_nav">
+				<div class="row">
+					<div class="col-xs-6 logo_pic" id="align_left">
+						<a title="快捷财富"><img src="images/base/new_index_logo.png" alt="快捷财富"></a>
+					</div>
+					<div class="col-xs-6" id="align_right">
+						<a href="new_index.html">首页</a>
+						<a href="">我要借款</a>
+						<a href="invest.html">我要投资</a>
+						<a href="">安全保障</a>
+						<a href="">APP下载</a>
+						<a href="">关于我们</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--您所在的位置-->
+		<div class="invest_site">
+			<span class="text_pos">您所在的位置:</span>
+			<a>快捷首页</a>
+			<span class="text_int">&gt;</span>
+			<a>借款管理</a>
+			<span class="text_int">&gt;</span>
+			<span>借入人申请</span>
+		</div>
+		<!--帐号中心-->
+		<div class="container" id="acc_core">
+			<div class="col-xs-2" id="core_left">
+				<div class="pull-down">
+					<div class="public_bg down1_color" id="down_1"><a>账户中心</a></div>
+					<ul id="pull_1" style="display:block">
+						<li><a>· 个人中心</a></li>
+						<li><a>· 安全中心</a></li>
+						<li><a>· 银行卡设置</a></li>
+						<li><a>· 系统消息</a></li>
+						<li><a class="pull-a-color">· 收货地址</a></li>
+					</ul>
+				</div>
+				<div class="pull-down">
+					<div class="public_bg" id="down_2"><a>我的资金</a></div>
+					<ul id="pull_2">
+						<li><a>· 借入人申请</a></li>
+						<li><a>· 借入记录</a></li>
+						<li><a>· 还款安排</a></li>
+						<li><a>· 还款记录</a></li>
+					</ul>
+				</div>
+				<div class="pull-down">
+					<div class="public_bg" id="down_3"><a>投资管理</a></div>
+					<ul id="pull_3">
+						<li><a>· 我的投资</a></li>
+						<li><a>· 自动投标</a></li>
+						<li><a>· 手动投标</a></li>
+					</ul>
+				</div>
+				<div class="pull-down">
+					<div class="public_bg" id="down_4"><a>借款管理</a></div>
+					<ul id="pull_4">
+						<li><a>· 借入人申请</a></li>
+						<li><a>· 借入记录</a></li>
+						<li><a>· 还款安排</a></li>
+						<li><a>· 还款记录</a></li>
+					</ul>
+				</div>
+				<div class="pull-down">
+					<div class="public_bg" id="down_5"><a>会员积分</a></div>
+					<ul id="pull_5">
+						<li><a>· 借入人申请</a></li>
+						<li><a>· 借入记录</a></li>
+						<li><a>· 还款安排</a></li>
+						<li><a>· 还款记录</a></li>
+					</ul>
+				</div>
+				<div class="pull-down">
+					<div class="public_bg" id="down_6"><a>推荐管理</a></div>
+					<ul id="pull_6">
+						<li><a>· 我要挣钱</a></li>
+						<li><a>· 推广记录</a></li>
+					</ul>
+				</div>
+				<div class="pull-down">
+					<div class="public_bg" id="down_7"><a>兑奖管理</a></div>
+					<ul id="pull_7">
+						<li><a>· 我的红包</a></li>
+					</ul>
+				</div>
+				<h3>返回顶部</h3>
+			</div>
+			<div class="col-xs-10 acc_right" id="core_right">
+				<div class="row border_row">
+					<div class="container acc_right_centre" style="padding-bottom:358px">
+						<p class="title_text data_text"><span>收货地址</span></p>
+						<!--个人资料--系统信息-->
+						<div class="col-xs-12 alter_news">
+							<div class="system_news" style="display:block">
+								<table class="table table-hover gains_add">
+									<thead>
+										<tr>
+											<th>收货人姓名</th>
+											<th>所在地区</th>
+											<th>详细地址</th>
+											<th>手机/电话</th>
+											<th>操作</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>李红</td>
+											<td>广东省 东莞市 万江街道</td>
+											<td>中兴北街永安商务楼四楼中兴北街</td>
+											<td>137****1234</td>
+											<td class="amend_but">
+												<a href="account_alter_add.html">修改</a>
+												<a class="close1" id="close">删除</a>
+											</td>
+										</tr>
+										<tr>
+											<td>李红</td>
+											<td>广东省 东莞市 万江街道</td>
+											<td>中兴北街永安商务楼四楼中兴北街</td>
+											<td>137****1234</td>
+											<td class="amend_but">
+												<a href="account_alter_add.html">修改</a>
+												<a class="close1">删除</a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<!--默认地址-->
+								<button type="button" class="btn btn-default tolerant" id="tolerant">默认地址</button>
+							</div>
+							<button type="button" class="btn btn-primary">新增收货地址</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/account.js"></script>
+	</body>

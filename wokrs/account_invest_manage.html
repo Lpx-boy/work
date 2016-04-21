@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/base.css">
+		<link rel="stylesheet" type="text/css" href="css/My_account.css">
+		<link rel="stylesheet" type="text/css" href="css/invest_manage.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.css">
+		<link rel="stylesheet" type="text/css" href="css/caluarlate.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/ie.js"></script>
+		<meta charset="utf-8">
+		<title>投资管理--我的投资</title>
+	</head>
+
+	<body>
+		<!--顶部导航-->
+		<div class="container-fluid bg">
+			<div class="container" id="top_info">
+				<div class="row">
+					<div class="col-xs-6" id="align_left">
+						<span id="header_hot">客服热线 4000-233188</span>
+						<a href="" id="top_weix" title="微信">
+							<span class="weix_pic"></span>
+						</a>
+						<a href="" id="top_xinl" title="新浪微博"></a>
+					</div>
+					<script>
+						$("#top_weix").hover(function() {
+							$("#top_weix .weix_pic").stop(true, true).toggle("slow");
+						})
+					</script>
+					<div class="col-xs-6" id="align_right">
+						<a href="" title="登录">登录</a>
+						<a href="" title="注册">注册</a>
+						<a href="" title="充值">充值</a>
+						<a href="" title="帮助中心">帮助中心</a>
+						<a href="" title="新手指引">新手指引</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr class="header_hr">
+		<div class="container-fluid bg">
+			<div class="container" id="top_nav">
+				<div class="row">
+					<div class="col-xs-6 logo_pic" id="align_left">
+						<a title="快捷财富"><img src="images/base/new_index_logo.png" alt="快捷财富"></a>
+					</div>
+					<div class="col-xs-6" id="align_right">
+						<a href="new_index.html">首页</a>
+						<a href="">我要借款</a>
+						<a href="invest.html">我要投资</a>
+						<a href="">安全保障</a>
+						<a href="">APP下载</a>
+						<a href="">关于我们</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--您所在的位置-->
+		<div class="invest_site">
+			<span class="text_pos">您所在的位置:</span>
+			<a>快捷首页</a>
+			<span class="text_int">&gt;</span>
+			<a>借款管理</a>
+			<span class="text_int">&gt;</span>
+			<span>借入人申请</span>
+		</div>
+		<!--帐号中心-->
+		<div class="container" id="acc_core">
+			<div class="col-xs-2" id="core_left">
+				<div class="pull-down">
+					<div class="public_bg down1_color" id="down_1"><a>账户中心</a></div>
+					<ul id="pull_1">
+						<li><a>· 个人中心</a></li>
+						<li><a>· 安全中心</a></li>
+						<li><a>· 银行卡设置</a></li>
+						<li><a>· 系统消息</a></li>
+						<li><a>· 收货地址</a></li>
+					</ul>
+				</div>
+				<div class="pull-down">
+					<div class="public_bg" id="down_2"><a>我的资金</a></div>
+					<ul id="pull_2">
+						<li><a>· 借入人申请</a></li>
+						<li><a>· 借入记录</a></li>
+						<li><a>· 还款安排</a></li>
+						<li><a>· 还款安排</a></li>
+					</ul>
+				</div>
+				<div class="pull-down">
+					<div class="public_bg" id="down_3"><a>投资管理</a></div>
+					<ul id="pull_3" style="display:block">
+						<li><a class="pull-a-color">· 我的投资</a></li>
+						<li><a>· 自动投标</a></li>
+						<li><a>· 手动投标</a></li>
+					</ul>
+				</div>
+				<div class="pull-down">
+					<div class="public_bg" id="down_4"><a>借款管理</a></div>
+					<ul id="pull_4">
+						<li><a>· 借入人申请</a></li>
+						<li><a>· 借入记录</a></li>
+						<li><a>· 还款安排</a></li>
+						<li><a>· 还款记录</a></li>
+					</ul>
+				</div>
+				<div class="pull-down">
+					<div class="public_bg" id="down_5"><a>会员积分</a></div>
+					<ul id="pull_5">
+						<li><a>· 借入人申请</a></li>
+						<li><a>· 借入记录</a></li>
+						<li><a>· 还款安排</a></li>
+						<li><a>· 还款记录</a></li>
+					</ul>
+				</div>
+				<div class="pull-down">
+					<div class="public_bg" id="down_6"><a>推荐管理</a></div>
+					<ul id="pull_6">
+						<li><a>· 我要挣钱</a></li>
+						<li><a>· 推广记录</a></li>
+					</ul>
+				</div>
+				<div class="pull-down">
+					<div class="public_bg" id="down_7"><a>兑奖管理</a></div>
+					<ul id="pull_7">
+						<li><a>· 我的红包</a></li>
+					</ul>
+				</div>
+				<h3>返回顶部</h3>
+			</div>
+			<div class="col-xs-10 acc_right" id="core_right">
+				<div class="row border_row">
+					<div class="container acc_right_centre">
+						<!--投资管理--我的投资-->
+						<ul class="my_invest">
+							<li>
+								<div class="my_invest_content">
+									<i></i>
+									<div class="my_invest_text">
+										<p>投资已赠金额</p>
+										<p class="invest_text_num"><span>0.00</span>元</p>
+									</div>
+									<a id="caluarlate_but">理财计算器</a>
+								</div>
+							</li>
+							<li>
+								<div class="my_invest_content">
+									<div class="my_invest_text">
+										<p>已还清总金额</p>
+										<p class="invest_text_num"><span>0.00</span>元</p>
+									</div>
+								</div>
+							</li>
+							<li class="last_invest_li">
+								<div class="my_invest_content">
+									<div class="my_invest_text">
+										<p>投资总金额</p>
+										<p class="invest_text_num"><span>0.00</span>元</p>
+									</div>
+									<a>我要投资</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row border_row invest_bottom">
+					<div class="container acc_right_centre">
+						<ul class="acc_invest_nav">
+							<li class="first_li">全部投资</li>
+							<li>回款中投资</li>
+							<li>已回款投资</li>
+							<li>投资总表</li>
+						</ul>
+						<!--全部投资-->
+						<div class="acc_invest_main" style="display:block">
+							<p>您目前回款中的投资总额是：<span>￥0.00</span> ，共<span>0笔</span>投标， 加权平均收益为<span>0 %</span>， 最后一笔还款时间在--结束。(注：合同密码为注册的手机号码)</p>
+							<table class="table table-hover">
+								<thead>
+									<tr>
+										<th>借款标号</th>
+										<th>类型</th>
+										<th>投资时间</th>
+										<th>投资金额</th>
+										<th>年利率</th>
+										<th>借款期限</th>
+										<th>操作</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="first_position">
+											<span>赠送体验金投资标</span>
+											<i>
+												<em class="pos_icon_red">新</em>
+												<em class="pos_icon_blue">体</em>
+											</i>
+										</td>
+										<td>体验标</td>
+										<td>2015-09-10</td>
+										<td>10000.00</td>
+										<td class="tab_color">8%</td>
+										<td>2015-09-10</td>
+										<td class="last_td">
+											<a class="ret">回款详情</a>
+											<a href="http://www.kuaijiecaifu.com/loan-checkCortact-obID-465-type-2-bid_id-627.html" target="_blank">查看合同</a>
+											<a>下载合同</a>
+											<div class="popover fade left in popup_frame">
+												<div class="arrow popup_arrow"></div>
+												<h3 class="popover-title popup_text">回款详情</h3>
+												<form class="popover-content">
+													<table class="table table-hover">
+														<thead>
+															<tr>
+																<th>类型</th>
+																<th>年利率</th>
+																<th>还款方式</th>
+																<th>还款期限</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>融资系列</td>
+																<td>8%</td>
+																<td>到期还本息</td>
+																<td>30天</td>
+															</tr>
+														</tbody>
+													</table>
+													<table class="table table-hover">
+														<thead>
+															<tr>
+																<th>回款日期</th>
+																<th>回款本金/利息</th>
+																<th>说明</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>2015/9/11</td>
+																<td>30000/**</td>
+																<td>投资完成</td>
+															</tr>
+														</tbody>
+													</table>
+												</form>
+												<span class="popup_close popup_close" title="关闭">关闭</span>
+											</div>
+										</td>
+									</tr>
+									<tr class="success">
+										<td class="first_position">
+											<span>东风标致DC7164DT...</span>
+											<i>
+												<em class="pos_icon_red">保</em>
+												<em class="pos_icon_blue">信</em>
+											</i>
+										</td>
+										<td>新手标</td>
+										<td>2015-09-10</td>
+										<td>10000.00</td>
+										<td class="tab_color">16%</td>
+										<td>2015-09-10</td>
+										<td class="last_td">
+											<a class="ret">回款详情</a>
+											<a href="http://www.kuaijiecaifu.com/loan-checkCortact-obID-465-type-2-bid_id-627.html" target="_blank">查看合同</a>
+											<a>下载合同</a>
+											<div class="popover fade left in popup_frame">
+												<div class="arrow popup_arrow"></div>
+												<h3 class="popover-title popup_text">回款详情</h3>
+												<form class="popover-content">
+													<table class="table table-hover">
+														<thead>
+															<tr>
+																<th>类型</th>
+																<th>年利率</th>
+																<th>还款方式</th>
+																<th>还款期限</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>融资系列</td>
+																<td>8%</td>
+																<td>到期还本息</td>
+																<td>30天</td>
+															</tr>
+														</tbody>
+													</table>
+													<table class="table table-hover">
+														<thead>
+															<tr>
+																<th>回款日期</th>
+																<th>回款本金/利息</th>
+																<th>说明</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>2015/9/11</td>
+																<td>30000/**</td>
+																<td>投资完成</td>
+															</tr>
+														</tbody>
+													</table>
+												</form>
+												<span class="popup_close popup_close" title="关闭">关闭</span>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="first_position">
+											<span>赠送体验金投资标</span>
+											<i>
+												<em class="pos_icon_red">新</em>
+												<em class="pos_icon_blue">体</em>
+											</i>
+										</td>
+										<td>体验标</td>
+										<td>2015-09-10</td>
+										<td>10000.00</td>
+										<td class="tab_color">8%</td>
+										<td>2015-09-10</td>
+										<td class="last_td">
+											<a class="ret">回款详情</a>
+											<a href="http://www.kuaijiecaifu.com/loan-checkCortact-obID-465-type-2-bid_id-627.html" target="_blank">查看合同</a>
+											<a>下载合同</a>
+											<div class="popover fade left in popup_frame">
+												<div class="arrow popup_arrow"></div>
+												<h3 class="popover-title popup_text">回款详情</h3>
+												<form class="popover-content">
+													<table class="table table-hover">
+														<thead>
+															<tr>
+																<th>类型</th>
+																<th>年利率</th>
+																<th>还款方式</th>
+																<th>还款期限</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>融资系列</td>
+																<td>8%</td>
+																<td>到期还本息</td>
+																<td>30天</td>
+															</tr>
+														</tbody>
+													</table>
+													<table class="table table-hover">
+														<thead>
+															<tr>
+																<th>回款日期</th>
+																<th>回款本金/利息</th>
+																<th>说明</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>2015/9/11</td>
+																<td>30000/**</td>
+																<td>投资完成</td>
+															</tr>
+														</tbody>
+													</table>
+												</form>
+												<span class="popup_close popup_close" title="关闭">关闭</span>
+											</div>
+										</td>
+									</tr>
+									<tr class="warning">
+										<td class="first_position">
+											<span>东风标致DC7164DT...</span>
+											<i>
+												<em class="pos_icon_red">保</em>
+												<em class="pos_icon_blue">信</em>
+											</i>
+										</td>
+										<td>新手标</td>
+										<td>2015-09-10</td>
+										<td>10000.00</td>
+										<td class="tab_color">12%</td>
+										<td>2015-09-10</td>
+										<td class="last_td">
+											<a class="ret">回款详情</a>
+											<a href="http://www.kuaijiecaifu.com/loan-checkCortact-obID-465-type-2-bid_id-627.html" target="_blank">查看合同</a>
+											<a>下载合同</a>
+											<div class="popover fade left in popup_frame">
+												<div class="arrow popup_arrow"></div>
+												<h3 class="popover-title popup_text">回款详情</h3>
+												<form class="popover-content">
+													<table class="table table-hover">
+														<thead>
+															<tr>
+																<th>类型</th>
+																<th>年利率</th>
+																<th>还款方式</th>
+																<th>还款期限</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>融资系列</td>
+																<td>8%</td>
+																<td>到期还本息</td>
+																<td>30天</td>
+															</tr>
+														</tbody>
+													</table>
+													<table class="table table-hover">
+														<thead>
+															<tr>
+																<th>回款日期</th>
+																<th>回款本金/利息</th>
+																<th>说明</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>2015/9/11</td>
+																<td>30000/**</td>
+																<td>投资完成</td>
+															</tr>
+														</tbody>
+													</table>
+												</form>
+												<span class="popup_close popup_close" title="关闭">关闭</span>
+											</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!--回款中投资-->
+						<div class="acc_invest_main">
+							<p>共<span>0笔</span>，预期收款额：<span>0.00元</span> 预收本金：<span>0.00元</span> 预收利息：<span>0.00元</span></p>
+							<!--待收款明细-->
+							<ul class="wait_collection">
+								<li class="wait_top_li">待收款明细</li>
+								<li>
+									<div class="wait_li_left">
+										<div class="form-group time_box">
+											<label for="dtp_input1" class="col-xs-3 control-label">时间</label>
+											<div class="input-group date form_datetime col-xs-7"   data-link-field="dtp_input1" style="margin-top:2px">
+												
+												<input class="form-control datecontrol" size="16" value="" readonly="" type="text">
+												<span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+											</div>
+											<input id="dtp_input1" value="" type="hidden">
+											<span class="wait_top">至</span>
+										</div>
+									</div>
+									<div class="wait_li_left">
+										<div class="form-group time_box">
+											<div class="input-group date form_datetime col-xs-7"  data-link-field="dtp_input1" style="margin-top:2px">
+												<input class="form-control datecontrol" size="16" value="" readonly="" type="text">
+												<span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+											</div>
+											<input id="dtp_input1" value="" type="hidden">
+											<button type="button" class="btn btn-primary time_but" id="subdate">提交</button>
+										</div>
+									</div>
+									<div class="wait_li_right">
+										<span>未来30天</span>
+										<span>未来90天</span>
+										<span>未来180天</span>
+										<span>全部</span>
+									</div>
+								</li>
+							</ul>
+							<table class="table table-hover">
+								<thead>
+									<tr>
+										<th>借款标号</th>
+										<th>类型</th>
+										<th>投资时间</th>
+										<th>投资金额</th>
+										<th>年利率</th>
+										<th>借款期限</th>
+										<th>操作</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="first_position">
+											<span>赠送体验金投资标</span>
+											<i>
+												<em class="pos_icon_red">新</em>
+												<em class="pos_icon_blue">体</em>
+											</i>
+										</td>
+										<td>体验标</td>
+										<td>2015-09-10</td>
+										<td>10000.00</td>
+										<td class="tab_color">8%</td>
+										<td>2015-09-10</td>
+										<td class="last_td">
+											<a class="ret">回款详情</a>
+											<a href="http://www.kuaijiecaifu.com/loan-checkCortact-obID-465-type-2-bid_id-627.html" target="_blank">查看合同</a>
+											<a>下载合同</a>
+											<div class="popover fade left in popup_frame">
+												<div class="arrow popup_arrow"></div>
+												<h3 class="popover-title popup_text">回款详情</h3>
+												<form class="popover-content">
+													<table class="table table-hover">
+														<thead>
+															<tr>
+																<th>类型</th>
+																<th>年利率</th>
+																<th>还款方式</th>
+																<th>还款期限</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>融资系列</td>
+																<td>8%</td>
+																<td>到期还本息</td>
+																<td>30天</td>
+															</tr>
+														</tbody>
+													</table>
+													<table class="table table-hover">
+														<thead>
+															<tr>
+																<th>回款日期</th>
+																<th>回款本金/利息</th>
+																<th>说明</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>2015/9/11</td>
+																<td>30000/**</td>
+																<td>投资完成</td>
+															</tr>
+														</tbody>
+													</table>
+												</form>
+												<span class="popup_close popup_close" title="关闭">关闭</span>
+											</div>
+										</td>
+									</tr>
+									<tr class="success">
+										<td class="first_position">
+											<span>东风标致DC7164DT...</span>
+											<i>
+												<em class="pos_icon_red">保</em>
+												<em class="pos_icon_blue">信</em>
+											</i>
+										</td>
+										<td>新手标</td>
+										<td>2015-09-10</td>
+										<td>10000.00</td>
+										<td class="tab_color">16%</td>
+										<td>2015-09-10</td>
+										<td class="last_td">
+											<a class="ret">回款详情</a>
+											<a href="http://www.kuaijiecaifu.com/loan-checkCortact-obID-465-type-2-bid_id-627.html" target="_blank">查看合同</a>
+											<a>下载合同</a>
+											<div class="popover fade left in popup_frame">
+												<div class="arrow popup_arrow"></div>
+												<h3 class="popover-title popup_text">回款详情</h3>
+												<form class="popover-content">
+													<table class="table table-hover">
+														<thead>
+															<tr>
+																<th>类型</th>
+																<th>年利率</th>
+																<th>还款方式</th>
+																<th>还款期限</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>融资系列</td>
+																<td>8%</td>
+																<td>到期还本息</td>
+																<td>30天</td>
+															</tr>
+														</tbody>
+													</table>
+													<table class="table table-hover">
+														<thead>
+															<tr>
+																<th>回款日期</th>
+																<th>回款本金/利息</th>
+																<th>说明</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>2015/9/11</td>
+																<td>30000/**</td>
+																<td>投资完成</td>
+															</tr>
+														</tbody>
+													</table>
+												</form>
+												<span class="popup_close popup_close" title="关闭">关闭</span>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="first_position">
+											<span>赠送体验金投资标</span>
+											<i>
+												<em class="pos_icon_red">新</em>
+												<em class="pos_icon_blue">体</em>
+											</i>
+										</td>
+										<td>体验标</td>
+										<td>2015-09-10</td>
+										<td>10000.00</td>
+										<td class="tab_color">8%</td>
+										<td>2015-09-10</td>
+										<td class="last_td">
+											<a class="ret">回款详情</a>
+											<a href="http://www.kuaijiecaifu.com/loan-checkCortact-obID-465-type-2-bid_id-627.html" target="_blank">查看合同</a>
+											<a>下载合同</a>
+											<div class="popover fade left in popup_frame">
+												<div class="arrow popup_arrow"></div>
+												<h3 class="popover-title popup_text">回款详情</h3>
+												<form class="popover-content">
+													<table class="table table-hover">
+														<thead>
+															<tr>
+																<th>类型</th>
+																<th>年利率</th>
+																<th>还款方式</th>
+																<th>还款期限</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>融资系列</td>
+																<td>8%</td>
+																<td>到期还本息</td>
+																<td>30天</td>
+															</tr>
+														</tbody>
+													</table>
+													<table class="table table-hover">
+														<thead>
+															<tr>
+																<th>回款日期</th>
+																<th>回款本金/利息</th>
+																<th>说明</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>2015/9/11</td>
+																<td>30000/**</td>
+																<td>投资完成</td>
+															</tr>
+														</tbody>
+													</table>
+												</form>
+												<span class="popup_close popup_close" title="关闭">关闭</span>
+											</div>
+										</td>
+									</tr>
+									<tr class="warning">
+										<td class="first_position">
+											<span>东风标致DC7164DT...</span>
+											<i>
+												<em class="pos_icon_red">保</em>
+												<em class="pos_icon_blue">信</em>
+											</i>
+										</td>
+										<td>新手标</td>
+										<td>2015-09-10</td>
+										<td>10000.00</td>
+										<td class="tab_color">12%</td>
+										<td>2015-09-10</td>
+										<td class="last_td">
+											<a class="ret">回款详情</a>
+											<a href="http://www.kuaijiecaifu.com/loan-checkCortact-obID-465-type-2-bid_id-627.html" target="_blank">查看合同</a>
+											<a>下载合同</a>
+											<div class="popover fade left in popup_frame">
+												<div class="arrow popup_arrow"></div>
+												<h3 class="popover-title popup_text">回款详情</h3>
+												<form class="popover-content">
+													<table class="table table-hover">
+														<thead>
+															<tr>
+																<th>类型</th>
+																<th>年利率</th>
+																<th>还款方式</th>
+																<th>还款期限</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>融资系列</td>
+																<td>8%</td>
+																<td>到期还本息</td>
+																<td>30天</td>
+															</tr>
+														</tbody>
+													</table>
+													<table class="table table-hover">
+														<thead>
+															<tr>
+																<th>回款日期</th>
+																<th>回款本金/利息</th>
+																<th>说明</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>2015/9/11</td>
+																<td>30000/**</td>
+																<td>投资完成</td>
+															</tr>
+														</tbody>
+													</table>
+												</form>
+												<span class="popup_close popup_close" title="关闭">关闭</span>
+											</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!--已回款投资-->
+						<div class="acc_invest_main">
+							<table class="table table-hover">
+								<thead>
+									<tr>
+										<th>借款标号</th>
+										<th>类型</th>
+										<th>投资时间</th>
+										<th>投资金额</th>
+										<th>年利率</th>
+										<th>借款期限</th>
+										<th>操作</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="first_position">
+											<span>赠送体验金投资标</span>
+											<i>
+												<em class="pos_icon_red">新</em>
+												<em class="pos_icon_blue">体</em>
+											</i>
+										</td>
+										<td>体验标</td>
+										<td>2015-09-10</td>
+										<td>10000.00</td>
+										<td class="tab_color">8%</td>
+										<td>2015-09-10</td>
+										<td class="last_td">
+											<a class="ret">回款详情</a>
+											<a href="http://www.kuaijiecaifu.com/loan-checkCortact-obID-465-type-2-bid_id-627.html" target="_blank">查看合同</a>
+											<a>下载合同</a>
+											<div class="popover fade left in popup_frame">
+												<div class="arrow popup_arrow"></div>
+												<h3 class="popover-title popup_text">回款详情</h3>
+												<form class="popover-content">
+													<table class="table table-hover">
+														<thead>
+															<tr>
+																<th>类型</th>
+																<th>年利率</th>
+																<th>还款方式</th>
+																<th>还款期限</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>融资系列</td>
+																<td>8%</td>
+																<td>到期还本息</td>
+																<td>30天</td>
+															</tr>
+														</tbody>
+													</table>
+													<table class="table table-hover">
+														<thead>
+															<tr>
+																<th>回款日期</th>
+																<th>回款本金/利息</th>
+																<th>说明</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>2015/9/11</td>
+																<td>30000/**</td>
+																<td>投资完成</td>
+															</tr>
+														</tbody>
+													</table>
+												</form>
+												<span class="popup_close popup_close" title="关闭">关闭</span>
+											</div>
+										</td>
+									</tr>
+									<tr class="success">
+										<td class="first_position">
+											<span>东风标致DC7164DT...</span>
+											<i>
+												<em class="pos_icon_red">保</em>
+												<em class="pos_icon_blue">信</em>
+											</i>
+										</td>
+										<td>新手标</td>
+										<td>2015-09-10</td>
+										<td>10000.00</td>
+										<td class="tab_color">16%</td>
+										<td>2015-09-10</td>
+										<td class="last_td">
+											<a class="ret">回款详情</a>
+											<a href="http://www.kuaijiecaifu.com/loan-checkCortact-obID-465-type-2-bid_id-627.html" target="_blank">查看合同</a>
+											<a>下载合同</a>
+											<div class="popover fade left in popup_frame">
+												<div class="arrow popup_arrow"></div>
+												<h3 class="popover-title popup_text">回款详情</h3>
+												<form class="popover-content">
+													<table class="table table-hover">
+														<thead>
+															<tr>
+																<th>类型</th>
+																<th>年利率</th>
+																<th>还款方式</th>
+																<th>还款期限</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>融资系列</td>
+																<td>8%</td>
+																<td>到期还本息</td>
+																<td>30天</td>
+															</tr>
+														</tbody>
+													</table>
+													<table class="table table-hover">
+														<thead>
+															<tr>
+																<th>回款日期</th>
+																<th>回款本金/利息</th>
+																<th>说明</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>2015/9/11</td>
+																<td>30000/**</td>
+																<td>投资完成</td>
+															</tr>
+														</tbody>
+													</table>
+												</form>
+												<span class="popup_close popup_close" title="关闭">关闭</span>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="first_position">
+											<span>赠送体验金投资标</span>
+											<i>
+												<em class="pos_icon_red">新</em>
+												<em class="pos_icon_blue">体</em>
+											</i>
+										</td>
+										<td>体验标</td>
+										<td>2015-09-10</td>
+										<td>10000.00</td>
+										<td class="tab_color">8%</td>
+										<td>2015-09-10</td>
+										<td class="last_td">
+											<a class="ret">回款详情</a>
+											<a href="http://www.kuaijiecaifu.com/loan-checkCortact-obID-465-type-2-bid_id-627.html" target="_blank">查看合同</a>
+											<a>下载合同</a>
+											<div class="popover fade left in popup_frame">
+												<div class="arrow popup_arrow"></div>
+												<h3 class="popover-title popup_text">回款详情</h3>
+												<form class="popover-content">
+													<table class="table table-hover">
+														<thead>
+															<tr>
+																<th>类型</th>
+																<th>年利率</th>
+																<th>还款方式</th>
+																<th>还款期限</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>融资系列</td>
+																<td>8%</td>
+																<td>到期还本息</td>
+																<td>30天</td>
+															</tr>
+														</tbody>
+													</table>
+													<table class="table table-hover">
+														<thead>
+															<tr>
+																<th>回款日期</th>
+																<th>回款本金/利息</th>
+																<th>说明</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>2015/9/11</td>
+																<td>30000/**</td>
+																<td>投资完成</td>
+															</tr>
+														</tbody>
+													</table>
+												</form>
+												<span class="popup_close popup_close" title="关闭">关闭</span>
+											</div>
+										</td>
+									</tr>
+									<tr class="warning">
+										<td class="first_position">
+											<span>东风标致DC7164DT...</span>
+											<i>
+												<em class="pos_icon_red">保</em>
+												<em class="pos_icon_blue">信</em>
+											</i>
+										</td>
+										<td>新手标</td>
+										<td>2015-09-10</td>
+										<td>10000.00</td>
+										<td class="tab_color">12%</td>
+										<td>2015-09-10</td>
+										<td class="last_td">
+											<a class="ret">回款详情</a>
+											<a href="http://www.kuaijiecaifu.com/loan-checkCortact-obID-465-type-2-bid_id-627.html" target="_blank">查看合同</a>
+											<a>下载合同</a>
+											<div class="popover fade left in popup_frame">
+												<div class="arrow popup_arrow"></div>
+												<h3 class="popover-title popup_text">回款详情</h3>
+												<form class="popover-content">
+													<table class="table table-hover">
+														<thead>
+															<tr>
+																<th>类型</th>
+																<th>年利率</th>
+																<th>还款方式</th>
+																<th>还款期限</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>融资系列</td>
+																<td>8%</td>
+																<td>到期还本息</td>
+																<td>30天</td>
+															</tr>
+														</tbody>
+													</table>
+													<table class="table table-hover">
+														<thead>
+															<tr>
+																<th>回款日期</th>
+																<th>回款本金/利息</th>
+																<th>说明</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>2015/9/11</td>
+																<td>30000/**</td>
+																<td>投资完成</td>
+															</tr>
+														</tbody>
+													</table>
+												</form>
+												<span class="popup_close popup_close" title="关闭">关闭</span>
+											</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!--投资总表-->
+						<div class="acc_invest_main">
+							<table class="table table-hover">
+								<thead>
+									<tr>
+										<th>项目</th>
+										<th>累计值</th>
+										<th>说明</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>回款中投资</td>
+										<td>￥：0.00/0笔【列表】</td>
+										<td>目前已经投资，正在回款中的投资总额</td>
+									</tr>
+									<tr class="success">
+										<td>已回款投资</td>
+										<td>￥：30000.00/2笔</td>
+										<td>已经全部收回的投资的本金总额 </td>
+									</tr>
+									<tr>
+										<td>累计投资金额</td>
+										<td>￥：30000.00</td>
+										<td>注册至今，您累计投资的总额</td>
+									</tr>
+									<tr class="warning">
+										<td>逾期率</td>
+										<td>0.00%</td>
+										<td>逾期率 = 逾期的投资 / 累计投资金额</td>
+									</tr>
+									<tr>
+										<td>平均收益率</td>
+										<td>10%</td>
+										<td>平均收益率 = 各笔收益率的加权平均</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--理财计算器-->
+		<div class="caluar_box">
+		<div class="box">
+			<div class="box-top">
+				<img src="images/calculator.png" class="top-logo">
+				<div class="top-right">
+					<span class="top-title">收益计算器</span>
+					<br/>
+
+					<div class="describe">只要根据提示填写相关信息，即可一键计算，您在快捷的投资收益，助你高效理财。</div>
+				</div>
+			</div>
+			<hr>
+			<div class="box-footer">
+				<div class="footer-left">
+					<h3>选择参数</h3>
+					<form>
+						<div>
+							<div class="inv_money count">
+								<label for="inv_count">投资金额</label>
+								<input type="text" class="inv_main_text " id="inv_count" placeholder="请输入投资金额" maxlength="9">元
+								<div class="validate r1">请输入投资金额，只能为大于100的正整数</div>
+							</div>
+							<div class="inv_money yearper">
+								<label for="yearper">年化利率</label>
+								<input type="text" class="inv_main_text " id="yearper" placeholder="请输入年化利率" maxlength="4">%
+								<div class="validate r2">请输入年化利率，只能大于0的数字</div>
+							</div>
+							<div class="inv_money loaddate">
+								<label for="loaddate">借款期限</label>
+								<input type="text" class="inv_main_text " id="loaddate" placeholder="请输入借款期限,最大12月">月/天
+								<div class="validate r3">请输入借款期限，1-12个月</div>
+							</div>
+						</div>
+						<div class="pay">
+							<input type="checkbox" checked name="type" id="monpay" value="1"></input>
+							<label for="monpay">每月付息</label>
+							<input type="checkbox" name="type" id="exppay" value="2"></input>
+							<label for="exppay">到期本息</label>
+						</div>
+						<div class="inv_button">
+							<button type="button" class="inv_calculate">计算</button>
+							<button type="reset" class="inv_reset">重置</button>
+						</div>
+					</form>
+				</div>
+				<div class="tool_right">
+					<dl class="tool_result">
+						<dt>计算结果</dt>
+						<dd>
+							<table class="tool_table" border="0" width="100%">
+								<tbody id="paytitle">
+									<tr>
+										<td class="result-account">
+											本息合计 :<strong><span id="span1"></span></strong>
+										</td>
+										<td class="result-account">
+											利息收入共 :<strong><span id="span2"></span></strong>
+										</td>
+										<td class="result-account">
+											每月收款 :<strong><span id="span3"></span></strong>
+										</td>
+									</tr>
+
+								</tbody>
+							</table>
+						</dd>
+					</dl>
+					<dl class="tool_result result_table">
+						<dt>本息收款时间表</dt>
+						<table class="paytable">
+							<thead>
+								<tr class="active">
+									<th>期数</th>
+									<th>每期回购本息</th>
+									<th>每期回购本金</th>
+									<th>利息</th>
+									<th>未回购金额</th>
+								</tr>
+							</thead>
+							<tbody id="paycontent">
+
+							</tbody>
+						</table>
+						<div class="easyicon">
+							<img src="images/Calculator_easyicon.jpg">
+							<p>算一算,可能又会惊喜!</p>
+						</div>
+					</dl>
+				</div>
+			</div>
+			
+			<!--关闭-->
+			<span class="caluar_close" title="关闭">X</span>
+		</div>
+		<div class="caluar_bg"></div>
+		</div>
+		<script type="text/javascript" src="js/caluarlate.js"></script>
+		<script src="js/account.js"></script>
+		<script src="js/invest_manage.js"></script>
+		<script src="js/bootstrap-datetimepicker.min.js" charset="UTF-8"></script>
+		<script src="js/bootstrap-datetimepicker.zh-CN.js" charset="UTF-8"></script>
+		<script type="text/javascript">
+			$(".form_datetime").datetimepicker({
+				
+				weekStart: 1,
+				todayBtn: 1,
+				autoclose: 1,
+				todayHighlight: 1,
+				startView: 2,
+				minView: 2,
+				forceParse: 0,
+				format: 'yyyy-mm-dd',
+				language: 'zh-CN'
+			});
+		</script>
+	</body>

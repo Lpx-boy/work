@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-width: 1230px;
+}
+
+/*bg*/
+div[class ^= "invest-51"] {
+	margin: 0 auto;
+	max-width: 1920px;
+	width: 100%;
+	height: 442px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+} 
+.invest-51-bg-1 {
+	background-image: url(../images/51-active-bg-1.jpg);
+}
+.invest-51-bg-2 {
+	background-image: url(../images/51-active-bg-2.jpg);
+}
+.invest-51-bg-3 {
+	background-image: url(../images/51-active-bg-3.jpg);
+}
+.invest-51-bg-4 {
+	background-image: url(../images/51-active-bg-4.jpg);
+}
+.invest-51-bg-5 {
+	background-image: url(../images/51-active-bg-5.jpg);
+}
+.invest-51-bg-6 {
+	background-image: url(../images/51-active-bg-6.jpg);
+}
+.invest-51-bg-7 {
+	background-image: url(../images/51-active-bg-7.jpg);
+}
+.invest-51-bg-8 {
+	background-image: url(../images/51-active-bg-8.jpg);
+}
+.invest-51-bg-9 {
+	background-image: url(../images/51-active-bg-9.jpg);
+}
+.invest-51-bg-10 {
+	background-image: url(../images/51-active-bg-10.jpg);
+}
+
+/*content*/
+div > span[lang ^= "ct"] { 
+	position: absolute;
+	width: 878px;
+	left: 50%;
+	margin-left: -439px;
+}
+
+div span[lang ^= "ct"] {
+	display: inline-block;
+}
+
+div > span:lang(ct-1) {
+	bottom: 32%;
+	font-weight: bold;
+	font-size: 24px;
+	color: #746040;
+	line-height: 48px;
+}
+
+div > span:lang(ct-2) {
+	top: 7.2%;  	
+	height: 88px; 
+} 
+div span:lang(ct-2-txt) {  
+	position: inherit;
+	left: inherit;
+	width: 355px;
+	margin-left: -166px;
+	height: 88px; 
+	cursor: pointer;
+}
+
+div > span:lang(ct-3) {
+	top: -40%;  	 
+	color: #714b10;
+}
+div > span:lang(ct-3) h3 {
+	font-size: 33px; 
+}
+div > span:lang(ct-3) p {
+	line-height: 50px;
+	font-size: 22px;
+}
+
+div > span:lang(ct-2-1) {
+	top: 37.2%;
+} 
+div span:lang(ct-2-txt-1) {
+	margin-left: -176px;
+}
+
+div > span:lang(ct-3-1) {
+	top: 2%;
+}
+
+div > span:lang(ct-3-1) p {
+	font-size: 24px;
+}
+
+div > span:lang(ct-4) {
+	position: absolute;
+	bottom: 0;
+	line-height: 90px;
+	font-size: 18px;
+	color: #865f22;
+	text-align: center;
+}
+
+

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/vip.css" />
+		<title>VIP你的财富 升级更轻松 尽享VIP特权</title>
+	</head>
+
+	<body>
+		<content>
+			<header>
+				<img src="images/vip/vip-header.png" alt="vip头部banner图" />
+			</header>
+			<article lang="account">
+				<div>
+					<div class="accountName">
+						<portrait>
+							<em></em>
+						</portrait>
+						<span>您好，亲爱的<em>13713432270</em>！</span>
+					</div>
+				</div>
+				<div>
+					<div class="grade">
+						<grade>
+							<i></i>
+							<span>投资刺史</span>
+						</grade>
+						<plan>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div lang="last"></div>
+							<i></i>
+						</plan>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="vip_nav">
+					<div class="vip_blue">会员特权简介</div>
+					<div>会员等级特权</div>
+					<p></p>
+				</div>
+				<div class="vip_content">
+					<ul class="Show" style="display: block">
+						<li>
+							<i class="vipIcon1"></i>
+							<div lang="leftLi">
+								<em>专属客服</em>
+								<p>一对一专属客服，随时随地接听客户电话，为客户解决问题。</p>
+							</div>
+						</li>
+						<li lang="rightLi">
+							<div>
+								<i class="vipIcon1 vipIcon2"></i>
+								<div>
+									<em>专享服务</em>
+									<p>快捷财富将不定期为不同等级会员提供专享服务。</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<i class="vipIcon1 vipIcon3"></i>
+							<div lang="leftLi">
+								<em>专属项目标</em>
+								<p>快捷财富为不同的等级会员开放不同的年化收益项目可投权限。</p>
+							</div>
+						</li>
+						<li lang="rightLi">
+							<div>
+								<i class="vipIcon1 vipIcon4"></i>
+								<div>
+									<em>生日礼物</em>
+									<p>生日当月只要有在平台投资，便可收到快捷财富精美生日礼品一份。</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<i class="vipIcon1 vipIcon5"></i>
+							<div lang="leftLi">
+								<em>周年纪念品</em>
+								<p>将为注册满一周年且达到特定级别的用户送出周年纪念品一份。</p>
+							</div>
+						</li>
+						<li lang="rightLi">
+							<div>
+								<i class="vipIcon1 vipIcon6"></i>
+								<div>
+									<em>年会邀请函</em>
+									<p>获邀参与快捷财富年会一次，包含交通，食宿等一切费用，还可以参与年会现场抽奖。</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<i class="vipIcon1 vipIcon7"></i>
+							<div lang="leftLi">
+								<em>快速提现</em>
+								<p>快速提现可每日提取应急资金，等级不同，每日限额不同。提现费：不同等级会员所享有提现费用收取的规则不同。
+								</p>
+							</div>
+						</li>
+						<li lang="rightLi">
+							<div>
+								<i class="vipIcon1 vipIcon8"></i>
+								<div>
+									<em>自动投标优先权</em>
+									<p>根据等级的不同，自动投标有优先排队绿色通道。</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<div class="Show">
+						<img src="images/vip/vip-content.png" width="100%"/>
+					</div>
+				</div>
+			</article>
+		</content>
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script>
+			var vip_nav = $(".vip_nav div");
+				vip_nav.click(function(){
+				var show = $(".vip_nav div").index(this); 
+					vip_nav.removeClass();
+					$(this).addClass("vip_blue");
+					$(".vip_content .Show").hide();
+					$(".vip_content .Show").eq(show).show();
+				});
+		</script>
+	</body> 
+</html>

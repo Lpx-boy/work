@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/base.css">
+		<link rel="stylesheet" type="text/css" href="css/My_account.css">
+		<link rel="stylesheet" type="text/css" href="css/acc_centre.css">
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="js/ie.js"></script>
+		<meta charset="utf-8">
+		<title>账户中心--更换头像</title>
+	</head>
+
+	<body>
+		<!--顶部导航-->
+		<div class="container-fluid bg">
+			<div class="container" id="top_info">
+				<div class="row">
+					<div class="col-xs-6" id="align_left">
+						<span id="header_hot">客服热线 4000-233188</span>
+						<a href="" id="top_weix" title="微信">
+							<span class="weix_pic"></span>
+						</a>
+						<a href="" id="top_xinl" title="新浪微博"></a>
+					</div>
+					<script>
+						$("#top_weix").hover(function() {
+							$("#top_weix .weix_pic").stop(true, true).toggle("slow");
+						})
+					</script>
+					<div class="col-xs-6" id="align_right">
+						<a href="" title="登录">登录</a>
+						<a href="" title="注册">注册</a>
+						<a href="" title="充值">充值</a>
+						<a href="" title="帮助中心">帮助中心</a>
+						<a href="" title="新手指引">新手指引</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr class="header_hr">
+		<div class="container-fluid bg">
+			<div class="container" id="top_nav">
+				<div class="row">
+					<div class="col-xs-6 logo_pic" id="align_left">
+						<a title="快捷财富"><img src="images/base/new_index_logo.png" alt="快捷财富"></a>
+					</div>
+					<div class="col-xs-6" id="align_right">
+						<a href="new_index.html">首页</a>
+						<a href="">我要借款</a>
+						<a href="invest.html">我要投资</a>
+						<a href="">安全保障</a>
+						<a href="">APP下载</a>
+						<a href="">关于我们</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--您所在的位置-->
+		<div class="invest_site">
+			<span class="text_pos">您所在的位置:</span>
+			<a>快捷首页</a>
+			<span class="text_int">&gt;</span>
+			<a>借款管理</a>
+			<span class="text_int">&gt;</span>
+			<span>借入人申请</span>
+		</div>
+		<!--帐号中心-->
+		<div class="container" id="acc_core">
+			<div class="col-xs-2" id="core_left">
+				<div class="pull-down">
+					<div class="public_bg down1_color" id="down_1"><a>账户中心</a></div>
+					<ul id="pull_1" style="display:block">
+						<li><a class="pull-a-color">· 个人中心</a></li>
+						<li><a>· 安全中心</a></li>
+						<li><a>· 银行卡设置</a></li>
+						<li><a>· 系统消息</a></li>
+						<li><a>· 收货地址</a></li>
+					</ul>
+				</div>
+				<div class="pull-down">
+					<div class="public_bg" id="down_2"><a>我的资金</a></div>
+					<ul id="pull_2">
+						<li><a>· 借入人申请</a></li>
+						<li><a>· 借入记录</a></li>
+						<li><a>· 还款安排</a></li>
+						<li><a>· 还款记录</a></li>
+					</ul>
+				</div>
+				<div class="pull-down">
+					<div class="public_bg" id="down_3"><a>投资管理</a></div>
+					<ul id="pull_3">
+						<li><a>· 我的投资</a></li>
+						<li><a>· 自动投标</a></li>
+						<li><a>· 手动投标</a></li>
+					</ul>
+				</div>
+				<div class="pull-down">
+					<div class="public_bg" id="down_4"><a>借款管理</a></div>
+					<ul id="pull_4">
+						<li><a>· 借入人申请</a></li>
+						<li><a>· 借入记录</a></li>
+						<li><a>· 还款安排</a></li>
+						<li><a>· 还款记录</a></li>
+					</ul>
+				</div>
+				<div class="pull-down">
+					<div class="public_bg" id="down_5"><a>会员积分</a></div>
+					<ul id="pull_5">
+						<li><a>· 借入人申请</a></li>
+						<li><a>· 借入记录</a></li>
+						<li><a>· 还款安排</a></li>
+						<li><a>· 还款记录</a></li>
+					</ul>
+				</div>
+				<div class="pull-down">
+					<div class="public_bg" id="down_6"><a>推荐管理</a></div>
+					<ul id="pull_6">
+						<li><a>· 我要挣钱</a></li>
+						<li><a>· 推广记录</a></li>
+					</ul>
+				</div>
+				<div class="pull-down">
+					<div class="public_bg" id="down_7"><a>兑奖管理</a></div>
+					<ul id="pull_7">
+						<li><a>· 我的红包</a></li>
+					</ul>
+				</div>
+				<h3>返回顶部</h3>
+			</div>
+			<div class="col-xs-10 acc_right" id="core_right">
+				<div class="row border_row">
+					<div class="container acc_right_centre">
+						<p class="title_text data_text"><span>个人资料</span></p>
+						<!--个人资料--更换头像-->
+						<div class="col-xs-12 alter_news" style="padding-bottom:599px">
+							<!--头像预览-->
+							<div class="head_change head_preview">
+								<img style="z-index:10" src="images/account/pic-fram3.png" />
+								<div class="replace_pic" id="head_preview_pic"><img width="84" height="84" src="images/account/head-login.png" /></div>
+								<a class="change_a preview_a">效果预览</a>
+							</div>
+							<ul class="system_head_pic">
+								<li>
+									<img src="images/account/head_icon/huaban1.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban2.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban3.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban4.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban5.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban6.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban7.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban8.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban9.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban10.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban11.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban12.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban13.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban14.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban15.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban16.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban17.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban18.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban19.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban20.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban21.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban22.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban23.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban24.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban25.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban26.png" />
+								</li>
+								<li>
+									<img src="images/account/head_icon/huaban27.png" />
+								</li>
+								<span>选择系统头像</span>
+							</ul>
+							<div class="click_up">
+								<button type="button" class="btn btn-primary">点击上传</button>
+								<span>选择本地头像</span>
+							</div>
+							<p class="snug_prompt">温馨提示：尊敬的快捷财富用户，您可使用系统头像或者本地头像来展现自己！</p>
+							<!--保存-->
+							<div class="save-cancel">
+								<button type="button" class="btn btn-primary" id="save_pic">保存</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--确定修改？-->
+		<div class="amend_box">
+			<div class="amend_box_bg"></div>
+			<div class="box_content">
+				<h3>系统提示</h3>
+				<p>确定修改？</p>
+				<div class="content_but" id="amend_close">
+					<button type="button" class="btn btn-primary">取消</button>
+					<button type="button" class="btn btn-danger">确定</button>
+				</div>
+				<span class="close_icon" id="close_icon"><i></i></span>
+			</div>
+		</div>
+		<script src="js/account.js"></script>
+	</body>
