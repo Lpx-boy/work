@@ -1,0 +1,84 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body { font-family: "微软雅黑" }
+
+html {
+	font-family: "微软雅黑";
+	font-size: 62.5%;
+	/* 10÷16=62.5% */
+}
+
+@media only screen and (min-width: 321px) {
+	html {
+		font-size: 71%!important;
+		/* 10.72÷16=67% */
+	}
+}
+
+@media only screen and (min-width: 401px) {
+	html {
+		font-size: 80%!important;
+		/* 12.8÷16=80% */
+	}
+}
+
+@media only screen and (min-width: 481px) {
+	html {
+		font-size: 94%!important;
+		/* 15.04÷16=94% */
+	}
+}
+
+@media only screen and (min-width: 561px) {
+	html {
+		font-size: 109%!important;
+		/* 17.44÷16=109% */
+	}
+}
+
+@media only screen and (min-width: 641px) {
+	html {
+		font-size: 125%!important;
+		/* 20÷16=125% */
+	}
+}
+
+@media only screen and (min-width: 641px) {
+	article {
+		max-width: 32rem;
+	}
+}
+
+txt { display: block; }
+
+[class ^= "app51"] { display: block; margin: 0 auto; width: 32rem; height: 9.35rem; position: relative; }
+
+.app51-bg1 { background: url(../images/app-51-bg-1.jpg) center/cover; }
+.app51-bg2 { background: url(../images/app-51-bg-2.jpg) center/cover; }
+.app51-bg3 { background: url(../images/app-51-bg-3.jpg) center/cover; }
+.app51-bg4 { background: url(../images/app-51-bg-4.jpg) center/cover; }
+.app51-bg5 { background: url(../images/app-51-bg-5.jpg) center/cover; }
+.app51-bg6 { background: url(../images/app-51-bg-6.jpg) center/cover; }
+.app51-bg7 { background: url(../images/app-51-bg-7.jpg) center/cover; }
+.app51-bg8 { background: url(../images/app-51-bg-8.jpg) center/cover; }
+.app51-bg9 { background: url(../images/app-51-bg-9.jpg) center/cover; }
+.app51-bg10 { background: url(../images/app-51-bg-10.jpg) center/cover; }
+
+[class ^= "app-"] { display: inline-block; position: absolute; left: 50%; text-align: justify; }
+[class ^= "app-txt"] { width: 25.5rem; margin-left: -12.75rem; z-index: 2; }
+[class ^= "app-but"] { border-radius: .8rem; text-align: center; color: white; cursor: pointer; } 
+
+.app-txt1 { top: 1.4rem; text-indent: 1.5rem; font-size: .78rem; color: #746040; }
+.app-txt2 { top: 3rem; }
+.app-txt2 strong { font-size: .9rem; color: #714b10; }
+.app-txt2 txt { padding: .4rem 1.1rem 0; line-height: 1.2rem; font-size: .8rem; color: #865f22; }
+.app-txt3 { top: 6.5rem; } 
+.app-txt4 { bottom: 1.5rem; font-size: .6rem; color: #865f22; text-align: center; } 
+
+.app-but1 { top: -1.1rem; width: 8.8rem; height: 2.2rem; line-height: 2.2rem; margin-left: -4.2rem; font-size: .8rem; }
+.app-but2 { top: 2.6rem; width: 6rem; height: 1.55rem; line-height: 1.55rem; margin-left: -3rem; font-size: .6rem; }
+ 
