@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>量通量化商城登录</title>
+		<link rel="stylesheet" href="css/ltlh-register.css" />
+	</head>
+	<body>
+		<div class="detail">
+			<div class="re-c-head">
+				<div>
+					<div class="width-1200 head-content">
+						<span lang="left-span">
+							<img src="images/ltlh/banner.png"/>
+						</span>
+						<span lang="right-span"><i class="inline-block"></i><a href="#">登录</a><em>/</em><a href="#">注册</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="re-content">
+				<div class="width-1200 vip-log">
+					<div class="vip-log-content">
+						<strong>会员登录</strong>
+						<form action="" method="post">
+							<span>
+								<div class="test-head">用户名<span>( 用户名不能为空 )</span></div>
+								<div class="test-input text-input-icon1">
+									<input class="border-color" type="text" />
+								</div>
+							</span> 
+							<span>
+								<div class="test-head">密码<span>( 密码不能为空 )</span></div>
+								<div class="test-input text-input-icon2">
+									<input class="border-color" type="text" />
+								</div>
+							</span>
+							<span class="log-in-subBut">
+								<input type="submit" value="登录" />
+								<label>
+									<input type="checkbox" />记住密码
+								</label>
+							</span>
+							<span class="log-in-registerA">
+								<a href="#">点击免费领取</a>
+							</span>
+						</form>
+					</div>
+					<div class="vip-log-bg"></div>
+				</div>
+			</div>
+			<div class="re-c-footer">
+				<span class="inline-block">
+					<a href="#">联系我们</a>|
+					<a href="#">最新活动介绍 </a>|
+					<a href="#">关于我们</a>|
+					<a href="#">友情链接</a>|
+					<a href="#">客服中心</a>
+					量通量化商城中国版权所有 2014-2018
+				</span>
+			</div>
+		</div>
+		<div class="re-bg log-bg"></div>
+		<script src="js/jquery.js"></script>
+		<script>
+			var borderColor = $(".border-color");
+				borderColor.focusin(function() {
+					$(this).parent().addClass("orange-border")
+				}).focusout(function() {
+					$(this).parent().removeClass("orange-border")
+				})
+		</script>
+	</body>
+</html>
