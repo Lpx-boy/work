@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: "微软雅黑";
+	font-size: 62.5%;
+	/* 10÷16=62.5% */
+}
+
+@media only screen and (min-width: 321px) {
+	html {
+		font-size: 67%!important;
+		/* 10.72÷16=67% */
+	}
+}
+
+@media only screen and (min-width: 401px) {
+	html {
+		font-size: 80%!important;
+		/* 12.8÷16=80% */
+	}
+}
+
+@media only screen and (min-width: 481px) {
+	html {
+		font-size: 94%!important;
+		/* 15.04÷16=94% */
+	}
+}
+
+@media only screen and (min-width: 561px) {
+	html {
+		font-size: 109%!important;
+		/* 17.44÷16=109% */
+	}
+}
+
+@media only screen and (min-width: 641px) {
+	html {
+		font-size: 125%!important;
+		/* 20÷16=125% */
+	}
+}
+
+@media only screen and (min-width: 641px) {
+	content {
+		max-width: 32rem
+	}
+}
+
+/* test-display */
+content ,
+article ,
+nav { display: block }
+
+article {
+	margin: 0 auto;
+}
+
+article > span {
+	display: block;
+	margin: inherit
+}
+ 
+
+/* public--class */
+.pu-left { float: left }
+.pu-right { float: right }
+.po-re { position: relative }
+.po-ab { position: absolute } 
+

@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #ffeec4;
+	font-size: 1em;
+	font: 68% "微软雅黑";
+	color: #ff6a0c;
+}
+
+header,
+section,
+footer,
+aside,
+nav,
+main,
+article,
+figure {
+	display: block;
+}
+
+header {
+	width: 100%;
+}
+
+main {
+	position: relative;
+	width: 88%;
+	margin: 0 auto;
+}
+
+main a {
+	width: 50%;
+	padding: 2% 0;
+	position: absolute;
+	left: 0%;
+	bottom: 15%;
+	margin:0 25%;
+	border-radius: 18px;
+	text-align: center;
+	font-size: 2.5em;
+	border: none;
+	cursor: pointer;
+	background: #2afccd;
+	color: white;
+	transition: background-color 0.5s;
+}
+
+main a:hover {
+	background: #1fe3b6;
+}

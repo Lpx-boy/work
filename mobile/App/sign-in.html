@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,height=device-height,maximum-scale=1.0" />
+		<title>APP签到领红包</title>
+		<link rel="stylesheet" type="text/css" href="css/sign-in.css"/> 
+	</head>
+	<body>
+		<article>
+			<span lang="header"></span>
+		</article>
+		<article class="position-relative">
+			<span lang="dial">
+				<prize></prize> 
+				<dial-but></dial-but>
+			</span> 
+			<span lang="chance">我有<span>0</span>次抽奖机会</span>
+		</article> 
+		<article>
+			<span lang="log">
+				<span>
+					 <ul>
+					 	<li>
+					 		<em lang="log-left">137****8859</em>
+					 		<em lang="log-right">获得1000元体验金</em>
+					 	</li>
+					 	<li>
+					 		<em lang="log-left">150****3782</em>
+					 		<em lang="log-right">获得10元现金红包</em>
+					 	</li>
+					 	<li>
+					 		<em lang="log-left">136****5950</em>
+					 		<em lang="log-right">获得20元现金卷</em>
+					 	</li>
+					 	<li>
+					 		<em lang="log-left">158****6485</em>
+					 		<em lang="log-right">获得小米充电宝</em>
+					 	</li>
+					 	<li>
+					 		<em lang="log-left">137****5594</em>
+					 		<em lang="log-right">获得2元现金红包</em>
+					 	</li>
+					 	<li>
+					 		<em lang="log-left">156****8956</em>
+					 		<em lang="log-right">获得8元现金卷</em>
+					 	</li>
+					 	<li>
+					 		<em lang="log-left">138****6829</em>
+					 		<em lang="log-right">获得5000元体验金</em>
+					 	</li>
+					 	<li>
+					 		<em lang="log-left">154****6839</em>
+					 		<em lang="log-right">获得+100会员积分</em>
+					 	</li> 
+					 	<li>
+					 		<em lang="log-left">156****8965</em>
+					 		<em lang="log-right">获得+200会员积分</em>
+					 	</li> 
+					 	<li>
+					 		<em lang="log-left">130****7751</em>
+					 		<em lang="log-right">获得iphone SE</em>
+					 	</li> 
+					 </ul>
+				</span>
+			</span>
+		</article>
+		<article>
+			<span lang="footer">
+				<p>1、使用APP每天签到随机领取100元—300元体验金；</p>
+				<p>2、连续签到5天，或单笔投资金额＞500（标期≥1个月），<br />
+					<gap></gap>可额外获得抽奖机会；</p>
+				<p>3、实物奖品在中奖后2个工作日内发出，届时会有专业人员与<br />
+					<gap></gap>您联系进行身份确认，请您保持手机畅通；</p>
+				<p>4、现金红包、体验金及现金券奖励在手机APP「财富—我的红<br /><gap></gap>包」查看,现金可直接提现。会员积分自动发放到账户的会员<br /><gap></gap>成长值里；</p>
+				<p>5、体验金仅限投资体验标，使用期限为领取后30天内，投资收<br />
+					<gap></gap>益归用户所有；</p>
+				<p>6、现金券不可直接提现，领取后30日内有效，单笔投资金额满<br />
+					<gap></gap>足以下额度后（标期≥1个月），面值的金额返还至个人余额<br />
+					<gap></gap>账户内，返还金额可继续投资或提现；</p>
+				<img src="images/sign-take-scope.png" alt="额度范围" />
+				<span>（注：现金券可叠加使用，投资金额需大于等于叠加现金劵所<br />需投资金额的总和，叠加现金券以满足最高条件自动触发核算
+）</span>
+				<p>7、更多活动详情请咨询客服热线：400-0233-188。</p>
+				<ps>以上活动的最终解释权都归东莞市快捷资产管理有限公司所有</ps>
+			</span>
+		</article>
+	<!-- 弹框 -->
+		<!-- 获奖 -->
+		<article class="fixed">
+			<span lang="gain-prize">
+				<pic-group class="hide experience">
+					<pic-text>获得1个<span>8元现金卷</span>！</pic-text>  
+					<picture class="prize-cash prize-cash-8" title="包含： prize-cash-8、 prize-cash-10、 prize-cash-20、 prize-experience-1k、prize-experience-5k"></picture>  
+					<span>已放入账户中，请在「我的红包」查看</span>
+				</pic-group>
+				<pic-group class="hide redPack">
+					<pic-text>获得1个<span>2元红包</span>！</pic-text> 
+					<picture class="prize-redPack prize-redPack-2" title="包含 prize-redPack-2、prize-redPack-10"></picture>  
+					<span>已放入账户中，请在「我的红包」查看</span>
+				</pic-group>
+				<pic-group class="hide millet">
+					<pic-text>获得1个小米充电宝！</pic-text> 
+					<picture class="prize-millet"></picture>  
+					<span>已放入账户中，请在「我的红包」查看</span>
+				</pic-group>
+				<pic-group class="hide integral">
+					<pic-text>获得1个<span>+200会员积分</span>！</pic-text> 
+					<picture class="prize-integral prize-integral-100" title="包含prize-integral-100、prize-integral-100"></picture>  
+					<span>请在「会员特权」-「成长动态」查看明细</span>
+				</pic-group>
+				<!-- 关闭 -->
+				<close></close>
+			</span>
+		</article>
+		<!-- 马上签到 -->
+		<article class="fixed">
+			<span lang="sign">
+				<!-- 关闭 -->
+				<close></close>
+			</span>
+		</article>
+		<script src="js/jquery.js"></script>
+		<script> 
+			var Ul = $("article > span:lang(log) > span ul"),
+				close1 = $("article > span:lang(gain-prize) close"),
+				close2 = $("article > span:lang(sign) close");
+			//自动滑动
+			function autoSwiper () {
+				Ul.animate({
+					top: '-2.85rem'
+				},500,
+				function(){
+					Ul.css({top: 0});
+					$("article > span:lang(log) > span ul li:first").insertAfter($("article > span:lang(log) > span ul li:last"));
+				}
+			)
+			}
+			setInterval(autoSwiper, 1500);
+			//关闭弹框
+			close1.click(function(){
+				$(this).parent().parent().hide();
+			});
+			close2.click(function(){
+				$(this).parent().parent().hide();
+			});
+		</script>
+	</body>
+</html>
