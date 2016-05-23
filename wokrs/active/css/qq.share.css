@@ -1,0 +1,76 @@
+/*要放在html上*/
+.share_layer {
+	overflow: hidden;
+	padding: 7px;
+	position: fixed;
+	left: 50%;
+	margin-left: -368px;
+	top: 50%;
+	margin-top: -276px;
+	z-index: 999999;
+	zoom: 1;
+	font-size: 12px;
+	font-family: Arial, Sans-Serif;
+	display: none;
+	width: 722px;
+	display: none;
+}
+
+.share_layer_main {
+	border: 1px solid #b5c1ca;
+	background-color: #FAFCFF;
+	position: relative;
+	z-index: 5;
+}
+
+.share_layer_title {
+	height: 24px;
+	background: #EEF4F6 url(http://mat1.gtimg.com/www/images/nav/loginpop_tbg.png) repeat-x;
+	cursor: move;
+	border-bottom: 1px solid #CED3E4;
+}
+
+.share_layer_cont {
+	color: #000000;
+	background-color: #FAFCFF;
+	height: 511px;
+}
+
+.share_layer_title h3 {
+	float: left;
+	margin: 0;
+	padding: 3px 0 0 12px;
+	color: #666;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 18px;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.share_layer .del_fri {
+	font-weight: bold;
+	display: -moz-inline-stack;
+	display: inline-block;
+	line-height: 9px;
+	width: 11px;
+	height: 10px;
+	position: absolute;
+	top: 6px;
+	right: 10px;
+	cursor: pointer;
+	font-family: "Comic Sans MS", "Verdana", cursive;
+	color: #99ADBA;
+}
+
+.share_layer a {
+	text-decoration: none;
+}
+
+.bt_icon {
+	background-image: url('http://pub.idqqimg.com/qconn/widget/shareqq/images/qq_share_icon.png');
+	background-position: 0 0;
+	width: 32px;
+	height: 32px;
+	display: block;
+}

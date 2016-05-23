@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/base.css">
+		<link rel="stylesheet" type="text/css" href="css/My_account.css">
+		<link rel="stylesheet" type="text/css" href="css/acc_centre.css">
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="js/ie.js"></script>
+		<meta charset="utf-8">
+		<title>账户中心--点击头像修改信息</title>
+	</head>
+
+	<body>
+		<!--顶部导航-->
+		<div class="container-fluid bg">
+			<div class="container" id="top_info">
+				<div class="row">
+					<div class="col-xs-6" id="align_left">
+						<span id="header_hot">客服热线 4000-233188</span>
+						<a href="" id="top_weix" title="微信">
+							<span class="weix_pic"></span>
+						</a>
+						<a href="" id="top_xinl" title="新浪微博"></a>
+					</div>
+					<script>
+						$("#top_weix").hover(function() {
+							$("#top_weix .weix_pic").stop(true, true).toggle("slow");
+						})
+					</script>
+					<div class="col-xs-6" id="align_right">
+						<a href="" title="登录">登录</a>
+						<a href="" title="注册">注册</a>
+						<a href="" title="充值">充值</a>
+						<a href="" title="帮助中心">帮助中心</a>
+						<a href="" title="新手指引">新手指引</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr class="header_hr">
+		<div class="container-fluid bg">
+			<div class="container" id="top_nav">
+				<div class="row">
+					<div class="col-xs-6 logo_pic" id="align_left">
+						<a title="快捷财富"><img src="images/base/new_index_logo.png" alt="快捷财富"></a>
+					</div>
+					<div class="col-xs-6" id="align_right">
+						<a href="new_index.html">首页</a>
+						<a href="">我要借款</a>
+						<a href="invest.html">我要投资</a>
+						<a href="">安全保障</a>
+						<a href="">APP下载</a>
+						<a href="">关于我们</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--您所在的位置-->
+		<div class="invest_site">
+			<span class="text_pos">您所在的位置:</span>
+			<a>快捷首页</a>
+			<span class="text_int">&gt;</span>
+			<a>借款管理</a>
+			<span class="text_int">&gt;</span>
+			<span>借入人申请</span>
+		</div>
+		<!--帐号中心-->
+		<div class="container" id="acc_core">
+			<div class="col-xs-2" id="core_left">
+				<div class="pull-down">
+					<div class="public_bg down1_color" id="down_1"><a>账户中心</a></div>
+					<ul id="pull_1" style="display:block">
+						<li><a class="pull-a-color">· 个人中心</a></li>
+						<li><a>· 安全中心</a></li>
+						<li><a>· 银行卡设置</a></li>
+						<li><a>· 系统消息</a></li>
+						<li><a>· 收货地址</a></li>
+					</ul>
+				</div>
+				<div class="pull-down">
+					<div class="public_bg" id="down_2"><a>我的资金</a></div>
+					<ul id="pull_2">
+						<li><a>· 借入人申请</a></li>
+						<li><a>· 借入记录</a></li>
+						<li><a>· 还款安排</a></li>
+						<li><a>· 还款记录</a></li>
+					</ul>
+				</div>
+				<div class="pull-down">
+					<div class="public_bg" id="down_3"><a>投资管理</a></div>
+					<ul id="pull_3">
+						<li><a>· 我的投资</a></li>
+						<li><a>· 自动投标</a></li>
+						<li><a>· 手动投标</a></li>
+					</ul>
+				</div>
+				<div class="pull-down">
+					<div class="public_bg" id="down_4"><a>借款管理</a></div>
+					<ul id="pull_4">
+						<li><a>· 借入人申请</a></li>
+						<li><a>· 借入记录</a></li>
+						<li><a>· 还款安排</a></li>
+						<li><a>· 还款记录</a></li>
+					</ul>
+				</div>
+				<div class="pull-down">
+					<div class="public_bg" id="down_5"><a>会员积分</a></div>
+					<ul id="pull_5">
+						<li><a>· 借入人申请</a></li>
+						<li><a>· 借入记录</a></li>
+						<li><a>· 还款安排</a></li>
+						<li><a>· 还款记录</a></li>
+					</ul>
+				</div>
+				<div class="pull-down">
+					<div class="public_bg" id="down_6"><a>推荐管理</a></div>
+					<ul id="pull_6">
+						<li><a>· 我要挣钱</a></li>
+						<li><a>· 推广记录</a></li>
+					</ul>
+				</div>
+				<div class="pull-down">
+					<div class="public_bg" id="down_7"><a>兑奖管理</a></div>
+					<ul id="pull_7">
+						<li><a>· 我的红包</a></li>
+					</ul>
+				</div>
+				<h3>返回顶部</h3>
+			</div>
+			<div class="col-xs-10 acc_right" id="core_right">
+				<div class="row border_row">
+					<div class="container acc_right_centre">
+						<p class="title_text data_text"><span>个人资料</span></p>
+						<!--个人资料--修改信息-->
+						<div class="col-xs-12 alter_news">
+							<div class="container alter_content">
+								<div class="row alter_border">
+									<div class="container alter_centre">
+										<ul>
+											<li>
+												<span class="alter_l">用户名</span>
+												<span>自动获取</span>
+											</li>
+											<li>
+												<span class="alter_l">真实姓名</span>
+												<span>自动获取</span>
+												<p class="alter_no_attes">
+													<i></i>
+													<span>未认证</span>
+												</p>
+											</li>
+											<li>
+												<span class="alter_l">身份号码</span>
+												<span>自动获取</span>
+												<p class="alter_no_attes">
+													<i></i>
+													<span>未认证</span>
+												</p>
+											</li>
+											<li>
+												<span class="alter_l">手机号码</span>
+												<span>137****2270</span>
+												<p class="alter_no_attes alter_attes">
+													<i></i>
+													<span>认证</span>
+												</p>
+											</li>
+											<li>
+												<span class="alter_l">邮箱地址</span>
+												<span>262****@qq.com</span>
+												<p class="alter_no_attes alter_attes">
+													<i></i>
+													<span>认证</span>
+												</p>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="container alter_centre alter_mar">
+									<ul class="alter_fill">
+										<li><span class="alter_l">性别</span><span>男</span></li>
+										<li><span class="alter_l">最高学历</span><span>本科</span></li>
+										<li><span class="alter_l">毕业院校</span><span>中山大学</span></li>
+										<li><span class="alter_l">婚姻状态</span><span>未婚</span></li>
+										<li><span class="alter_l">公司行业</span><span>11111111</span></li>
+										<li><span class="alter_l">公司规模</span><span>11111111</span></li>
+										<li><span class="alter_l">职位</span><span>11111111</span></li>
+										<li><span class="alter_l">月收入</span><span>5000-10000元</span></li>
+									</ul>
+									<ul class="alter_no_fill">
+										<li id="sex">
+											<span>性别</span>
+											<label class="area_place">
+												<i class="true_icon"></i>先生
+											</label>
+											<label class="area_place">
+												<i></i>女士
+											</label>
+										</li>
+										<li id="edu">
+											<span>最高学历</span>
+											<label class="area_place">
+												<i class="true_icon"></i>高中以下
+											</label>
+											<label class="area_place">
+												<i></i>大专或本科
+											</label>
+											<label class="area_place">
+												<i></i>硕士或硕士以上
+											</label>
+										</li>
+										<li>
+											<span>毕业院校 </span>
+											<input class="form-control per_from" type="text" id="academy">
+											<div id="prompt_news">
+												<i class="noraml_pro"></i>
+												<span id="prompt_text">请输入您的毕业院校！</span>
+											</div>
+										</li>
+										<li id="marry">
+											<span>婚姻状态</span>
+											<label class="area_place">
+												<i class="true_icon"></i>已婚
+											</label>
+											<label class="area_place">
+												<i></i>未婚
+											</label>
+										</li>
+										<li>
+											<span>公司行业</span>
+											<div class="btn-group pull">
+												<button type="button" class="btn btn-default pull_center" id="trade_content">请选择</button>
+												<button type="button" class="btn btn-default dropdown-toggle arrows" id="com_trade">
+													<span class="caret" id="arrows"></span>
+												</button>
+												<ul class="dropdown-menu pull_menu" id="unit_pull_menu">
+													<li>50</li>
+													<li>100</li>
+													<li>200</li>
+													<li>300</li>
+													<li>500</li>
+													<li>600</li>
+													<li>800</li>
+													<li>1000</li>
+												</ul>
+											</div>
+										</li>
+										<li>
+											<span>公司规模</span>
+											<div class="btn-group pull">
+												<button type="button" class="btn btn-default pull_center" id="scale_content">请选择</button>
+												<button type="button" class="btn btn-default dropdown-toggle arrows" id="trade_scale">
+													<span class="caret" id="arrows"></span>
+												</button>
+												<ul class="dropdown-menu pull_menu" id="scale_pull_menu">
+													<li>50</li>
+													<li>100</li>
+													<li>200</li>
+													<li>300</li>
+													<li>500</li>
+													<li>600</li>
+													<li>800</li>
+													<li>1000</li>
+												</ul>
+											</div>
+										</li>
+										<li>
+											<span>职务</span>
+											<div class="btn-group pull">
+												<button type="button" class="btn btn-default pull_center" id="post_content">请选择</button>
+												<button type="button" class="btn btn-default dropdown-toggle arrows" id="post">
+													<span class="caret" id="arrows"></span>
+												</button>
+												<ul class="dropdown-menu pull_menu" id="post_pull_menu">
+													<li>50</li>
+													<li>100</li>
+													<li>200</li>
+													<li>300</li>
+													<li>500</li>
+													<li>600</li>
+													<li>800</li>
+													<li>1000</li>
+												</ul>
+											</div>
+										</li>
+										<li id="mone_income">
+											<span>月收入</span>
+											<label class="area_place">
+												<i></i>5000以下
+											</label>
+											<label class="area_place">
+												<i class="true_icon"></i>5000-10000
+											</label>
+											<label class="area_place">
+												<i></i>10000-50000
+											</label>
+											<label class="area_place">
+												<i></i>50000以上
+											</label>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!--点击改换头像-->
+							<div class="head_change">
+								<img style="z-index:10" src="images/account/pic-fram3.png" />
+								<img width="84" height="84" src="images/account/head-login.png" />
+								<a href="account_head_change.html" class="change_a">【更换头像】</a>
+							</div>
+							<!--保存&取消修改-->
+							<div class="save-cancel">
+								<button type="button" class="btn btn-primary" id="amend_news">修改信息</button>
+								<button type="button" class="btn btn-primary hide_but">保存</button>
+								<button type="button" class="btn btn-default hide_but" id="cancel">取消</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/account.js"></script>
+	</body>

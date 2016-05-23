@@ -1,0 +1,138 @@
+
+/* 取消选中 */
+.invest_place,.refer_but,.loan_kind a,.popup_frame_box h3{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;}
+/*您的位置*/
+	.invest_place{width:1200px;margin:0 auto;height:44px;line-height:44px;overflow:hidden;font-size:14px;}
+		.invest_place a{float:left;color:#323232;cursor:pointer;transition:color 0.5s;}
+		.invest_place a:hover{color:#2196F3;}
+		.invest_place span{float:left;color:#727272}
+		.invest_place .inv_loca{margin-right:16px;}
+		.invest_place .inv_gap{margin:0 8px;font-family:"宋体";}
+/*我要借款*/
+	
+	#loan_box{width:1200px;}
+	#loan_step{height:188px;background:center 16px no-repeat url(../images/loan/loan_top_box.png);text-align:center;border:solid 1px #cbcbcb;}
+		.refer_but{display:inline-block;padding:15px 56px;border:solid 1px #2196f3;margin-top:114px;background:white;transition:background 0.5s;color:#2196f3}
+		.refer_but:hover{background:#2196f3;cursor:pointer;color:white;}
+	.loan_option{padding:0;margin-top:20px;overflow:hidden;}
+	.loan_kind{padding:20px 0 0;height:258px;border:solid 1px #cbcbcb;position:relative;background:white}
+	#loan_kind{width:48%;float:right;}
+		/*boder*/
+		.loan_cyan,.loan_red,.loan_yellow,.loan_blue,.loan_green{transition:border-color 0.8s;}
+		.loan_cyan:hover{border-color:#1ccde7;}
+		.loan_red:hover{border-color:#ff5252;}
+		.loan_yellow:hover{border-color:#eda121;}
+		.loan_blue:hover{border-color:#1976d2;}
+		.loan_green:hover{border-color:#57d419;}
+		/*借款图标*/
+		.loan_icon{height:160px;background:60% center no-repeat url(../images/loan/car_loan_icon.png);}
+			#loan_icon_2{background:center no-repeat url(../images/loan/loan_house_icon.png);}
+			#loan_icon_3{background:center no-repeat url(../images/loan/loan_rent_icon.png)}
+			#loan_icon_4{background:center no-repeat url(../images/loan/loan_redit_icon.png)}
+			#loan_icon_5{background:center no-repeat url(../images/loan/loan_net-worth_icon.png)}
+		#loan_center{padding-left:0;color:#646464;font-size:14px;}
+		#loan_center h1{width:92px;margin:0;height:27px;background: right top no-repeat url(../images/loan/loan_icon.png);margin-bottom:1px}
+			#loan_center #center_icon_1{}
+			#loan_center #center_icon_2{background-position:right -27px}
+			#loan_center #center_icon_3{background-position:right -55px}
+			#loan_center #center_icon_4{background-position:right -82px} 
+			#loan_center #center_icon_5{background-position:right -109px}
+			
+		#loan_center p{margin:0;line-height:22px}
+		#loan_center p:last-child{font-size:13px;text-align:justify;}
+		.loan_kind a{padding:8px 28px;font-size:16px;border:solid 1px #1ccde7;color:#1ccde7;float:right;cursor:pointer;transition:background 0.8s;border-radius:2px;position:absolute;right:16px;bottom:16px}
+		.loan_kind a:hover{text-decoration:none;background:#1ccde7;color:white;}
+			/*a标签*/
+			#cha_red{border-color:#ff5252;color:#ff5252}
+			#cha_red:hover{background:#ff5252;color:white}
+			#cha_yellow{border-color:#eda121;color:#eda121}
+			#cha_yellow:hover{background:#eda121;color:white}
+			#cha_blue{border-color:#1976d2;color:#1976d2}
+			#cha_blue:hover{background:#1976d2;color:white}
+			#cha_green{border-color:#57d419;color:#57d419}
+			#cha_green:hover{background:#57d419;color:white}
+/* 常见问题 */
+
+	.loan_issue{padding:0;height:338px;border:solid 1px #cbcbcb;margin-top:20px;margin-bottom:20px;position:relative;}
+		.issue_center{height:302px;margin-top:18px;}
+			.issue_1{height:146px;padding:0 112px 0 46px;border-right:solid 1px #cbcbcb;}
+			.aad_boder{border-bottom:solid 1px #cbcbcb}
+			.issue_1 p{margin:0;}
+			.issue_icon_1{line-height:36px;font-size:16px;color:#1976d2;background:left -52px no-repeat url(../images/loan/loan_icon.png);padding-left:48px;}
+			.issue_1 p:last-child{padding-left:48px;font-size:14px;color:#323232;line-height:26px;}
+			.issue_2{height:146px;padding:0 54px 0 76px;}
+			.issue_2 p{margin:0;}
+			.issue_icon_2{line-height:36px;font-size:16px;color:#1976d2;background:left -88px no-repeat url(../images/loan/loan_icon.png);padding-left:48px;}
+			.issue_2 p:last-child{padding-left:48px;font-size:14px;color:#323232;line-height:26px;}
+			.issue_3{padding-top:30px;}
+			.issue_4{padding-top:30px;}
+			.issue_icon_3{background-position:left -124px;}
+			.issue_icon_4{background-position:left -160px;}
+	.loan_issue_icon{display:inline-block;width:127px;height:153px;background:left -196px no-repeat url(../images/loan/loan_icon.png);position:absolute;left:50%;top:50%;margin-left:-64px;margin-top:-72px;}
+		
+/*我要提交借款意向弹框*/		
+		
+	.loan_popup_frame{width:100%;height:100%;position:fixed;left:0;top:0;z-index:97;display:none;}	
+	.loan_popup_frame_bg{width:100%;height:100%;background:rgba(0,0,0,0.3);position:absolute;left:0;top:0;z-index:98;}
+		.popup_frame_box{width:580px;height:550px;background:white;position:absolute;left:50%;top:50%;margin-left:-290px;margin-top:-275px;border-radius:10px;overflow:hidden;box-shadow:0 0 22px gray;z-index:99;}
+		.popup_frame_box:hover{box-shadow:0 0 22px black;}
+			.popup_frame_box h3{margin:0;line-height:52px;background:#f0f0f0;color:#323232;font-size:16px;text-indent:2em;overflow:Hidden;position:relative;}
+				.popup_frame_box h3 i{float:right;text-align:center;font-style:normal;text-indent:0;position:absolute;right:15px;top:17px;width:20px;height:20px;line-height:20px;font-weight:bold;border-radius:3px;cursor:pointer;transition:box-shadow 0.8s;}
+				.popup_frame_box h3 i:hover{box-shadow:0 0 2px black;color:gray;}
+			.loan_data{margin: 0px 0px 0px 54px;list-style: outside none none;padding: 0px;margin-top:30px;}
+				.loan_data li{height: 54px;line-height: 54px;}
+				.loan_data li span{float:left;width:76px;text-align:right;padding-right:6px;}
+				.loan_data label{font-size:12px;color:#646464;margin:0 0 0 12px;float:left;font-weight:normal;}
+				/*下拉选项*/
+				.pull{width:30%;position:relative;}
+					.pull_center{outline:none;width:90%;text-align:right;padding-right:30px;}
+					.pull_center:focus{outline:none;}
+					.pull_center:active{outline:none;}
+					
+					.pull_menu{right:0}
+						.pull_menu li{line-height:30px;height:30px;padding-left:10px;cursor:pointer;transition:background 0.5s;}
+						.pull_menu li:hover{background:#509bdb;color:white;}
+					/* 元 */
+					#basic{position:absolute;right:42px;top:10px;width:auto;clear:both;padding:0;line-height:14px;z-index:999;}
+				/*小箭头*/
+				.arrows{height:34px;}
+				#arrows{width:0;height:0;padding:0;}
+				#arrows1{width:0;height:0;padding:0;}
+				/*借款期限*/
+				#loan_deadline,#loan_deadline1{width:84%;padding-right:13px;text-align:center;}
+				/*#loan_deadline_menu{height:276px;overflow:auto;}*/
+/*提示文字*/
+#prompt_news{overflow:hidden;float:left;}
+	#prompt_news i{float:left;display:inline-block;width:24px;height:24px;margin-top:15px;margin-left:10px;margin-right:5px;}
+		.noraml_pro{background:right -21px no-repeat url(../images/loan/acc_core_icon.png);}
+		.error_pro{background:right -45px no-repeat url(../images/loan/acc_core_icon.png);}
+		.aright_pro{background:right -69px no-repeat url(../images/loan/acc_core_icon.png);}
+		
+	#prompt_text{width:auto;color:gray;font-size:12px;}			
+/*蓝色border*/
+	.blue_border{border:solid 1px #66afe9;box-shadow: 0 0 4px #66afe9}				
+/*表单输入*/
+.per_from{width:30%;float:left;margin-top:10px;overflow:hidden;}
+/*单选按钮*/		
+.area_place{float:left;cursor:pointer;}
+	.area_place i{display:block;width:20px;height:20px;background:right top no-repeat url(../images/loan/acc_core_icon.png);float:left;margin-right:10px;margin-top:17px;}
+	.area_place .true_icon{background-position:-274px top;}
+/*所在地区*/
+#pop_add button span{width:auto}		 
+	#city_li,#neigh_li{height:240px;overflow:auto;}
+.dropdown-menu li{height:30px;line-height:30px;cursor:pointer;text-align:left;transition:background 0.5s;padding-left:10px}
+.dropdown-menu li:hover{background:#509bdb;color:white;}
+/*借款金额*/
+#loan_money{width:30%;padding-left:0;padding-right:0;}
+.for_money{outline:none;border:none;float:left;width:90%;height:20px;line-height:20px;text-align:right;}		
+/*借款期限*/
+#loan_deadline_menu1{height:130px;overflow:auto;}
+/*验证码*/		
+#checking_box img{float:left;margin-top:13px;margin-left:10px;}
+/*保存并继续*/
+.save_on{text-align:center;position:relative;margin-bottom:230px;margin-top:14px;}
+.save_on button{display:inline-block;border:solid 1px #f0f0f0;background:#ed9c04;color:white;transition:background 0.5s;width:30%;line-height:38px;font-size:18px;font-family:"微软雅黑";outline:none;border-radius:16px;}
+.save_on button:hover{background:#f9ac08;;color:white;}		 
+		
+
+

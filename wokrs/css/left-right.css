@@ -1,0 +1,47 @@
+	/*企业资质*/
+	.ladyScroll{width:956px;height:291px;margin:39px auto;position:relative;}
+	.ladyScroll .prev,.ladyScroll .next{width:22px;height:35px;position:absolute;top:113px;z-index:9999; cursor:pointer; background:no-repeat url(../images/about-us/logo-us.png);display:inline-block;}
+	.ladyScroll .prev{left:-55px;background-position:right -370px;}
+	.ladyScroll .next{ right:-55px;background-position:right -405px;}
+
+	.ladyScroll .scrollWrap{width:956px;overflow:hidden;position:absolute;}
+	.ladyScroll dl{float:left;width:308px;text-align:center;position:relative;margin:0;margin-right:16px;}
+	.ladyScroll  span{display:block;width:298px;height:53px;position:absolute;left:5px;bottom:0;background:#5f626b;filter:alpha(opacity=80);opacity:0.80;}
+	.ladyScroll  dt{margin:0 auto;width:304px;overflow:hidden;border:solid 2px #dcdcdc;cursor:pointer;}
+	.ladyScroll  img{display:block;width:304px;height:256px;}
+	.ladyScroll dl:hover span{ background:#B52153;  }
+	
+	.tempWrap{width:956px !important;}
+	.dlList{width:1944px;z-index:9998}
+	/*小圆点*/
+	.ladyScroll .hd{overflow:hidden;width:100%;position:absolute;left:0;bottom:-14px;text-align:center;}
+	.ladyScroll .hd ul{overflow:hidden;margin:0;padding:0;display:inline-block;}
+	.ladyScroll .hd ul li{ float:left;width:16px;height:16px;overflow:hidden;margin-right:5px;text-indent:-999px; cursor:pointer;border:solid 2px #dcdcdc;}
+	.ladyScroll .hd ul li.on{ background-position:0 0;background:#21bbf4;}
+/*荣誉资质*/
+.honour_play_box{width:884px;height:228px;}
+.honour_play{width:884px !important;}
+.honour_dlList{width:936px;}
+.honour_dlList dl{width:260px;overflow:hidden;margin-right:52px;}
+.honour_dlList dl dt{width:260px;border: 9px solid #a9e5fb;}
+.honour_dlList dl dt img{width:242px;height:176px;}
+.honour_prev{top:80px !important;}
+.honour_next{top:80px !important;}
+/*员工风采--轮播图*/
+.box{width:1055px;height:430px;overflow:hidden;position:relative;padding-top:64px;margin:0 auto;}
+.box .box-con{width:1055px;height:384px;position:relative;}
+.box .box-con ul{list-style:none;margin:0;}
+.box .mien_3d{position:absolute;overflow:hidden;box-shadow:0 5px 5px rgba(0,0,0,0.5);}
+.box .mien_3d1{width: 320px; height: 188px; left: 0px; top: 66px; z-index: 20;opacity: 0.7}
+.box .mien_3d2{width: 400px; height: 235px; left: 66px; top: 35px; z-index: 30;opacity: 0.8}
+.box .mien_3d3{width: 508px; height: 299px; left: 138px; top: 0px; z-index: 50;opacity: 0.9}
+.box .mien_3d4{width: 625px; height: 369px; left: 210px; top: -35px; z-index: 80;}
+.box .mien_3d5{width: 508px; height: 299px; left: 400px; top: 0px; z-index: 50;opacity: 0.9}
+.box .mien_3d6{width: 400px; height: 235px; left: 582px; top: 35px; z-index: 30;opacity: 0.8}
+.box .mien_3d7{width: 320px; height: 188px; left: 735px; top: 66px; z-index: 20;opacity: 0.7}
+.box .mien_3d8{width: 320px; height: 188px; left: 1055px; top: 66px; z-index: 10;}
+.box .mien_3d9{width: 320px; height: 188px; left: 1055px; top: 66px; z-index: 10;}
+.box .box-con li img{cursor:pointer;width:100%;}
+.box span{width:138px;height:238px;display:block;position:absolute;top:98px;z-index:51;cursor:pointer;}
+.prev-3d{left: 0;background:right -439px no-repeat url(../images/about-us/logo-us.png);}
+.next-3d{right:0;background:right -676px no-repeat url(../images/about-us/logo-us.png);} 

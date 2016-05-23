@@ -1,0 +1,93 @@
+/*去除轮廓线*/ 
+a:focus,.btn:focus,input:focus,input[type=checkbox]:focus,input[type=submit]:focus {outline: none !important;text-decoration: none !important }
+/*取消选中状态*/
+.vip-log .log-in-subBut > label { -ms-user-select: none; -webkit-user-select: none; -moz-user-select: none }
+
+* { margin: 0; padding: 0 }
+a { text-decoration: none; color: gray }
+input { border: none } 
+body { font-family: "微软雅黑"; position: relative }
+ 
+[class ^= "re-c"] { background-color: white }
+.width-1200 { width: 1200px; transition: width .5s }
+.inline-block { display: inline-block }
+.float-left { float: left }
+.re-bg { width: 100%; height: 100%; background: url(../images/ltlh/register-bg.jpg) center/cover no-repeat; position: fixed; left: 0; top: 0; z-index: 1 }
+.log-bg { background: url(../images/ltlh/log-in-bg.jpg) center/cover no-repeat }
+.detail { width: 100%; position:absolute; left: 0; top: 0; z-index: 2 }
+/*register-head*/
+.re-c-head { padding-bottom: 24px; height: 106px }
+.re-c-head > div { border-bottom: solid 2px #f4f4f4; overflow: hidden }
+.re-c-head .head-content { margin: 35px auto 0; padding-bottom: 10px; line-height: 47px; overflow: hidden }
+.re-c-head .head-content > span i { float: left; margin: 12px 12px 0 0; font-style: normal; width: 26px; height: 26px; background: url(../images/ltlh/ltlh-register-icon.png) left top }
+.re-c-head .head-content > span:lang(left-span) { float: left }
+.re-c-head .head-content > span:lang(right-span) { float: right; overflow: hidden }
+.re-c-head .head-content > span:lang(right-span) em { margin: 0 8px; font-style: normal }
+.re-c-head .head-content > span:lang(right-span) a { font-size: 20px; color: #555 }
+/*register-content*/
+.re-content { margin-top: 62px; background: none; text-align: center }
+.re-content span:lang(c-left-span) { float: left; text-align: left }
+.re-content span:lang(c-left-span) strong { line-height: 62px; font-size: 18px; color: white }
+.re-content span:lang(c-left-span) p { margin-bottom: 36px; height: 38px; line-height: 38px }
+.re-content span:lang(c-left-span) p:lang(last-p) { margin-bottom: 10px }
+.re-content span:lang(c-left-span) p label { width: 96px; text-align: right; color: white }
+.re-content span:lang(c-left-span) p label + span { position: relative }
+.re-content span:lang(c-left-span) p label:before { display: inline-block; content: "*"; color: red }
+.re-content span:lang(c-left-span) p input[ type= text ] { padding-left:5px; width: 257px; height: 34px; border: solid 2px white; border-radius: 3px; transition: all .5s }
+.re-content span:lang(c-left-span) p input:focus { border: solid 2px #60acd3 }
+.re-content span:lang(c-left-span) .register-test-pic input { width: 102px !important }
+.re-content span:lang(c-left-span) .register-test-pic img { margin: 3px 6px 0; cursor: pointer }
+.re-content span:lang(c-left-span) .register-test-pic em { font-style: normal; font-size: 12px; color: white; cursor: pointer }
+.re-content span:lang(c-left-span) span:lang(read) { margin-left: 95px }
+.re-content span:lang(c-left-span) span:lang(read) input { margin: 14px 8px 0 0 }
+.re-content span:lang(c-left-span) span:lang(read) a { font-size: 12px; color: #666; cursor: pointer }
+.re-content span:lang(c-left-span) span:lang(read) em { font-style: normal; color: #ff6600 }
+.re-content span:lang(c-left-span) form > input { margin-left: 95px; width: 266px; line-height: 36px; border-radius: 3px; font-size: 20px; color: white; background-color: #036178; cursor: pointer; transition: all .5s }
+.re-content span:lang(c-left-span) form > input:hover { background-color: #097F9C }
+.re-content span:lang(c-left-span) form > input:focus { background-color: #065A6F } 
+.re-content span:lang(c-right-span) { float: right; margin-left: 188px; padding-left: 40px; height: 466px; border-left: solid 2px #777; text-align: left; font-size: 14px; color: white }
+.re-content span:lang(c-right-span) > p:lang(user-margin) { margin-bottom: 28px }
+.re-content span:lang(c-right-span) > p:lang(user-margin) a { margin-left: 6px; width: 100px; line-height: 36px; text-align: center; background-color: #2c788a; border-radius: 3px; color: white; letter-spacing: 2px; transition: all .5s }
+.re-content span:lang(c-right-span) > p:lang(user-margin) a:hover { background-color: #26a0bd }
+.re-content span:lang(c-right-span) > p:lang(user-margin) a:focus { background-color: #16859f }
+.re-content span:lang(c-right-span) > p:lang(user-link) { padding: 10px 0 0 74px }
+.re-content span:lang(c-right-span) > p:lang(user-link) a { margin-right: 36px; width: 45px; text-align: center; color: white; font-weight: bold }
+.re-content span:lang(c-right-span) > p:lang(user-link) i { width: 45px; height: 46px }
+.re-content span:lang(c-right-span) .user-icon-1 { background: url(../images/ltlh/ltlh-register-icon.png) left -26px }
+.re-content span:lang(c-right-span) .user-icon-2 { background: url(../images/ltlh/ltlh-register-icon.png) left -71px no-repeat }
+	/*register-content-test*/
+	.re-content .checking-span { width: 332px; position: absolute; left: 0; bottom: -34px; font-size: 12px; color: #1c3e56 }
+	.re-content .checking-icon { display: inline-block; width: 15px; height: 16px; position: absolute; right: -28px; top: 12px } 
+	.re-content .chacking-icon-1 { background: url(../images/ltlh/ltlh-register-icon.png) -41px top }
+	.re-content .chacking-icon-2 { background: url(../images/ltlh/ltlh-register-icon.png) -26px top }
+/*log-in*/
+.vip-log { margin: 0 auto; position: relative; text-align: left }
+.vip-log > div { padding: 24px 24px 0; position: absolute; right: 0; top: 0; width: 374px; height: 400px; border-radius: 10px }
+.vip-log .vip-log-bg { background: url(../images/ltlh/log-in-opacity-bg.png); z-index: 1 }
+.vip-log .vip-log-content { box-shadow: 6px 6px 9px -9px; z-index: 2 }
+.vip-log > div strong { display: block; margin-bottom: 32px; line-height: 50px; border-bottom: solid 2px #d0d0d0; font-size: 24px; color: white }
+.vip-log > div form > span { display: inline-block; width: 100% }
+.vip-log > div form > span > div { line-height: 46px }
+.vip-log .test-head { font-size: 18px; color: #333 }
+.vip-log .test-head span { display: inline-block; margin-left: 16px; line-height: inherit; font-size: 14px; color: #f91605 }
+.vip-log .test-input { height: 46px; background: white url(../images/ltlh/ltlh-register-icon.png) no-repeat;  border: solid 1px white; border-radius: 6px; transition: border .5s }
+.orange-border { border-color: #d9a256 !important }
+.vip-log .test-input input { margin-left: 54px; width: 304px; height: 30px }
+.vip-log .text-input-icon1 { background-position: left -116px }
+.vip-log .text-input-icon2 { background-position: left -162px }
+.vip-log .log-in-subBut { margin-top: 32px; line-height: 50px }
+.vip-log .log-in-subBut > input { float: left; width: 178px; height: 50px; border-radius: 6px; font-size: 22px; color: white; background-color: #104e9a; letter-spacing: 4px; cursor: pointer; transition: all .5s }
+.vip-log .log-in-subBut > input:hover { background-color: #0f5fc2 }
+.vip-log .log-in-subBut > input:focus { box-shadow: 5px 8px 7px 2px #043C83 inset }
+.vip-log .log-in-subBut > label { margin-left: 22px; color: #555; cursor: pointer }
+.vip-log .log-in-subBut > label input { margin-right: 12px }
+.vip-log .log-in-registerA a { float: right; color: #ff4e00; position: relative; padding-right: 20px }
+.vip-log .log-in-registerA a:after { display: inline-block; content: ""; width: 17px; height: 14px; background: url(../images/ltlh/ltlh-register-icon.png) left -208px; position: absolute; right: 0; top: 4px }
+	
+/*register-foot*/
+.re-c-footer { position: fixed; left: 0; bottom: 0; width: 100%; height: 84px; line-height: 84px; text-align: center }
+.re-c-footer > span { overflow: hidden; font-size: 12px; color: #999 }
+.re-c-footer > span a { display: inline-block; margin-right: 5px; color: #4c4c4c }
+@media only screen and (max-width: 1200px) {
+	.width-1200 { width: 1000px }
+}

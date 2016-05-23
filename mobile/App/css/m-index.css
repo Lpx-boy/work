@@ -1,0 +1,118 @@
+
+.swiper-container {  width: 100%; height: 100% }
+.swiper-slide {
+    text-align: center;
+    font-size: .9rem;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center
+}
+ 
+nav.logo { padding: 0 1.5rem; height: 3.5rem; line-height: 3.5rem; background-color: #2196f3 }
+nav.logo span:first-child { margin-top: .85rem; width: 6.25rem; height: 1.8rem; background: url(../images/kj-mobile/m-kj-logo.png) center/cover no-repeat }  
+nav.logo span:last-child a:last-child:before { content: "/"; margin-right: .2rem }
+nav.logo span a { color: white }
+
+.swiper-slide { display: block }
+.swiper-pagination-bullet { background-color: rgba(255,255,255,.8) }
+.swiper-pagination-bullet-active { background-color: white }
+.banner { height: 12rem }
+.banner1 { background: url(../images/kj-mobile/m-banner-1.jpg) center/cover no-repeat }
+.banner2 { background: url(../images/kj-mobile/m-banner-2.jpg) center/cover no-repeat }
+.banner3 { background: url(../images/kj-mobile/m-banner-3.jpg) center/cover no-repeat }
+
+.function { padding: 1rem 0 1.7rem; text-align: center }
+.function > div { display: inline-block }
+.function > div > a { margin: 0 2.5rem; float: left; width: 2.15rem; height: 2.15rem; text-align: center; position: relative; transition: all .5s }
+.function > div > a:focus { -webkit-transform: scale(1.1);transform: scale(1.1) }
+.function > div > a i { display: inline-block; width: inherit; height: inherit; background-position: center; background-size: auto 100%; background-repeat: no-repeat }
+.function > div > a i:lang(fun-1) { background-image: url(../images/kj-mobile/m-kj-iconFunction1.png) }
+.function > div > a i:lang(fun-2) { background-image: url(../images/kj-mobile/m-kj-iconFunction2.png) }
+.function > div > a i:lang(fun-3) { background-image: url(../images/kj-mobile/m-kj-iconFunction3.png) }
+.function > div > a i:lang(fun-4) { background-image: url(../images/kj-mobile/m-kj-iconFunction4.png) }
+.function > div > a span { display: inline-block; width: 6.1rem; max-width: 7.5rem; font-size: 1rem; color: #323232; position: absolute; left: 50%; margin-left: -3.05rem; bottom: -1.6rem }
+
+.notice { height: 3rem; line-height: 3rem; background-color: #fff5f5; overflow: hidden }
+.notice > i { margin: .9rem 1.4rem 0 1.8rem; display: inline-block; width: 1.4rem; height: 1.2rem; background: url(../images/kj-mobile/m-kj-iconHron.png) center/cover no-repeat;
+}
+.notice > ul { list-style: none; left: 4.6rem; width: 24.2rem; height: inherit; line-height: inherit; font-size: 1rem; color: #646464 }
+
+.sign { padding: .8rem 0 5.65rem; background-color: #f0f0f0 }
+.sign nav { height: 3rem; background-color: white }
+.sign nav > span { display: inline-block; width: 8.2rem; height: inherit; line-height: 3rem; border-top-right-radius: 2px; border-bottom-right-radius: 2px; background-color: #fa454c; color: white }
+.sign nav > span i { display: inherit; margin: .975rem .5rem 0 1.4rem; width: 1.25rem; height: 1.05rem; background:  url(../images/kj-mobile/m-kj-iconTitle.png) center/cover no-repeat }
+.sign nav > a { display: inherit; width: 23rem; height: inherit; background-color: white }
+.sign nav > a span { display: inherit; float: left; width: 10rem; height: inherit; line-height: 3rem; text-align: center; color: #646464 }
+.sign nav > a span em { font-style: normal; font-weight: bold; color: #fa454c }
+.sign nav > a i { display: inherit; margin: 1.075rem 1.1rem 0 0;  width: .55rem; height: .85rem; background: url(../images/kj-mobile/m-kj-iconRight-arrowrs.png) center/cover no-repeat }
+
+.sign > ul { list-style: none; margin: 0 auto; width: 30.1rem }
+.sign > ul li { padding: .6rem 0 0 1rem; margin-top: .8rem; background-color: white }
+.sign > ul li a { display: block; position: relative }
+.sign .sign-title { margin-bottom: 1.6rem; line-height: 3rem; overflow: hidden }
+.sign .sign-title i { margin-right: 1rem; display: inline-block; float: left; width: 3rem; height: 3rem; border-radius: 100% }
+/*标类*/
+.kc { background: #4bc3fb url(../images/kj-mobile/m-kj-iconSign-kc.png) center/cover no-repeat }
+.jf { background: #ffb139 url(../images/kj-mobile/m-kj-iconSign-jf.png) center/cover no-repeat }
+.cz { background: #fa5f39 url(../images/kj-mobile/m-kj-iconSign-cz.png) center/cover no-repeat }
+.fy { background: #85d35b url(../images/kj-mobile/m-kj-iconSign-fy.png) center/cover no-repeat }
+.jz { background: #97dcf3 url(../images/kj-mobile/m-kj-iconSign-jz.png) center/cover no-repeat }
+.sign .sign-title span { display: inline-block; float: left; font-size: 1.2rem }
+.sign .sign-title span:nth-of-type(1) { color: #323232 }
+.sign .sign-title span:nth-of-type(1):after { content: "|"; margin: 0 .6rem 0 .7rem; color: #eaeaea }
+.sign .sign-title span:last-child { max-width: 9.3rem; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; color: #646464 }
+
+.sign .sign-content { overflow: hidden }
+.sign .sign-content > span { display: inline-block; float: left; text-align: center }
+.sign .sign-content > span p:first-child { font-size: 1rem; color: #909090 }
+.sign .sign-content > span p:last-child { line-height: 3.1rem }
+.sign .sign-content > span p em { font-style: normal }
+.sign .sign-content > span:nth-of-type(1) p:last-child { color: #ff5252 }
+.sign .sign-content > span:nth-of-type(1) p:last-child em { font-size: 2.3rem }
+.sign .sign-content > span:nth-of-type(2) { margin: 0 3.2rem }
+.sign .sign-content > span:nth-of-type(2) p:last-child { color: #909090 }
+.sign .sign-content > span:nth-of-type(2) p:last-child em { font-size: 2rem; color: #323232 }
+.sign .sign-content > span:nth-of-type(3) p:last-child { color: #646464 }
+.sign .sign-content > span:nth-of-type(3) p:last-child em { font-size: 1.5rem; color: #323232 }
+/*ring*/
+.demo { position: absolute; right: 2rem; bottom: .5rem }  
+.circliful { position: relative } 
+.circle-text,
+.circle-info,
+.circle-text-half,
+.circle-info-half { width: 100%; position: absolute; text-align: center; display: inline-block; color: #2196f3 }  
+/*新手专享*/
+.sign-special a:after { content: "新手专享"; display: inline-block; width: 5.5rem; height: 2.75rem; line-height: 2.75rem; background: url(../images/kj-mobile/m-kj-iconSpecial.png) center/cover no-repeat; color: white; text-align: center; position: absolute; right: 1.3rem; top: -1rem }
+.sign-special .sign-title i { display: none }  
+/*百分比圆圈*/
+@media only screen and (max-width: 361px) {
+	.demo { transform: scale(.6); right: 0; bottom: -1.8rem }
+}
+@media only screen and (min-width: 361px) and (max-width: 501px) {
+	.demo { transform: scale(.7); right: 0; bottom: -1rem }
+} 
+@media only screen and (min-width: 481px) and (max-width: 561px) {
+	.demo { transform: scale(.9); right: 1rem; bottom: -.3rem }
+}  
+
+
+
+
+
+
+
+
+
+
+

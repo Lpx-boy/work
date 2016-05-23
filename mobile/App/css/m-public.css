@@ -1,0 +1,114 @@
+
+* {	margin: 0; padding: 0 }
+body { overflow-x: hidden }
+a { text-decoration: none; color: black }
+a:focus { color: black }
+
+html {
+	font-family: "微软雅黑";
+	font-size: 62.5%
+	/* 10÷16=62.5% */
+}
+
+@media only screen and (min-width: 221px) {
+	html {
+		font-size: 62.5%!important
+		/* 10÷16=62.5% */
+	}
+}
+
+@media only screen and (min-width: 321px) {
+	html {
+		font-size: 67%!important
+		/* 10.72÷16=67% */
+	}
+}
+
+@media only screen and (min-width: 401px) {
+	html {
+		font-size: 80%!important
+		/* 12.8÷16=80% */
+	}
+}
+
+@media only screen and (min-width: 481px) {
+	html {
+		font-size: 94%!important
+		/* 15.04÷16=94% */
+	}
+}
+
+@media only screen and (min-width: 561px) {
+	html {
+		font-size: 109%!important
+		/* 17.44÷16=109% */
+	}
+}
+
+@media only screen and (min-width: 641px) {
+	html {
+		font-size: 125%!important
+		/* 20÷16=125% */
+	}
+}
+
+@media only screen and (min-width: 641px) {
+	article {
+		max-width: 32rem
+	}
+}
+/* test-display */ 
+article ,
+nav { display: block }
+
+article {
+	margin: 0 auto
+}
+
+article > span {
+	display: block;
+	margin: inherit
+}
+ 
+
+/* public--class */
+.m-kj-head { height: 4.5rem; line-height: 4.5rem; text-align: center; font-size: 2rem; color: #ebebeb; background-color: #0482e5 }
+.m-kj-foot { width: 32rem; height: 4.85rem; position: fixed; left: 50%; margin-left: -16rem; bottom: 0; border-top: solid 1px #cbcbcb; background-color: white; text-align: center }
+.m-kj-foot > div { display: inline-block; margin-top: .5rem }
+.m-kj-foot > div a { float: left; width: 2.2rem; height: 2.2rem; position: relative }
+.m-kj-foot > div a:nth-of-type(2) { margin: 0 9rem }
+.m-kj-foot > div a i { display: inline-block; width: inherit; height: inherit }
+.m-kj-foot > div a em { font-style: normal; display: inline-block; width: 4.6rem; position: absolute; left: 50%; margin-left: -2.3rem; bottom: -2rem; color: #909090 }
+.grayIcon1 i { background: url(../images/kj-mobile/m-kj-foot-grayIcon1.png) center/cover no-repeat }
+.blueIcon1 i { background: url(../images/kj-mobile/m-kj-foot-blueIcon1.png) center/cover no-repeat }
+.grayIcon2 i { background: url(../images/kj-mobile/m-kj-foot-grayIcon2.png) center/cover no-repeat }
+.blueIcon2 i { background: url(../images/kj-mobile/m-kj-foot-blueIcon2.png) center/cover no-repeat } 
+.grayIcon3 i { background: url(../images/kj-mobile/m-kj-foot-grayIcon3.png) center/cover no-repeat }
+.blueIcon3 i { background: url(../images/kj-mobile/m-kj-foot-blueIcon3.png) center/cover no-repeat }
+.blueIcon1 em, .blueIcon2 em, .blueIcon3 em { color: #2196f3 !important }
+
+.pu-left { float: left }
+.pu-right { float: right }
+.po-re { position: relative }
+.po-ab { position: absolute } 
+
+/*360w*/
+@media only screen and (max-width: 361px) {
+	.sign nav > a { width: 21rem }
+	.sign nav > a span { width: 9rem }
+}
+/*ipone5--320w*/
+@media only screen and (max-width: 321px) {
+	.sign > ul { width: 26.7rem }
+	.function > div > a { margin: 0 2.2rem }
+	.sign nav > a { width: 18rem }
+	.sign nav > a span { width: 8rem }
+	.demo { right: -1.9rem !important }
+}
+
+
+
+
+
+
+

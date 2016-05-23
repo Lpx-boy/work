@@ -1,0 +1,69 @@
+/*取消选中*/
+.first_li span,.operate span,.area_place{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;-o-user-select:none;}
+/*自动投标*/
+.auto_bid_box{overflow:hidden;background:#f5f5f5;border-bottom:solid 1px #ddd;}
+.auto_bid{overflow:hidden;line-height:48px;}
+	.auto_bid span{float:left;font-size:20px;color:#2196f3;font-weight:bold;}
+/*自动投标--内容*/
+/*方案1*/
+.scheme1{overflow:hidden;padding:0;list-style:none;padding-bottom:8px;margin:0;margin-top:64px;}
+	.scheme1 li{width:436px;background:white;float:left;text-align:center;color:#f0f0f0;position:relative;z-index:10;box-shadow:8px 8px 0 #e4e3e3;transition:box-shadow 0.5s;margin-right:22px;margin-bottom:22px;border-top:solid 1px #ddd;}
+/*替换内容*/
+.replace_content{text-align:left;padding-top:37px;padding-bottom:50px;max-width:388px;}
+.replace_content p{color:#626262;font-size:16px;line-height:25px;}
+.replace_content p span{font-size:14px !important;color:black;}
+	.first_li{cursor:pointer;}
+	.scheme1 li:hover{box-shadow:8px 8px 0 #d1cfcf;}
+	.first_li span{font-size:168px;transition:color 0.8s;}
+	.first_li:hover span{color:#2196F3}
+	.scheme1 p{margin:0;}
+/*已替换文本--操作*/
+.operate{width:100%;height:54px;line-height:54px;text-align:center;background:#f8f8f8;position:absolute;left:0;bottom:0;color:#ddd}
+.operate span{cursor:pointer;color:black;transition:color 0.5s;}
+.operate span:hover{color:#2196f3;}
+	.arrows_icon{width:100%;height:54px;background:#f8f8f8;position:absolute;left:0;bottom:0;}
+		.arrows_icon i{display:inline-block;width:83px;height:30px;background:right -622px no-repeat url(../images/account/acc_core_icon.png);position:absolute;left:50%;margin-left:-41px;top:50%;margin-top:-15px;transition:background 0.5s;}
+		.arrows_down{background-position:right -651px !important;}
+	.sign_bid{width:144px;height:30px;line-height:30px;background:#2196f3;position:absolute;left:0;top:0;font-weight:bold;text-align:left;padding-left:12px;}
+		.sign_bid i{display:block;position:absolute;right:0;top:0;width:0;height:0;border-style:solid;border-color:transparent;border-width:15px 18px 15px 0px;border-left-width:0px;border-right-color:white;}
+/*方案2*/
+/*方案选择*/
+.scheme_select{margin:0 !important;margin-bottom:20px !important;}
+	.scheme_select label{color:#212121;font-weight:normal;}
+/*自动投标*/
+.auto_content{display:none;}
+/*单选按钮*/		 
+.area_place{float:left;cursor:pointer;margin:0;line-height:30px;margin-right:25px;}
+	.area_place i{display:block;width:20px;height:20px;background:right -493px no-repeat url(../images/account/acc_core_icon.png);float:left;margin-right:10px;margin-top:5px;transition:background 0.5s;}
+	.area_place .true_icon{background-position:right -492px;}
+	.area_place .error_pro{background-position:right -512px;}
+/*下拉选项*/
+				.scheme_select .pull{position:relative;float:left;}
+					.pull_center{outline:none;text-align:right;}
+					.pull_center:focus{outline:none;}
+					.pull_center:active{outline:none;}
+					
+					.pull_menu{right:0;max-height:300px;overflow:auto;}
+						.pull_menu li{line-height:30px;height:30px;padding-left:10px;cursor:pointer;transition:background 0.5s;}
+						.pull_menu li:hover{background:#509bdb;color:white;}
+				/*下拉--top*/
+				.auto_content .pull_top{top:100% !important;}
+/*有效期*/
+.valid_time{padding:0;}
+.valid_time .pull{width:24%;float:left;}
+/*投资类型*/
+.invest_type{line-height:34px;color:#8b8b8b}
+/*分隔*/
+.divide{float:left;line-height:34px;margin:0 5px;}
+/*单选*/
+.radio_but{clear:both;width:85%;padding:0;margin-top:50px;}
+/*input*/
+.per_from{width:20%;text-align:center;float:left;}
+.money_keep{line-height:34px;margin-left:10px;}
+/*保存按钮*/
+.save_but{text-align:center;width:80%}
+.save_but button{width:16%}
+/*虚线框*/
+.dotten_farm{padding:32px;border:dashed 1px #ddd;color:#797979;font-size:12px;margin:50px 0;}
+
+

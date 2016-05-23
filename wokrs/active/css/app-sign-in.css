@@ -1,0 +1,345 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-width: 1230px;
+} 
+ 
+div[class ^= "app-sign-bg"] {
+	margin: 0 auto;  
+	width: 1903px;
+	height: 400px;
+}
+
+.app-sign-bg-1 {
+	background-image: url(../images/app-sign-in-bg1.jpg);
+}
+
+.app-sign-bg-2 {
+	background-image: url(../images/app-sign-in-bg2.jpg);
+}
+
+.app-sign-bg-3 {
+	background-image: url(../images/app-sign-in-bg3.jpg);
+}
+
+.app-sign-bg-4 {
+	background-image: url(../images/app-sign-in-bg4.jpg);
+}
+
+.app-sign-bg-5 {
+	background-image: url(../images/app-sign-in-bg5.jpg);
+}
+
+.app-sign-bg-6 {
+	background-image: url(../images/app-sign-in-bg6.jpg);
+}
+
+.app-sign-bg-7 {
+	background-image: url(../images/app-sign-in-bg7.jpg);
+}
+
+.app-sign-bg-8 {
+	background-image: url(../images/app-sign-in-bg8.jpg);
+}
+
+.app-sign-bg-9 {
+	background-image: url(../images/app-sign-in-bg9.jpg);
+}
+
+.app-sign-bg-10 {
+	background-image: url(../images/app-sign-in-bg10.jpg);
+}
+
+.app-sign-bg-11 {
+	background-image: url(../images/app-sign-in-bg11.jpg);
+}
+
+div.app-sign-ps {
+	margin: 0 auto;
+	max-width: 1920px;
+	width: 100%;
+	line-height: 62px;
+	font-size: 20px;
+	color: white;
+	background-color: #009cff;
+	text-align: center;
+}
+
+.position-relative {
+	position: relative;
+}
+
+.position-absolute {
+	position: absolute; 
+}
+
+.display-block {
+	display: block;
+}
+/*app-sign-bg-5*/
+div.app-sign-take-notes > span.pSpan1 {
+	width: 370px;    
+	height: 400px;
+	overflow: hidden;  
+	right: 428px;
+	top: 88px;
+	z-index: 2;
+} 
+
+div.app-sign-take-notes > span.pSpan1 ul { 
+	list-style-type: none; 
+	left: 0;
+	top: 0;
+}
+
+div.app-sign-take-notes > span.pSpan1 ul li { 
+	height: 49px;
+	line-height: 49px;
+	border-bottom: solid 1px #df530c; 
+}
+
+div.app-sign-take-notes > span.pSpan1 ul li em {
+	font-style: normal;
+	display: inline-block;
+	font-weight: bold;
+	color: #df530c;
+	float: left;
+}
+
+div.app-sign-take-notes > span.pSpan1 ul li em:lang(log-left) {
+	width: 130px;
+	text-align: left;
+}
+
+div.app-sign-take-notes > span.pSpan1 ul li em:lang(log-right) {
+	margin-left: 98px;
+}
+
+div.app-sign-take-notes > span.pspan2 {
+	display: block;
+	width: 597px;
+	height: 597px;
+	background-image: url(../images/sign-rotate-bg.png);
+	left: 404.7px;
+	top: 8px;
+	z-index: 2;
+}
+
+div.app-sign-take-notes > span.pspan2 i {
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+}
+
+div.app-sign-take-notes > span.pspan2 i.pI1 {
+	top: 38px;
+	width: 517px;
+	height: 517px;
+	background-image: url(../images/sign-rotate-prize.png);
+	margin-left: -258.5px;
+}
+
+div.app-sign-take-notes > span.pspan2 i.pI2 {
+	top: 181px;
+	width: 123px;
+	height: 230px;
+	background-image: url(../images/sign-rotate-pointer.png);
+	margin-left: -61px;
+	z-index: 3;
+	cursor: pointer;
+}
+
+/*app-sign-bg-6*/
+div.app-sign-timeText > span {
+	width: 420px;
+	right: 402px;
+	top: 148px;
+	font-size: 23px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+/*app-sign-bg-7*/
+div.app-sign-activeStrategy > span {
+	left: 530.1px;
+	bottom: 28px;
+	width: 776px;
+	height: 221px; 
+}
+
+div.app-sign-activeStrategy > span span {
+	float: left;
+	display: inline-block;
+	margin-top: 35px;
+	width: 415px;
+}
+
+div.app-sign-activeStrategy > span span a {
+	display: inline-block;
+	width: 100%;
+	height: 62px;
+	border-radius: 32px; 
+}
+
+div.app-sign-activeStrategy > span span a:lang(first-a) {
+	margin-bottom: 24px;
+} 
+
+div.app-sign-activeStrategy > span img {
+	float: right;
+}
+/*app-sign-bg-10*/
+div.app-sign-activeState > span {
+	width: 944px;
+	left: 476px;
+	top: 196px;
+	line-height: 35px;
+	text-indent: 2em;
+}
+
+div.app-sign-activeState > span p {
+	font-weight: bold;
+	font-size: 20px;
+	color: #510703;
+}
+
+div.app-sign-activeState > span p:lang(activeState-ps) {
+	margin-top: 103px;
+	font-size: 17px;
+	text-indent: 0;
+	color: #fc2400;
+}
+
+/*弹框*/
+.felicitate-you {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0; 
+	z-index: 999; 
+}
+
+.felicitate-you > div:lang(you-bg) {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	filter: alpha(opacity=50);
+	background: rgba(0,0,0,.5);
+}
+
+.felicitate-you div.felicitate-content {
+	position: absolute;
+	left: 50%;
+	margin-left: -262.5px;
+	top: 50%;
+	margin-top: -332px;
+	width: 525px;
+	height: 664px;
+	background-image: url(../images/sign-rotate-prize-rewardBg.png);
+	text-align: center;
+}
+
+.felicitate-you div.felicitate-content > div {
+	margin-top: 160px;
+}
+
+.felicitate-you div.felicitate-content > div span {
+	display: inline-block;
+	line-height: 52px;
+	font-size: 32px;
+	color: #ff0026;
+}
+
+.felicitate-you div.felicitate-content  i {
+	display: inline-block; 
+}
+ 
+.felicitate-you .hide {
+	display: none;
+}
+
+.felicitate-you .experience-cash {
+	display: block;	
+}
+
+/*体验金 & 现金劵*/ 
+
+.felicitate-you .felicitate-experience-cash {
+	width: 223px;
+	height: 313px;
+} 
+.felicitate-you .felicitate-experience-1k {
+	background-image: url(../images/sign-rotate-prize-reward-experience-1k.png);
+}
+.felicitate-you .felicitate-experience-5k {
+	background-image: url(../images/sign-rotate-prize-reward-experience-5k.png);
+} 
+.felicitate-you .felicitate-cash-8 {
+	background-image: url(../images/sign-rotate-prize-reward-cash-8.png);	
+}
+.felicitate-you .felicitate-cash-10 {
+	background-image: url(../images/sign-rotate-prize-reward-cash-10.png);	
+}
+.felicitate-you .felicitate-cash-20 {
+	background-image: url(../images/sign-rotate-prize-reward-cash-20.png);	
+}
+
+/*现金红包*/
+.felicitate-you .felicitate-redPack {
+	width: 221px;
+	height: 308px;
+}
+.felicitate-you .felicitate-redPack-2 {
+	background-image: url(../images/sign-rotate-prize-reward-redPack-2.png);		
+}
+.felicitate-you .felicitate-redPack-10 {
+	background-image: url(../images/sign-rotate-prize-reward-redPack-10.png);		
+} 
+
+/*会员积分*/
+.felicitate-you .felicitate-vipIntegral {
+	width: 307px;
+	height: 307px;
+}
+.felicitate-you .felicitate-vipIntegral-100 {
+	background-image: url(../images/sign-rotate-prize-reward-integral-100.png);			
+}
+.felicitate-you .felicitate-vipIntegral-200 {
+	background-image: url(../images/sign-rotate-prize-reward-integral-200.png);			
+}
+
+/*小米*/
+.felicitate-you .felicitate-millet {
+	margin: 50px auto;
+	width: 399px;
+	height: 190px;
+	background-image: url(../images/sign-rotate-prize-reward-millet.png);
+}
+
+
+.felicitate-you div.felicitate-content p {
+	font-size: 20px;
+	color: #884d00;
+}
+/*关闭*/
+.felicitate-you .felicitate-close {
+	display: block;
+	width: 350px;
+	height: 78px; 
+	position: absolute;
+	left: 50%;
+	margin-left: -172px;
+	bottom: 19px;
+	cursor: pointer;
+}
+
+
