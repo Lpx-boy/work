@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>菜篮子-分页</title>
+		<meta name="viewport" content="width=device-width,height=device-height,maximun-scale=1.0"/> 
+		<link rel="stylesheet" type="text/css" href="css/rem.css"/>
+		<link rel="stylesheet" type="text/css" href="css/kj-life.css" />
+	</head>
+
+	<body>
+		<header class="paging"> 
+			<div><img src="images/kj-life/paging-img1.jpg" alt="商品详情大背景图" /></div>
+			<p>
+				<span>虎皮青椒</span>
+				<i>特价</i>
+				<i>处理</i>
+			</p>
+		</header> <!-- header-end -->
+		
+		<footer class="paging-foot">
+			<div class="click-paging">
+				<span class="current-type">零售</span>
+				<span>批发</span>
+				<span>处理</span>
+			</div>
+			<div>
+				<nav class="nav-a">
+					<a class="current-a" href="#">商品详情</a>
+					<a href="#">烹饪做法</a>
+					<a href="#">晒单记录</a>
+				</nav>
+				<ul>
+					<li>
+						<span><img src="images/kj-life/detailed-img1.jpg"/></span>
+						<span>
+							<p>青椒</p>
+							<p><span>￥<em>1</em></span>2斤/5个</p>
+						</span>
+					</li>
+					<li>
+						<span><img src="images/kj-life/detailed-img2.jpg"/></span>
+						<span>
+							<p>蒜</p>
+							<p><span>￥<em>1</em></span>2斤/5个</p>
+						</span>
+					</li>
+					<li>
+						<span><img src="images/kj-life/detailed-img3.jpg"/></span>
+						<span>
+							<p>酱油</p>
+							<p><span>￥<em>1</em></span>2斤/5个</p>
+						</span>
+					</li>
+				</ul>
+			</div>
+		</footer> <!-- footer-end --> 
+		<script src="js/jquery.js"></script>
+		<script>
+			var _Onclick = $(".click-paging"),
+				_navA = $(".nav-a a")
+				_Onclick.on('click','span',function(){
+					$(this).addClass("current-type").siblings().removeClass()
+				})
+				_navA.click(function(){
+					$(this).addClass("current-a").siblings().removeClass()
+				})
+		</script>
+	</body>
+
+</html>

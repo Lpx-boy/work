@@ -1,0 +1,12 @@
+.m-logIn-test { margin-top: 1.7rem }
+.test2 > a { display: block; text-align: center }
+.test2 > a span { color: #909090 }
+.test3 { background: none; height: 4.4rem }
+.test3 > div { float: left; width: 17rem; background-color: white } 
+.test3 > div > input { width: 12rem }
+.test3 > button { float: right; width: 9rem; height: inherit; text-align: center; font-size: 1.5rem; color: #2196f3; border: solid 1px #2196f3; border-radius: .45rem; background: none }
+.test3 > button:focus { outline: none }
+.m-logIn-test > label { display: block; margin-bottom: 1rem; line-height: 1.4rem; font-size: 1.4rem; color: #909090 }
+.m-logIn-test > label i { display: inline-block; float: left; margin-right: 1rem; width: 1.4rem; height: 1.4rem; background-color: #2196f3; border-radius: 1px; }
+.m-logIn-test > label span { color: #2196f3 }
+.pitch-on { background: #2196f3 url(../images/kj-mobile/pitch-on-icon.png) center/cover no-repeat }

@@ -1,0 +1,299 @@
+@font-face {
+	font-family: "方正兰亭超细黑简体";
+	src: url(../font/FZLTCXHJW.TTF)
+}
+body { background-color: #f0dec6 }
+* { margin: 0; padding: 0 }
+html {
+	font-family: "微软雅黑";
+	font-size: 62.5%
+	/* 10÷16=62.5% */
+}
+
+@media only screen and (min-width: 221px) {
+	html {
+		font-size: 62.5%!important
+		/* 10÷16=62.5% */
+	}
+}
+
+@media only screen and (min-width: 321px) {
+	html {
+		font-size: 67%!important
+		/* 10.72÷16=67% */
+	}
+}
+
+@media only screen and (min-width: 401px) {
+	html {
+		font-size: 80%!important
+		/* 12.8÷16=80% */
+	}
+}
+
+@media only screen and (min-width: 481px) {
+	html {
+		font-size: 94%!important
+		/* 15.04÷16=94% */
+	}
+}
+
+@media only screen and (min-width: 561px) {
+	html {
+		font-size: 109%!important
+		/* 17.44÷16=109% */
+	}
+}
+
+@media only screen and (min-width: 641px) {
+	html {
+		font-size: 125%!important
+		/* 20÷16=125% */
+	}
+}
+
+@media only screen and (min-width: 641px) {
+	article {
+		max-width: 32rem
+	}
+}
+/* test-display */ 
+article ,
+nav { display: block }
+
+article {
+	margin: 0 auto
+}
+
+article > span {
+	display: block;
+	margin: inherit
+}
+
+/*public-class*/
+.padding { padding: 1rem 0 }
+span[ class ^= "head-bg" ],
+span[ class ^= "foot-bg" ],
+span[ class ^= "c-one-bg" ],
+span[ class ^= "c-two-bg" ],
+span[ class ^= "c-three-bg" ],
+span[ class ^= "c-four-bg" ] { background-size: 100% 100% }
+span[ class ^= "c-"] { position: relative }
+span[ class ^= "c-"] > span,
+.txt-two-2 > span,
+.txt-two-2 > i,
+.txt-two-2 p,
+.link > span { position: absolute }
+.txt-one-1 > span,
+.txt-one-3 > span,
+.txt-two-1 > span,
+.txt-two-2 > span,
+.txt-three-1 > span,
+.txt-three-2 > span,
+.txt-four-1 > span,
+.txt-four-2 > span,
+.link > span { left: 50% }
+.txt-one-1 > span,
+.txt-three-1 > span,
+.txt-four-1 > span { color: #502107 } 
+.txt-one-2 > span,
+.txt-one-3 > span,
+.txt-three-2 > span,
+.txt-four-2 > span,
+.link > span { z-index: 2 } 
+.txt-one-3 > span,
+.txt-two-2 > span,
+.txt-three-2 > span,
+.txt-four-2 > span { color: #6f2000 }
+.txt-one-3 > span,
+.txt-two-1 > span,
+.txt-two-2 > span,
+.txt-three-2 > span,
+.txt-four-2 > span { text-align: justify }
+.txt-one-1 > span,
+.txt-two-1 > span,
+.txt-three-1 > span,
+.txt-four-1 > span { font-size: .9rem }
+.txt-one-1 > span, 
+.txt-two-1 > span,
+.txt-three-1 > span,
+.txt-four-1 > span { text-indent: 1.7rem }
+.txt-one-3 > span,
+.txt-two-2 > span,
+.txt-three-2 > span,
+.txt-four-2 > span { line-height: 1.5rem }
+.txt-one-4 > span,
+.txt-two-2 p,
+.txt-three-3 > span,
+.txt-four-3 > span { width: 100%; text-align: center; font-size: .6rem; color: #555555 }
+.txt-two-2 p,
+.txt-three-3 > span,
+.txt-four-1 > span,
+.txt-four-3 > span { bottom: .5rem }
+.txt-one-2 > span p span,
+.txt-one-3 > span,
+.txt-two-2 > span,
+.txt-three-2 > span,
+.txt-four-2 > span { font-size: .8rem }
+.txt-one-3 > span span,
+.txt-two-2 > span span,
+.txt-four-2 > span span { font-size: 1.2rem }
+
+/*public-head*/
+span[ class ^= "head-bg" ] { position: relative; height: 10.15rem }
+.head-bg1 { background-image: url(../images/m-anniversary-one/head-bg1.jpg) }
+.head-bg2 { background-image: url(../images/m-anniversary-one/head-bg2.jpg) }
+.head-bg3 { background-image: url(../images/m-anniversary-one/head-bg3.jpg) }
+.head-bg4 { background-image: url(../images/m-anniversary-one/head-bg4.jpg) }
+.link > span { display: inline-block; width: 25.3rem; margin-left: -12rem } 
+.link > span a { display: inherit; width: 12.1rem; height: 8.7rem }
+.link > span a:first-child { float: left }
+.link > span a:last-child { float: right }
+.link1 > span { bottom: -.8rem } 
+.link2 > span { bottom: 0 } 
+
+/*content*/
+span[ class ^= "c-one-bg" ] { height: 8rem } /*one*/
+	.c-one-bg1 { background-image: url(../images/m-anniversary-one/c-one-bg1.jpg) }
+	.c-one-bg2 { background-image: url(../images/m-anniversary-one/c-one-bg2.jpg) }
+	.c-one-bg3 { background-image: url(../images/m-anniversary-one/c-one-bg3.jpg) }
+	.c-one-bg4 { background-image: url(../images/m-anniversary-one/c-one-bg4.jpg) }
+	.c-one-bg5 { background-image: url(../images/m-anniversary-one/c-one-bg5.jpg) }
+	.c-one-bg6 { background-image: url(../images/m-anniversary-one/c-one-bg6.jpg) }
+	.c-one-bg7 { background-image: url(../images/m-anniversary-one/c-one-bg7.jpg) }
+	.c-one-bg8 { background-image: url(../images/m-anniversary-one/c-one-bg8.jpg) }
+	.c-one-bg9 { background-image: url(../images/m-anniversary-one/c-one-bg9.jpg) }
+	.c-one-bg10 { background-image: url(../images/m-anniversary-one/c-one-bg10.jpg) }
+.txt-one-1 > span { width: 23.5rem; margin-left: -11.75rem; bottom: 0 }
+.txt-one-2 > span { width: 17.2rem; right: 3.8rem; top: 1rem }
+.txt-one-2 > span p,
+.txt-one-2 > span p span { overflow: hidden }
+.txt-one-2 > span p span { float: left; margin-bottom: .48rem; line-height: 1.7rem; white-space: nowrap; text-overflow: ellipsis; color: #964108 }
+.txt-one-2 > span p span:first-child { width: 9rem }
+.txt-one-2 > span p span:last-child { max-width: 8.2rem }
+.txt-one-3 > span { width: 25.6rem; margin-left: -12.8rem; bottom: -6.4rem } 
+.txt-one-4 > span { display: block; bottom: 1rem }
+span[ class ^= "c-two-bg" ] { height: 18.65rem } /*two*/
+	.c-two-bg1 { background-image: url(../images/m-anniversary-one/c-two-bg1.jpg) }
+	.c-two-bg2 { background-image: url(../images/m-anniversary-one/c-two-bg2.jpg) }
+.txt-two-1 > span { width: 22rem; margin-left: -11rem; top: 1.3rem; color: white }	
+.txt-two-1 > span span { font-weight: bold; color: yellow }
+.txt-two-2  { position: relative; height: 17.3rem; background-color: #feeac5 }
+.txt-two-2 > span { padding-top: 5rem; width: 27.2rem; margin-left: -13.6rem } 
+.txt-two-2 > i { display: inline-block; width: 1.15rem; height: 1.45rem; background: url(../images/m-anniversary-one/saping.png) center/cover no-repeat; right: 1rem; bottom: 0; } 
+span[ class ^= "c-three-bg" ] { height: 8.5rem } /*three*/
+	.c-three-bg1 { background-image: url(../images/m-anniversary-one/c-three-bg1.jpg) }
+	.c-three-bg2 { background-image: url(../images/m-anniversary-one/c-three-bg2.jpg) }
+	.c-three-bg3 { background-image: url(../images/m-anniversary-one/c-three-bg3.jpg) }
+	.c-three-bg4 { background-image: url(../images/m-anniversary-one/c-three-bg4.jpg) }
+.txt-three-1 > span { width: 26.2rem; margin-left: -13.1rem; bottom: 1rem }
+.txt-three-2 > span { width: 22.7rem; margin-left: -11.35rem; bottom: -6.5rem } 
+span[ class ^= "c-four-bg" ] { height: 7.75rem } /*four*/
+	.c-four-bg1 { background-image: url(../images/m-anniversary-one/c-four-bg1.jpg) }
+	.c-four-bg2 { background-image: url(../images/m-anniversary-one/c-four-bg2.jpg) }
+	.c-four-bg3 { background-image: url(../images/m-anniversary-one/c-four-bg3.jpg) }
+	.c-four-bg4 { background-image: url(../images/m-anniversary-one/c-four-bg4.jpg) }
+	.c-four-bg5 { background-image: url(../images/m-anniversary-one/c-four-bg5.jpg) }
+	.c-four-bg6 { background-image: url(../images/m-anniversary-one/c-four-bg6.jpg) }
+	.c-four-bg7 { background-image: url(../images/m-anniversary-one/c-four-bg7.jpg) }
+	.c-four-bg8 { background-image: url(../images/m-anniversary-one/c-four-bg8.jpg) }
+	.c-four-bg9 { background-image: url(../images/m-anniversary-one/c-four-bg9.jpg) }
+	.c-four-bg10 { background-image: url(../images/m-anniversary-one/c-four-bg10.jpg) }
+.txt-four-1 > span { width:24.4rem; margin-left: -12.2rem }
+.txt-four-2 > span { width: 25rem; margin-left: -12.5rem; bottom: -5.5rem } 
+/*public-foot*/
+span[ class ^= "foot-bg" ] { height: 13.25rem }
+.foot-bg1 { background-image: url(../images/m-anniversary-one/foot-bg1.jpg) }
+.foot-bg2 { background-image: url(../images/m-anniversary-one/foot-bg2.jpg) }
+/*compatible*/
+/*@media only screen and ( max-width: 400px ) and ( min-width: 359px ) {
+	html { font-size: 71%!important }
+}*/
+
+/*adapter320-width-iPhone5*/
+/*@media only screen and ( min-width: 319px ) and ( max-width: 321px ) {
+	.txt-one-2 > span { width: 14rem }
+	.txt-one-2 > span p span:first-child { width: 7.7rem }
+	.txt-one-2 > span p span { margin-bottom: 0.52rem }
+	.txt-one-3 > span { width: 23.5rem; margin-left: -11.75rem; bottom: -7.5rem }
+	.txt-two-1 > span { margin-left: -9rem }
+	.txt-two-2 > span { padding-top: 0rem; width: 25rem; margin-left: -12.5rem }
+	.txt-three-1 > span { width: 24rem; margin-left: -11.5rem; bottom: 0rem }
+	.txt-three-2 > span { width: 22rem; margin-left: -10.7rem; bottom: -4.5rem }
+	.txt-four-3 > span { bottom: -.2rem }
+	.txt-four-2 > span { bottom: -6.5rem }
+}*/
+/*adapter360-width-Galay S5*/
+/*@media only screen and ( min-width: 359px ) and ( max-width: 361px ) {
+	.txt-one-2 > span { width: 16.2rem }
+	.txt-two-2 > span { padding-top: 2rem }
+	.txt-three-1 > span { margin-left: -12rem }
+	.txt-four-2 > span { width: 27rem; margin-left: -13.4rem }
+}*/
+/*adapter375-width-iPhone6*/
+/*@media only screen and ( min-width: 374px ) and ( max-width: 376px ) {
+	.txt-one-2 > span p span { margin-bottom: 0.52rem } 
+	.txt-two-2 > span { padding-top: 2rem }
+	.txt-three-1 > span { margin-left: -12rem }
+	.txt-four-2 > span { width: 27rem; margin-left: -13.5rem }
+}*/
+/*adapter410&414-width--Nexus 5X&iPhone6 Plus*/
+/*@media only screen and ( min-width: 410px ) and ( max-width: 415px ) {
+	.txt-one-2 > span p span { margin-bottom: 0.55rem }
+	.txt-two-2 > span { padding-top: 2rem } 
+	.txt-four-2 > span { width: 27rem; margin-left: -13.4rem }
+}*/
+/*adapter435-width-Nexus 6p*/
+/*@media only screen and ( min-width: 434px ) and ( max-width: 436px ) {
+	.txt-one-2 > span { right: 5.2rem }
+	.txt-one-2 > span p span:first-child { width: 9.5rem }
+	.txt-one-2 > span p span { margin-bottom: .55rem }
+	.txt-two-2 > span { padding-top: 2rem }
+	.txt-four-2 > span { width: 28rem; margin-left: -13.9rem; bottom: -5.4rem }
+}*/
+/*弹窗*/
+.ball-frame,
+.ball-frame .ball-bg { left: 0; top: 0 }
+.ball-frame .ball-bg,
+.ball-frame .ball-content,
+.ball-frame .ball-content i { position: absolute }
+.ball-frame { width: 100%; height: 100%; position: fixed; z-index: 3; display: none }
+.ball-frame .ball-bg { width: 100%; height: 100%; background: rgba(0,0,0,.8) }
+.ball-frame .ball-content { width: 260px; left: 50%; margin-left: -130px; height: 188px; line-height: 188px; text-align: center; top: 50%; margin-top: -94px; background-color: white; border-radius: 8px; font-size: 24px }
+.ball-frame .ball-content i { display: inline-block; font-style: normal; font-family: "方正兰亭超细黑简体"; width: 24px; height: 24px; line-height: 24px; text-align: center; border-radius: 100%; right: 5px; top: 5px; cursor: pointer }
+.ball-frame .ball-content i:hover { background-color: #808080; color: white }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

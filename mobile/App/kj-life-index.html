@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>菜篮子-首页</title>
+		<meta name="viewport" content="width=device-width,height=device-height,maximun-scale=1.0"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/rem.css"/>
+		<link rel="stylesheet" type="text/css" href="css/kj-life.css" />
+	</head>
+
+	<body>
+		<header class="padding-head">
+			<seek>
+				<i></i>
+				<input class="seek" list="browsers" type="text" placeholder="搜索" />
+				<button class="seek-ensure" type="submit" >确定</button>
+				<datalist id="browsers">
+				  <option value="热门蔬菜">
+				  <option value="新鲜蔬菜">
+				  <option value="时令水果">
+				  <option value="禽蛋肉类">
+				  <option value="水产冻货">
+				</datalist><!-- H5-新标签--在绑定的input输入相对应的 值会显示 -->
+			</seek>
+			<nav>
+				<!-- swiper -->
+				<div class="swiper-container swiper-container-horizontal">
+					<div class="swiper-wrapper nav-i">
+						<div class="swiper-slide cyan-bg"><a></a></div> 
+						<div class="swiper-slide"><a></a></div> 
+						<div class="swiper-slide"><a></a></div> 
+						<div class="swiper-slide"><a></a></div> 
+						<div class="swiper-slide"><a></a></div> 
+						<div class="swiper-slide"><a></a></div> 
+						<div class="swiper-slide"><a></a></div> 
+						<div class="swiper-slide"><a></a></div> 
+						<div class="swiper-slide"><a></a></div> 
+					</div>
+				</div> 
+			</nav>
+		</header> <!-- header-end -->
+		
+		<footer>
+			<left>
+				<span class="bg-white-color">热销榜</span>
+				<span>粤菜</span>
+				<span>湘菜</span>
+				<span>川菜</span>
+				<span>鲁菜</span>
+				<span>苏菜</span>
+				<span>闽菜</span>
+				<span>浙菜</span>
+				<span>徽菜</span> 
+			</left>
+			<right class="right">
+				<span>
+					<picture><img src="images/kj-life/img1.jpg"/></picture>
+					<pic-detailed>
+						<p>虎皮青椒</p>
+						<p>
+							<span>￥<em>1</em></span>
+							2斤/5个
+						</p>
+						<a href="#">查看</a>
+					</pic-detailed>
+				</span>
+				<span>
+					<picture><img src="images/kj-life/img2.jpg"/></picture>
+					<pic-detailed>
+						<p>豆角恋上茄子</p>
+						<p>
+							<span>￥<em>9.9</em></span>
+							2斤/5个
+						</p>
+						<a href="#">查看</a>
+					</pic-detailed>
+				</span>
+			</right>
+		</footer> <!-- footer-end -->
+		<script src="js/jquery.js"></script>
+		<script src="js/swiper.js"></script>
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+				pagination: '.swiper-pagination',
+				slidesPerView: 5,
+				paginationClickable: true,
+				spaceBetween: 30
+			})
+			var seek = $(".seek"),
+				greensType = $(".swiper-slide")
+				seek.click(function(){
+					$(this).parent().addClass("seek-box")
+				})
+				greensType.click(function(){
+					$(this).addClass("cyan-bg").siblings().removeClass("cyan-bg")
+				})
+		</script>
+	</body>
+
+</html>

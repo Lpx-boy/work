@@ -94,16 +94,15 @@ article > span {
 
 /*360w*/
 @media only screen and (max-width: 361px) {
-	.sign nav > a { width: 21rem }
-	.sign nav > a span { width: 9rem }
+	.sign nav > a { width: 21rem !important }
+	.sign nav > a span { width: 9rem !important }
 }
 /*ipone5--320w*/
 @media only screen and (max-width: 321px) {
-	.sign > ul { width: 26.7rem }
-	.function > div > a { margin: 0 2.2rem }
-	.sign nav > a { width: 18rem }
-	.sign nav > a span { width: 8rem }
-	.demo { right: -1.9rem !important }
+	.sign > ul { width: 26.7rem !important }
+	.function > div > a { margin: 0 2.2rem !important }
+	.sign nav > a { width: 18rem !important }
+	.sign nav > a span { width: 8rem !important } 
 }
 
 
