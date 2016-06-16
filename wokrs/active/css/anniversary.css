@@ -1,0 +1,143 @@
+
+body { background-color: #f0dec6 }
+* { margin: 0; padding: 0; font-family: "微软雅黑" }
+
+/*public-class*/
+.w-1200 { width: 1200px; margin: 0 auto }
+div[class ^= 'weekend-'] { margin: 0 auto; display: none }
+div[class ^= 'weekend-'] > span { display: block; position: relative; width: 100% }
+div[class ^= 'weekend-'] > span > span { display: inline-block; position: absolute }
+div[class ^= "an-public"] { width: 100%; height: 362px }
+.l-50per { left: 50% } 
+.an-public-bg1 { background: url(../images/anniversary-one/public-bg1.jpg) center no-repeat }
+.an-public-bg2 { background: url(../images/anniversary-one/public-bg2.jpg) center no-repeat }
+.show { display: block !important; 
+		-webkit-animation: show .8s;
+		-ms-animation: show .8s;
+		animation: show .8s
+ }
+@-webkit-keyframes show { 
+ 	0% {
+ 		-webkit-transform: scale(.5)
+ 	}
+ 	100% {
+ 		-webkit-transform: scale(1)
+ 	}
+ }
+@keyframes show { 
+ 	0% {
+ 		-ms-transform: scale(.5);
+ 		transform: scale(.5)
+ 	}
+ 	100% {
+ 		-ms-transform: scale(1);
+ 		transform: scale(1)
+ 	}
+ }
+.z-index2 { z-index: 2 }
+.text-indent2em { text-indent: 2em }
+.txt-explain { width: 100%; text-align: center; font-size: 12px; color: #939393 }
+.txt-one-3 > span em,
+.txt-two-1 > span em,
+.txt-two-2 > span em,
+.txt-three-2 > span em,
+.txt-four-2 > span em { font-style: normal }
+.txt-three-2 > span em,
+.txt-four-2 > span em { font-size: 22px }
+.txt-one-1 span,
+.txt-three-1 > span,
+.txt-four-1 > span { color: #502107 }
+.txt-one-3 > span,
+.txt-one-3 > span em,
+.txt-two-2 > span,
+.txt-three-2 > span,
+.txt-four-2 > span { color: #6f2000 }
+.txt-one-3 > span,
+.txt-two-2 > span,
+.txt-three-1 > span,
+.txt-four-2 > span { text-align: justify }
+.txt-two-2 > span,
+.txt-three-2 > span,
+.txt-four-2 > span { line-height: 35px; font-size: 18px }
+
+.an-nav { margin-top: -30px; text-align: center }
+.an-nav > span, .an-nav > span i { display: inline-block }
+.an-nav > span i { float: left; margin: 0 15px; width: 261px; height: 189px; cursor: pointer }
+.an-nav > span i:lang(nav-bg1) { background-image: url(../images/anniversary-one/an-nav-bg1.png) }
+.an-nav > span i:lang(nav-bg2) { background-image: url(../images/anniversary-one/an-nav-bg2.png) }
+.an-nav > span i:lang(nav-bg3) { background-image: url(../images/anniversary-one/an-nav-bg3.png) }
+.an-nav > span i:lang(nav-bg4) { background-image: url(../images/anniversary-one/an-nav-bg4.png) }
+
+.an-foot { padding: 130px 0 164px; background-color: white; text-align: center }
+.an-foot > span { display: inline-block; width: 1074px; height: 282px; background-image: url(../images/anniversary-one/an-foot.jpg) }
+
+/*第1~4周*/
+.weekendBox { width: 100% }
+.weekend-two, .weekend-three, .weekend-four { margin: 78px auto 70px !important }
+.weekend-one { width: 1158px } /*第1周*/
+.weekend-one > span { height: 153px }
+	.weekendOne-bg1 { background-image: url(../images/anniversary-one/weekendOne-bg1.jpg) }
+	.weekendOne-bg2 { background-image: url(../images/anniversary-one/weekendOne-bg2.jpg) }
+	.weekendOne-bg3 { background-image: url(../images/anniversary-one/weekendOne-bg3.jpg) }
+	.weekendOne-bg4 { background-image: url(../images/anniversary-one/weekendOne-bg4.jpg) }
+	.weekendOne-bg5 { background-image: url(../images/anniversary-one/weekendOne-bg5.jpg) }
+	.weekendOne-bg6 { background-image: url(../images/anniversary-one/weekendOne-bg6.jpg) }
+	.weekendOne-bg7 { background-image: url(../images/anniversary-one/weekendOne-bg7.jpg) }
+	.weekendOne-bg8 { background-image: url(../images/anniversary-one/weekendOne-bg8.jpg) }
+	.weekendOne-bg9 { background-image: url(../images/anniversary-one/weekendOne-bg9.jpg) }
+	.weekendOne-bg10 { background-image: url(../images/anniversary-one/weekendOne-bg10.jpg) }
+.txt-one-1 span { width: 728px; margin-left: -364px; top: 42px; font-size: 26px; font-weight: bold }
+.txt-one-2 > span { width: 334px; right: 17.8%; top: 5% }
+.txt-one-2 > span p { overflow: hidden; margin-bottom: 9px }
+.txt-one-2 > span p span { display: inline-block; float: left; line-height: 30px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden }
+.txt-one-2 > span p span:lang(left-span) { max-width: 178px; width: 178px }
+.txt-one-2 > span p span:lang(right-span) { max-width: 156px; width: 156px }
+.txt-one-3 > span { left: 9.5%; top: 17%; width: 280px; line-height: 28px; text-indent: 1.8em }
+.txt-one-3 > span em { font-size: 20px }
+.txt-one-4 > span { right: 31%; bottom: 21%; font-size: 12px; color: #939393 } 
+
+.weekend-two { width: 1181px } /*第2周*/
+.weekend-two > span { height: 106px }
+	.weekendTwo-bg1 { background-image: url(../images/anniversary-one/weekendTwo-bg1.jpg) }
+	.weekendTwo-bg2 { background-image: url(../images/anniversary-one/weekendTwo-bg2.jpg) }
+	.weekendTwo-bg3 { background-image: url(../images/anniversary-one/weekendTwo-bg3.jpg) }
+	.weekendTwo-bg4 { background-image: url(../images/anniversary-one/weekendTwo-bg4.jpg) }
+	.weekendTwo-bg5 { background-image: url(../images/anniversary-one/weekendTwo-bg5.jpg) }
+	.weekendTwo-bg6 { background-image: url(../images/anniversary-one/weekendTwo-bg6.jpg) }
+	.weekendTwo-bg7 { background-image: url(../images/anniversary-one/weekendTwo-bg7.jpg) }
+	.weekendTwo-bg8 { background-image: url(../images/anniversary-one/weekendTwo-bg8.jpg) }
+	.weekendTwo-bg9 { background-image: url(../images/anniversary-one/weekendTwo-bg9.jpg) }
+	.weekendTwo-bg10 { background-image: url(../images/anniversary-one/weekendTwo-bg10.jpg) }
+.txt-two-1 > span { top: 28%; width: 782px; margin-left: -361px; font-size: 20px; color: white }
+.txt-two-1 > span em { font-weight: bold; color: yellow }
+.txt-two-2 > span { width: 864px; margin-left: -432px }
+.txt-two-2 > span em { font-size: 24px } 
+.txt-two-3 > span { bottom: 20% }
+ 
+.weekend-three { width: 975px } /*第3周*/
+.weekend-three > span { height: 192px }
+	.weekendThree-bg1 { background-image: url(../images/anniversary-one/weekendThree-bg1.jpg) }
+	.weekendThree-bg2 { background-image: url(../images/anniversary-one/weekendThree-bg2.jpg) }
+	.weekendThree-bg3 { background-image: url(../images/anniversary-one/weekendThree-bg3.jpg) }
+	.weekendThree-bg4 { background-image: url(../images/anniversary-one/weekendThree-bg4.jpg) }
+	.weekendThree-bg5 { background-image: url(../images/anniversary-one/weekendThree-bg5.jpg) }
+.txt-three-1 > span { width: 746px; margin-left: -373px; font-size: 26px }
+.txt-three-2 > span { width: 786px; margin-left: -393px; bottom: -67% } 
+.txt-three-3 > span { bottom: 7% } 
+ 
+.weekend-four { width: 1302px } /*第4周*/
+.weekend-four > span { height: 254px }
+	.weekendFour-bg1 { background-image: url(../images/anniversary-one/weekendFour-bg1.jpg) } 
+	.weekendFour-bg2 { background-image: url(../images/anniversary-one/weekendFour-bg2.jpg) } 
+	.weekendFour-bg3 { background-image: url(../images/anniversary-one/weekendFour-bg3.jpg) } 
+	.weekendFour-bg4 { background-image: url(../images/anniversary-one/weekendFour-bg4.jpg) } 
+	.weekendFour-bg5 { background-image: url(../images/anniversary-one/weekendFour-bg5.jpg) } 
+	.weekendFour-bg6 { background-image: url(../images/anniversary-one/weekendFour-bg6.jpg) } 
+	.weekendFour-bg7 { background-image: url(../images/anniversary-one/weekendFour-bg7.jpg) } 
+	.weekendFour-bg8 { background-image: url(../images/anniversary-one/weekendFour-bg8.jpg) } 
+	.weekendFour-bg9 { background-image: url(../images/anniversary-one/weekendFour-bg9.jpg) } 
+	.weekendFour-bg10 { background-image: url(../images/anniversary-one/weekendFour-bg10.jpg) } 
+.txt-four-1 > span { width: 834px; margin-left: -417px; bottom: 1%; font-size: 26px }
+.txt-four-2 > span { width: 788px; margin-left: -383px; bottom: -79% } 
+.txt-four-3 > span { bottom: 7% }
+
