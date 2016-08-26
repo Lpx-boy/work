@@ -1,0 +1,31 @@
+/*
+   -问卷调查
+ */
+ *{ margin: 0; padding: 0 }
+
+ .survey_c > strong, .survey_ul li strong
+ { display: block }
+ .survey_c, .survey_ul li
+ { margin: 0 auto }
+ .survey_c > strong, .survey_c > div 
+ { text-align: center }
+ .survey_ul li label, .survey_c > div button
+ { cursor: pointer }
+
+ .survey_c { width: 1200px; border: solid 1px #e8e8e8 }
+ .survey_c > strong { padding: 20px 0 30px; font-size: 24px; color: #4a9bec }
+ .survey_c > p { width: 1100px; margin: 0 auto; padding-bottom: 18px; border-bottom: solid 2px #4a9bec; font-size: 14px; color: #878787 }
+ .survey_ul { list-style: none }
+ .survey_ul li { padding: 22px 0 22px 28px; width: 1108px; border-bottom: dashed 1px #ccc }
+ .survey_ul li strong { margin-bottom: 18px }
+ .survey_ul li label { margin-left: 25px }
+ .survey_ul li label i, .survey_ul li label em
+ { display: inline-block; width: 14px; height: 14px; }
+ .survey_ul li label i { background: url(../images/draw/draw_bg.png) }
+ .draw_bg-on { background: url(../images/draw/draw.png) !important }
+ .survey_ul li label em { background: url(../images/draw/draw_side.png) }
+ .multi-on { background: url(../images/draw/draw_side-bg.png) !important }
+ .survey_ul li label span { font-size: 12px; vertical-align: top }
+ .survey_c > div p { padding: 14px 0; font-size: 14px; color: #808080 }
+ .survey_c > div button { margin-top: 22px; margin-bottom: 44px; padding: 10px 48px; font-size: 16px; color: white; border: none; border-radius: 10px; background-color: #4a9bec }
+ .survey_c > div button:hover { background-color: #3389de } 

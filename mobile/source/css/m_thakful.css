@@ -1,0 +1,78 @@
+/*css:
+ *** -m_thakful
+ */
+ * { margin: 0; padding: 0 }
+ html,
+ body { height: 100%; background-color: #444 }
+
+/*css:
+ *** -@media
+ */
+ @media only screen and ( min-width: 641px ) {
+	body > article { max-width: 32rem }
+ }
+ 
+/*css:
+ *** -swiper
+ */
+ .swiper-container { width: 100%; height: 100% }   
+ .swiper-button-next, .swiper-button-prev { width: 1.4rem !important; height: 2.7rem !important; margin-top: -1.35rem !important }
+ .swiper-button-prev { background-image: url(../images/m_thakful/left.png) !important; left: -4rem !important }
+ .swiper-button-next { background-image: url(../images/m_thakful/right.png) !important; right: -3rem !important }
+
+	
+/*css:
+ *** -content
+ */
+ article { margin: 0 auto }
+ article > span { display: block; position: relative }
+ [ class ^= "bg_" ] > span, [ class ^= "bg_" ] > a { display: inline-block }
+ .txt_1, .txt_2, .txt_5, .txt_6, .txt_7, .txt_8, .txt_9, .txt_10 { font-size: .9rem }
+ .txt_1, .txt_3 { width: 31rem; margin-left: -15.5rem }
+ .txt_1, .txt_3, .txt_6, span[ class ^= "txt_"] > span { color: #e83c28 }
+ .txt_2, .txt_5, .txt_7, .txt_10 { color: white }
+ span[ class ^= "txt_"], a[ class ^= "a_"] { left: 50% } 
+ .swiper-button-next, .swiper-button-prev, [ class ^= "bg_" ], .bag_ > div { background-repeat: no-repeat !important; background-position: center }
+ [ class ^= "bg_" ] { height: 16.7rem; background-size: 100% 100% }
+ 	.bg_1 { background-image: url(../images/m_thakful/bg1.jpg) }
+ 	.bg_2 { background-image: url(../images/m_thakful/bg2.jpg) }
+ 	.bg_3 { background-image: url(../images/m_thakful/bg3.jpg) }
+ 	.bg_4 { background-image: url(../images/m_thakful/bg4.jpg) }
+ 	.bg_5 { background-image: url(../images/m_thakful/bg5.jpg) }
+ 	.bg_6 { background-image: url(../images/m_thakful/bg6.jpg) }
+ 	.bg_7 { background-image: url(../images/m_thakful/bg7.jpg) }
+ 	.bg_8 { background-image: url(../images/m_thakful/bg8.jpg) }
+ 	.bg_9 { background-image: url(../images/m_thakful/bg9.jpg) }
+ 	.bg_10 { background-image: url(../images/m_thakful/bg10.jpg) }
+ [ class ^= "bg_" ] > span, [ class ^= "bg_" ] > a, .txt_4 { position: absolute } 
+ 	.txt_1 { bottom: 2.4rem }
+	.txt_2, .txt_5, .txt_7 { width: 28rem; margin-left: -14rem }
+	.txt_2 { top: -3rem }
+	.txt_3 { bottom: 1.2rem; font-size: .8rem }
+	.txt_4 { width: 11.85rem; margin-left: -5.924rem; height: 9.85rem; top: .2rem }
+		.bag_ > div, .swiper-button-next, .swiper-button-prev { background-size: 100% !important }
+		.bag_10 { background-image: url(../images/m_thakful/bag_10.png) }
+		.bag_20 { background-image: url(../images/m_thakful/bag_20.png) }
+		.bag_30 { background-image: url(../images/m_thakful/bag_30.png) }
+		.bag_50 { background-image: url(../images/m_thakful/bag_50.png) }
+		.bag_60 { background-image: url(../images/m_thakful/bag_60.png) }
+		.bag_38 { background-image: url(../images/m_thakful/bag_38.png) }
+	.txt_5 { top: -2rem }
+	.txt_6 { width: 29rem; margin-left: -14.5rem; top: -.7rem }
+	.txt_7 { bottom: 4rem }
+	.txt_8, .txt_9 { width: 15.5rem; margin-left: -4.5rem } 
+	.txt_8 { top: 8.3rem }
+	.txt_9 { bottom: -3.4rem; z-index: 1 }
+	.txt_10 { width: 100%; text-align: center; left: 0 !important; bottom: 1rem }
+ 	a[ class ^= "a_"] { width: 12.5rem; margin-left: -6rem; height: 3.6rem }
+		.a_1 { bottom: 2.2rem }
+		.a_2 { bottom: 1.8rem }
+		.a_3 { bottom: 7rem }
+		.a_4 { top: 6.2rem }
+
+
+
+
+
+
+ 

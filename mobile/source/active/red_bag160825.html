@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>万红包天天抢,你来我就送</title>
+		<link rel="stylesheet" href="css/rem.css" />
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/active.css" />
+	</head>
+	<body>
+		<div class="act-kj_rb1"></div>
+		<div class="act-kj_rb2"></div>
+		<div class="act-kj_rb3"></div>
+		<div class="act-kj_rb4">
+			<div class="pos_r txt_c c_white">
+				<div class="rb_txt6 pos_a ts_a08e-in"></div>
+				<div class="rb_txt1 pos_a fw_b">
+					<span id="rb-t_h">10</span>:<span id="rb-t_m">30</span>:<span id="rb-t_s">00</span>
+				</div>
+				<div class="rb_txt7 pos_a txt_c c_white ts_a08e-in">亲 ,快点击抢红包吧！</div> <!-- 恭喜！你抢到了 100 元红包 -- 成功抢到之后显示改文本  -->
+			</div>
+		</div>
+		<div class="act-kj_rb5">
+			<div class="pos_r">
+				<div class="rb_txt2 pos_a fs_08">
+					<p class="fs_1">活动规则 :</p>
+					<p>1、限快捷财富已完成首投的用户参与 ;</p>
+					<p>2、每天10:30准时开抢，限时15分钟，到时即止,每日限抢一次 ;</p>
+					<p>3、投资红包有效期自抢到之日起为期30天（过期回收）,<br />抢到后实时发放到用户账号中心-兑奖管理处领取 ;</p>
+				</div>
+			</div>
+		</div>
+		<div class="act-kj_rb6"></div>
+		<div class="act-kj_rb7">
+			<div class="pos_r">
+				<div class="rb_txt3 pos_a fs_09 txt_j">活动期间，针对标的（标期≥1个月，除体验标、新手标和净值标外）单标设置<span>“理财大臣奖”、</span><span>“理财帝王奖”、</span><span>“理财明星奖”、</span><span>“完美收官奖”</span>四个奖项。以投资时间为准，先满足条件者即可获得荣誉称号并获得对应的现金奖励。</div>
+			</div>
+		</div>
+		<div class="act-kj_rb8"></div>
+		<div class="act-kj_rb9"></div>
+		<div class="act-kj_rb10">
+			<div class="pos_r">
+				<div class="rb_txt2 rb_txt4 pos_a fs_08">
+					<p>活动规则 :</p>
+					<p>1、快捷财富所有用户参与 ;</p>
+					<p>2、理财帝王奖”奖励若出现投资总额相同的用户，则奖励的发放以投资时间先后为准 ;</p>
+					<p>3、“理财明星奖”奖项不与其他三个奖项叠加 ;</p>
+					<p>4、现金奖励最晚于满标的次日发放至用户账户中心—兑奖管理，可用于投资或者直接提现。</p>
+				</div>
+				<div class="rb_txt5 pos_a txt_c fs_07">以上活动的最终解释权都归东莞市快捷资产管理有限公司所有</div>
+			</div>
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script>
+			// 红包倒计时
+			function charLeftAll(n) {
+			    if(n < 10)
+			        return "0" + n;
+			    else
+			        return n;
+			}
+			function getRTime(){
+		        var EndTime= new Date('2016/08/26 12:00:00'); 
+		        var NowTime = new Date();
+		        var t =EndTime.getTime() - NowTime.getTime(); 
+		
+	//	        var d=Math.floor(t/1000/60/60/24);
+		        var h=Math.floor(t/1000/60/60%24);
+		        var m=Math.floor(t/1000/60%60);
+		        var s=Math.floor(t/1000%60);
+		
+	//      	document.getElementById("t_d").innerHTML = d + "天";
+		        document.getElementById("rb-t_h").innerHTML = charLeftAll(h);
+		        document.getElementById("rb-t_m").innerHTML = charLeftAll(m);
+		        document.getElementById("rb-t_s").innerHTML = charLeftAll(s);
+		    }
+		    setInterval(getRTime,1000)
+		    //点击红包
+		    $(".rb_txt6").click(function(){ 
+		    	$(this).toggleClass("rb_txt6-on"); // 只为测试 , 可直接用 addClass()
+		    	$(this).parent().find(".rb_txt7").toggleClass("rb_txt6-on o_1"); // 只为测试 , 可直接用 addClass()
+		    })
+		</script>
+	</body>
+</html>

@@ -1,0 +1,56 @@
+/*
+  -- 平台活动
+ * */
+ div[class ^= "act-kj"] { width: 100%; background-position: center; background-repeat: no-repeat }
+ .rb_txt1, .rb_txt2, .rb_txt3, .rb_txt6, .rb_txt7, .hl_txt1, .hl_txt2 { left: 50% }
+ 
+ /* 百万红包天天抢 root: 2016.08.25 */
+ div[class ^= "act-kj_rb"], div[class ^= "act-kj_rb"] > div { height: 276px }
+ .act-kj_rb1 { background-image: url(../images/red-package160824/bg1-160824.jpg) }
+ .act-kj_rb2 { background-image: url(../images/red-package160824/bg2-160824.jpg) }
+ .act-kj_rb3 { background-image: url(../images/red-package160824/bg3-160824.jpg) }
+ .act-kj_rb4 { background-image: url(../images/red-package160824/bg4-160824.jpg) }
+ .act-kj_rb5 { background-image: url(../images/red-package160824/bg5-160824.jpg) }
+ .act-kj_rb6 { background-image: url(../images/red-package160824/bg6-160824.jpg) }
+ .act-kj_rb7 { background-image: url(../images/red-package160824/bg7-160824.jpg) }
+ .act-kj_rb8 { background-image: url(../images/red-package160824/bg8-160824.jpg) }
+ .act-kj_rb9 { background-image: url(../images/red-package160824/bg9-160824.jpg) }
+.act-kj_rb10 { background-image: url(../images/red-package160824/bg10-160824.jpg)} 
+
+ /* declare coexist */
+ .rb_txt1, .rb_txt2:before, .rb_txt3 span { font-weight: bold }
+ 
+ /* 文本 */
+ .rb_txt1 { width: 206px; margin-left: -58px; top: 32%; font-size: 46px } 
+ .rb_txt2 { width: 808px; line-height: 25px; margin-left: -312px; color: #812e00 }
+ .rb_txt2:before { display: inline-block; content: "活动规则："; position: absolute; left: -11%; top: 0 }
+ .rb_txt3 { width: 904px; margin-left: -404px; top: 45%; font-size: 17px }
+ .rb_txt3 span { color: #b31e0f } 
+ .rb_txt4 { top: 18% }
+ .rb_txt4:before { left: -12% }
+ .rb_txt5 { width: 100%; left: 0; bottom: 5%; color: #6a3906 }
+ .rb_txt6 { width: 693px; height: 380px; margin-left: -317px; top: -59%; background: url(../images/red-package160824/red-bag.png) center no-repeat }
+ .rb_txt6-on { -ms-transform: rotateY(360deg); -webkit-transform: rotateY(360deg); transform: rotateY(360deg) }
+ .rb_txt7 { width: 580px; margin-left: -262px; top: 38%; background-color: #d82822; line-height: 40px; font-size: 32px; opacity: 0 }
+ 
+ /* 新手壕礼  root: 2016.08.25 */
+ div[class ^= "act-kj_hl"], div[class ^= "act-kj_hl"] > div { height: 282px }
+ .act-kj_hl1 { background-image: url(../images/invite-160825/bg1-160825.jpg) }
+ .act-kj_hl2 { background-image: url(../images/invite-160825/bg2-160825.jpg) }
+ .act-kj_hl3 { background-image: url(../images/invite-160825/bg3-160825.jpg) }
+ .act-kj_hl4 { background-image: url(../images/invite-160825/bg4-160825.jpg) }
+ .act-kj_hl5 { background-image: url(../images/invite-160825/bg5-160825.jpg) }
+ .act-kj_hl6 { background-image: url(../images/invite-160825/bg6-160825.jpg) }
+ .act-kj_hl7 { background-image: url(../images/invite-160825/bg7-160825.jpg) }
+ .act-kj_hl8 { background-image: url(../images/invite-160825/bg8-160825.jpg) }
+ .act-kj_hl9 { background-image: url(../images/invite-160825/bg9-160825.jpg) }
+.act-kj_hl10 { margin-bottom: 110px; background-image: url(../images/invite-160825/bg10-160825.jpg) }
+ 
+ /* declare coexist */
+ .hl_txt1, .hl_txt2 { color: #2f2f2f }
+
+ /* 文本 */
+ .hl_txt1 { width: 926px; line-height: 40px; margin-left: -420px; top: 18% }
+ .hl_txt2 { width: 1052px; line-height: 48px; margin-left: -418px; top: 20% } 
+ .hl_txt3 { top: -18%; margin-left: -448px }
+ .hl_txt4 { bottom: 17%; color: #434343 } 

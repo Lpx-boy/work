@@ -1,0 +1,59 @@
+/*css:
+ *** -m_thakful
+ */
+ * { margin: 0; padding: 0 }
+ html,
+ body { height: 100%; background-color: #444 }
+
+/*css:
+ *** -@media
+ */
+ @media only screen and ( min-width: 641px ) {
+	body > article { max-width: 32rem }
+ }
+ 
+/*css:
+ *** -content
+ */
+article { margin: 0 auto }
+[ class ^= "bg_" ] > span, [ class ^= "bg_" ] > a { display: inline-block }
+article > span, .c_1 strong { display: block }
+article > span { position: relative }
+[ class ^= "bg_" ] > a, span[ class ^= "c_"] { left: 50% }
+.a_1, .c_1 strong, .c_5, .c_6 { text-align: center }
+.c_1, .c_2, .c_3, .c_5, .c_6 { color: #6a3906 }
+.c_1, .c_2, .c_3, .c_5, .c_6 { font-size: .9rem }
+
+[ class ^= "bg_" ] { height: 10rem; background-size: 100% 100%; background-repeat: no-repeat; background-position: center }
+ 	.bg_1 { background-image: url(../images/m_reward/bg1.jpg) }
+ 	.bg_2 { background-image: url(../images/m_reward/bg2.jpg) }
+ 	.bg_3 { background-image: url(../images/m_reward/bg3.jpg) }
+ 	.bg_4 { background-image: url(../images/m_reward/bg4.jpg) }
+ 	.bg_5 { background-image: url(../images/m_reward/bg5.jpg) }
+ 	.bg_6 { background-image: url(../images/m_reward/bg6.jpg) }
+ 	.bg_7 { background-image: url(../images/m_reward/bg7.jpg) }
+ 	.bg_8 { background-image: url(../images/m_reward/bg8.jpg) }
+ 	.bg_9 { background-image: url(../images/m_reward/bg9.jpg) }
+ 	.bg_10 { background-image: url(../images/m_reward/bg10.jpg) }
+span[ class ^= "c_"], [ class ^= "bg_" ] > a { position: absolute } 
+	.a_1 { width: 17.8rem; margin-left: -8.8rem; height: 4rem; line-height: 4rem; top: 4rem }
+	.c_1 { width: 21.6rem; margin-left: -7.8rem; top: -.5rem }
+		.c_1 strong { letter-spacing: .2rem }
+		.c_1 p { line-height: 1.4rem }
+	.c_2 { width: 24.4rem; margin-left: -11rem; top: 1rem }
+	.c_3 { width: 28.8rem; margin-left: -14.4rem; top: 1rem; line-height: 1.6rem; z-index: 1 }
+	.c_3 p:nth-child( 2 ) { padding-left: 1.3rem }
+	.c_4 { width: 11.5rem; margin-left: -6.8rem; height: 1.3rem; top: 2.8rem }
+	.c_5 { width: 5rem; margin-left: 5rem; height: 1.3rem; line-height: 1.3rem; top: 2.7rem; z-index: 2; background-color: #ffc01c; border-radius: 0.4rem; box-shadow: 0 .2rem 0 0 #daa10a }
+	.c_6 { width: 100%; left: 0 !important; bottom: 1rem }
+
+
+
+
+
+
+
+
+
+
+

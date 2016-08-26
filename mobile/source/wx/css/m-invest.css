@@ -1,0 +1,202 @@
+/*public-css*/
+.pitch-on { border-color: #4fadf8 !important } 
+icon,
+row,
+.invest-content > li > a,
+.invest-pull > span { display: block } /* --块-- */
+.invest > span,
+.invest i, 
+.invest-nav > span,
+.invest-nav > li:last-of-type i,
+.invest-content left,
+.invest-content right row span,
+num,
+number,
+.interest > span:before,
+.demo,
+.circle-text,
+.new-head:before,
+.loan1d1:before,
+[class ^= "invest-vip"]:after { display: inline-block } /* --内联块-- */
+.invest-pull { display: none } /* --隐藏内容-- */
+body,
+.invest,
+.invest > span,
+.invest-nav > li:last-of-type,
+.invest-content left,
+.invest-content right,
+.interest > span,
+.invest-content > li,
+.invest-nav { position: relative } /* --相对定位-- */
+.invest-pull,
+.invest i, 
+.invest-nav > li:last-of-type i,
+.invest-content icon,
+.interest,
+.interest > span:before,
+.demo,
+.circle-text,
+.new-head:before,
+.loan1d1:before,
+body > span,
+[class ^= "invest-vip"]:after { position: absolute } /* --绝对定位-- */
+.invest-nav > li,
+.invest-nav > span,
+.invest-content left,
+.invest-content right,
+.invest-content right row span,
+.interest > span { float: left } /* --浮动左-- */
+.invest,
+.invest-nav > li,
+.invest-content right row span,
+.circle-text,
+.new-head:before,
+.loan1d1:before { text-align: center }  /* --水平居中-- */
+.invest i,
+.invest-nav > li:last-of-type i,
+.invest-nav > li { transition: all .5s } /* --过渡时间 所有0.5秒-- */
+.invest-pull > ul,
+.invest-nav,
+.invest-content { list-style: none } /* --去掉列表默认-- */
+.invest-content left,
+.interest > span:before,
+.new-head:before,
+.loan1d1:before { color: white } /* --白色字体-- */
+.invest-num span:nth-of-type(2) number,
+.invest-num span:nth-of-type(3) number { color: #323232 } /* --字体颜色 #323232-- */
+.invest-content > li,
+.invest-pull { background-color: white }  /* --白色背景-- */
+.invest-num,
+.invest-content right row:first-child,
+.invest-content > li > a { overflow: hidden } /* --溢出隐藏-- */
+.invest-content right row:first-child,
+.new-head:before,
+.loan1d1:before { font-size: 1.2rem } /* --字体24号-- */
+.invest-pull,
+body > span,
+.circle-text { width: 100% }  
+.invest,
+.invest-nav { z-index: 2 }
+.invest-content icon,
+[class ^= "invest-vip"]:after { background-repeat: no-repeat }
+ 
+.invest-pull { z-index: 10 } 
+.invest-pull > ul { box-shadow: 0 4px 8px -8px black inset } 
+.invest-pull > ul li { line-height: 2.5rem; padding-left: 1rem } 
+.invest-pull > ul li:hover { background-color: #cecece }
+body > span { height: 100%; left: 0; top: 0; z-index: 1 }
+.opacity-gray { background: rgba(0,0,0,.8) } 
+.invest i { width: 1.5rem; height: .65rem; right: -2rem; top: 2rem; background: url(../images/kj-mobile/m-kj-arrowrs-bottom.png) center/cover no-repeat }  
+.item-all-icon { transform: rotate(-180deg) }
+.invest-nav { padding: 0 1rem; border-bottom: solid 1px #cbcbcb; overflow: hidden }
+.invest-nav > li { width: 8.5rem; height: inherit; line-height: 4.5rem; font-size: 1.8rem; border-bottom: solid .15rem white }
+.invest-nav > span { margin: 1.7rem 1.1rem 0; width: 1px; height: 1.3rem; background-color: #cbcbcb }
+.invest-nav > li:last-of-type i { right: 1.1rem; top: 1.9rem; width: .95rem; height: 1.25rem; background: url(../images/kj-mobile/arrow_deadline.png) center/cover no-repeat }
+.upward-arrows { -webkit-transform: rotate(-180deg); transform: rotate(-180deg) }
+
+.invest-content { padding: .9rem .9rem 4.85rem; background-color: #f0f0f0 }
+.invest-content > li { margin-bottom: .9rem; height: 11.3rem } 
+.invest-content left { padding: 3.2rem .6rem 0; width: .9rem; height: 8.1rem; font-size: 1rem }
+.invest-content icon { left: .3rem; top: 1.5rem; width: 1.6rem; height: 1.5rem; background-image: url(../images/kj-mobile/invest-icon.png); background-size: 100% auto }
+.kc-d { background-color: #4bc3fb }
+.kc-d icon { background-position: center top }
+.jf-d { background-color: #ffb139 }
+.jf-d icon { background-position: center -1.5rem }
+.cz-d { background-color: #fa5f39 }
+.cz-d icon { background-position: center -3rem }
+.fy-d { background-color: #85d35b }
+.fy-d icon { background-position: center -4.5rem }
+.jz-b { background-color: #97dcf3 }
+.jz-b icon { background-position: center -6rem }
+.ty-b { background-color: #ff5252 }
+.ty-b icon { background-position: center -7.5rem }
+.invest-content right { padding: 1.5rem 0 0; width: 27.2rem; height: 9.8rem } 
+.invest-content right row:first-child { padding-left: 1.6rem; margin-bottom: .7rem; max-width: 13rem; color: #646464; white-space: nowrap; text-overflow: ellipsis } 
+.invest-content right row span { color: #909090 }  
+.invest-num span { width: 7.5rem }
+.invest-num span p { font-size: 1.1rem }
+.invest-num span:nth-of-type(2) num { padding-top: .9rem }
+.invest-num span:nth-of-type(3) num { padding-top: 1.2rem }
+.invest-num span:nth-of-type(1) number { font-size: 3rem; color: #ff5252 }
+.invest-num span:nth-of-type(2) number { font-size: 2.1rem }
+.invest-num span:nth-of-type(3) number { font-size: 1.8rem }
+.add-interest { padding-top: 1.5rem }
+.add-interest number { font-size: 1.5rem !important }
+.interest { left: 1rem; bottom: .5rem }
+.interest > span { padding-left: 2.4rem; margin-right: 1.4rem; font-size: .7rem }
+.interest > span:before { content: " "; width: 1.5rem; height: 1.5rem; line-height: 1.5rem; left: .6rem; top: -.3rem; background-color: gray; border-radius: 100% }
+.full-sign:before { background-color: #85d35b !important; content: "息" !important }
+.acc-month:before { background-color: #fbb756 !important; content: "还" !important } 
+.new-head:before { content: "新手专享"; width: 5.55rem; height: 2.75rem; line-height: 2.75rem; background: url(../images/kj-mobile/m-kj-iconSpecial.png) center/cover no-repeat; right: 1.1rem; top: 0 }/* 新手专享 */
+.loan1d1:before { content: "借贷一对一"; width: 7.85rem; height: 2.7rem; line-height: 2.7rem; background: url(../images/kj-mobile/m-kj-1d1.png) center/cover no-repeat; right: 0; top: 0 }/*借贷一对一*/
+[class ^= "invest-vip"]:after { width: 6.3rem; height: 4.15rem; content: " "; right: 0; top: 0; background-size: cover }
+.invest-vip1:after { background-image: url(../images/kj-mobile/invest-vip1.png) }
+.invest-vip2:after { background-image: url(../images/kj-mobile/invest-vip2.png) }
+.invest-vip3:after { background-image: url(../images/kj-mobile/invest-vip3.png) }
+.invest-vip4:after { background-image: url(../images/kj-mobile/invest-vip4.png) }
+.invest-vip5:after { background-image: url(../images/kj-mobile/invest-vip5.png) }
+
+/*百分比圆圈*/
+.demo { right: 0; bottom: 2rem }
+.circle-text { color: #2196f3 } 
+@media only screen and (max-width: 361px) {
+	.demo { transform: scale(.6); right: -3rem; bottom: -.7rem }
+}
+@media only screen and (min-width: 361px) and (max-width: 501px) {
+	.demo { transform: scale(.7); right: 0; bottom: -1rem }
+} 
+@media only screen and (min-width: 481px) and (max-width: 561px) {
+	.demo { transform: scale(.9); right: 1rem; bottom: -.3rem }
+} 
+@media only screen and (max-width: 321px) {
+	.invest-nav > span { margin: 1.7rem 1rem 0 }
+} 
+@media only screen and (min-width: 640px) {
+	.invest-pull,
+	body > span { max-width: 32rem } 
+	body > span { left: 50%; margin-left: -16rem }
+}
+
+/*test--chrome*/
+@media only screen and (max-width: 640px) {
+	.demo { right: -3rem; bottom: 1rem }
+}
+@media only screen and (max-width: 414px) {
+	.demo { right: -2rem; bottom: 0 }
+}
+@media only screen and (min-width: 375px) and (max-width: 385px) {
+	.invest-nav > span { margin: 1.7rem 0.8rem 0 }
+}
+@media only screen and (max-width: 361px) {
+	.invest-nav > li { width: 7.8rem }
+	.invest-content right { width: 26.1rem }
+} 
+@media only screen and (min-width: 434px) and (max-width: 436px) {
+	.demo { bottom: -.3rem }
+	.invest-content { padding: .9rem 1rem 4.85rem }
+}
+@media only screen and (max-width: 321px) {
+	.invest-nav > li { width: 6.8rem }
+	.invest-nav > li:last-of-type i { right: 0.8rem; top: 1.7rem }
+	.invest-content right { width: 22.7rem }
+	.invest-content right row:first-child { padding-left: 1rem; max-width: 8rem }
+	.invest-num span { width: 5.9rem }
+	.interest > span:before { top: -0.1rem }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

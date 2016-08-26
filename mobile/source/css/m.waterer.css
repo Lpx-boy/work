@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+	padding: 0
+}
+
+a { text-decoration: none }
+
+html {
+	font-family: "微软雅黑";
+	font-size: 62.5%
+	/* 10÷16=62.5% */
+} 
+
+@media only screen and (min-width: 221px) {
+	html {
+		font-size: 62.5%!important
+		/* 10÷16=62.5% */
+	}
+}
+
+@media only screen and (min-width: 321px) {
+	html {
+		font-size: 70.5%!important
+		/* 10.72÷16=67% */
+	}
+}
+
+@media only screen and (min-width: 401px) {
+	html {
+		font-size: 80%!important
+		/* 12.8÷16=80% */
+	}
+}
+
+@media only screen and (min-width: 481px) {
+	html {
+		font-size: 94%!important
+		/* 15.04÷16=94% */
+	}
+}
+
+@media only screen and (min-width: 561px) {
+	html {
+		font-size: 109%!important
+		/* 17.44÷16=109% */
+	}
+}
+
+@media only screen and (min-width: 641px) {
+	html {
+		font-size: 125%!important
+		/* 20÷16=125% */
+	}
+}
+
+@media only screen and (min-width: 641px) {
+	article {
+		max-width: 32rem
+	}
+}
+
+article {
+	margin: 0 auto
+}
+
+article > span {
+	display: block;
+	margin: inherit
+}
+
+article[class ^= "waterer"] { width: 32rem; height: 23.5rem; position: relative }
+.waterer-bg1 { background: url(../images/waterer-mobile/waterer-bg1.jpg) center/cover no-repeat }
+.waterer-bg2 { background: url(../images/waterer-mobile/waterer-bg2.jpg) center/cover no-repeat }
+.waterer-bg3 { background: url(../images/waterer-mobile/waterer-bg3.jpg) center/cover no-repeat }
+.waterer-bg4 { background: url(../images/waterer-mobile/waterer-bg4.jpg) center/cover no-repeat }
+.waterer-bg5 { background: url(../images/waterer-mobile/waterer-bg5.jpg) center/cover no-repeat }
+.waterer-bg6 { background: url(../images/waterer-mobile/waterer-bg6.jpg) center/cover no-repeat }
+.waterer-bg7 { background: url(../images/waterer-mobile/waterer-bg7.jpg) center/cover no-repeat }
+.waterer-bg8 { background: url(../images/waterer-mobile/waterer-bg8.jpg) center/cover no-repeat }
+.waterer-bg9 { background: url(../images/waterer-mobile/waterer-bg9.jpg) center/cover no-repeat }
+.waterer-bg10 { background: url(../images/waterer-mobile/waterer-bg10.jpg) center/cover no-repeat }
+
+span[class ^= "txt-"] { position: absolute }
+.txt-1 { left: 50%; top: 11.5rem; width: 26.8rem; margin-left: -13.4rem; font-size: .7rem; color: white; text-indent: 1rem }
+.txt-2 { left: 4rem; bottom: -1.5rem; width: 14.9rem; font-size: .9rem; color: #009ffb; z-index: 2 }
+.txt-3 { right: 3.5rem; bottom: -4rem; font-size: .7rem; color: #af7b17; z-index: 2; text-align: center }
+.txt-4 { top: 6.5rem; width: 100%; font-size: .9rem; color: white; text-align: center }
+.txt-5 { bottom: 4.5rem; width: 100%; text-align: center }
+	.txt-5 > div { display: inline-block }
+		.txt-5 span { display: inline-block; float: left; margin-left: 1.5rem; font-size: .8rem; color: white }
+		.txt-5 span:first-child { margin-left: .3rem }
+.txt-6 { position: absolute; left: 50%; bottom: 1rem; width: 9.8rem; margin-left: -4.9rem; height: 3rem; }
+.txt-7 { left: 50%; top: 3rem; width: 29.5rem; margin-left: -14.75rem; color: white; z-index: 2 }
+	.txt-7 strong { display: block; font-size: 1.2rem; text-align: center }
+	.txt-7 p { margin-top: .7rem; font-size: .8rem }
+	.txt-7 span { display: block; margin-top: .5rem; font-size: .7rem; text-align: center }
+.txt-8 { top: 10rem; width: 100%; text-align: center; font-size: .9rem; color: #404040  }
+	.txt-8 a { margin-left: 1rem; font-weight: bold; color: #3e62da }
+.txt-9 { left: 1.5rem; bottom: -4.5rem; width: 11.9rem; z-index: 2 }
+	.txt-public p:nth-child(1) { font-size: 1.1rem; color: #434343 }
+	.txt-public p:nth-child(2) { font-size: 1.1rem; color: #474747 }
+	.txt-public p:nth-child(3) { margin: 1.4rem auto .6rem; font-size: .7rem; color: #464646 }
+	.txt-public p:nth-child(4) { font-size: .6rem; color: #bdbdbd }
+.txt-10 { top: 7.5rem; width: 100%; text-align: center }
+	.txt-10 p:nth-child(1) { font-size: 1.1rem; color: #434343 }
+	.txt-10 p:nth-child(2) { margin: .2rem auto .6rem; font-size: 1.1rem; color: #474747 }
+	.txt-10 p:nth-child(3), .txt-10 p:nth-child(4) { font-size: .6rem; color: #a7a7a7 }
+.txt-11 { width: 100%; bottom: 3.2rem; text-align: center }
+	.txt-11 > div { display: inline-block }
+	.txt-11 span { float: left; font-size: .6rem; color: #aaa }
+	.txt-11 span:lang(align-right) { text-align: right }
+	.txt-11 span:lang(align-left) { margin-left: 9rem; text-align: left }
+	.txt-11 em { font-style: normal; font-size: 1rem }
+.txt-12 { left: 1.5rem; top: 7rem } 
+	.txt-12 p:nth-child(3) { font-size: 1rem }
+.txt-13 { top: -1.9rem; width: 100%; text-align: center }
+	.txt-13 > div { width: 91%; display: inline-block }
+	.txt-13 span { width: 48%; float: left; margin: 0 1%; text-align: left }
+	.txt-13 span p:nth-child(1), .txt-13 span p:nth-child(2) { font-size: 1.14rem } 	
+	.txt-13 span p:nth-child(3) { margin-top: .5rem; font-size: .6rem; color: #aaa }
+.txt-14 { right: 2rem; bottom: 9rem; width: 13rem; text-align: right }
+	.txt-14 p:nth-child(1) { margin-bottom: .7rem; font-size: 1.1rem; color: #434343 }
+	.txt-14 p:nth-child(2) { font-size: .6rem; color: #bdbdbd }
+	 
+/*320-width-compatible*/
+@media only screen and (max-width: 321px) {
+	.txt-7 { top: 2rem }
+	.txt-10 { top: 7rem }
+	.txt-13 { top: -2.1rem }
+}

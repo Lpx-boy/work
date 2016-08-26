@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>流量充值</title>
+	<meta name="viewport" content="width=device-width,maximum-scale=1.0" />
+	<link rel="stylesheet" href="css/rem.css">
+	<link rel="stylesheet" href="css/flow.re.css">
+</head>
+<body>
+	<header></header>
+	<footer class="footer">
+		<div class="flow_lineb1 clear">
+			<input id="mobile" type="text" placeholder="请输入11位的手机号">
+			<span>广东移动</span>
+			<span>+</span>
+		</div>
+		<div class="flow_lineb2 clear"> 
+			<div>
+				<p class="txt_1"><i></i>省内流量</p>
+				<div class="clear">
+					<a href="javascript:void(0);">10M</a>
+					<a href="javascript:void(0);">20M</a>
+					<a href="javascript:void(0);">30M</a>
+					<a href="javascript:void(0);">40M</a>
+					<a href="javascript:void(0);">50M</a>
+					<a href="javascript:void(0);">60M</a> 
+				</div>
+			</div>
+			<div>
+				<p class="txt_1"><i></i>国内流量</p>
+				<div class="clear">
+					<a href="javascript:void(0);">10M</a>
+					<a href="javascript:void(0);">20M</a>
+					<a href="javascript:void(0);">30M</a>
+					<a href="javascript:void(0);">40M</a>
+					<a href="javascript:void(0);">50M</a>
+					<a href="javascript:void(0);">60M</a> 
+				</div>
+			</div>
+			<p class="txt_2">全国号码全国流量，支持2/3/4G</p> 
+		</div>
+		<div class="flow_lineb3 clear">
+			<span>充值规则</span>
+			<span>&gt;</span>
+		</div> 
+		<div class="flow_line4">
+			<div class="line4_re clear">
+				<div>应付：<strong>￥0</strong></div>
+				<a href="#">立即充值</a>
+			</div>
+			<div class="line4_a">
+				<span>
+					<span class="on">
+						<a class="on1" href="#"></a> 						
+					</span>
+					<span>
+						<a class="on2" href="#"></a> 						
+					</span>
+				</span>
+			</div>
+		</div> 
+	</footer>
+	<script src="js/jquery.min.js"></script>
+	<script>
+		//input-number
+		$("#mobile").bind('focus',function(){
+			$(".flow_line4").css({bottom: "-100%"})
+		}).bind('blur',function(){
+			$(".flow_line4").css({bottom: "0"}) 
+		})
+		//选中添加背景
+		$(".flow_lineb2 a").click(function(){ 
+			$(this).parent().parent().parent().find("a").removeClass("red");
+			$(this).addClass("red")
+		})
+		//切换类名
+		$(".line4_a > span > span").click(function(){
+			$(this).addClass("on").siblings().removeClass()
+		})
+	</script>
+</body>
+</html>

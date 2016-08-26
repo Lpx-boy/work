@@ -1,0 +1,72 @@
+/*
+ *	活动( 感恩第一个1亿 ) 
+ */
+
+ body { background-color: #36b5f2 }
+ * { margin: 0; padding: 0; font-family: "微软雅黑" }
+ 
+ [ class ^= "be-"], [ class ^= "be-"] > div { height: 500px }
+ [ class ^= "be-"] { background-repeat: no-repeat; background-position: center }
+ 	.be-1 { background-image: url(../images/be-thankful/bg-1.jpg) }
+ 	.be-2 { background-image: url(../images/be-thankful/bg-2.jpg) }
+ 	.be-3 { background-image: url(../images/be-thankful/bg-3.jpg) }
+ 	.be-4 { background-image: url(../images/be-thankful/bg-4.jpg) }
+ 	.be-5 { background-image: url(../images/be-thankful/bg-5.jpg) }
+ 	.be-6 { background-image: url(../images/be-thankful/bg-6.jpg) }
+ 	.be-7 { background-image: url(../images/be-thankful/bg-7.jpg) }
+ 	.be-8 { background-image: url(../images/be-thankful/bg-8.jpg) }
+ 	.be-9 { background-image: url(../images/be-thankful/bg-9.jpg) }
+ 	.be-10 { background-image: url(../images/be-thankful/bg-10.jpg) } 
+ [ class ^= "be-"] > div { width: 1200px; margin: 0 auto; position: relative }
+ 	[ class ^= "be-"] > div > span,
+ 	[ class ^= "bgC-"] a, .bgC-8 i { display: inline-block }
+ 	[ class ^= "be-"] > div > span,
+ 	[ class ^= "bgC-"] > p span { color: #e83c28 }
+ 	[ class ^= "be-"] > div > span,
+ 	[ class ^= "bgC-"] > div,
+ 	[ class ^= "bgC-"] a,
+ 	[ class ^= "bgC-"] > p, .bgC-8 i { position: absolute; left: 50% } 
+ 	[ class ^= "bgC-"] a { width: 326px; margin-left: -174px; height: 104px }
+ 	[ class ^= "be-"] > div > span,
+ 	[ class ^= "bgC-"] > div { font-size: 16px }
+ 	[ class ^= "bgC-"] > span,
+ 	[ class ^= "bgC-"] > div { font-weight: bold }
+ 	[ class ^= "bgC-"] > div { width: 860px; margin-left: -415px }
+ 	[ class ^= "bgC-"] > div,
+ 	[ class ^= "bgC-"] > p { line-height: 28px }
+ 	[ class ^= "bgC-"] > span { height: 62px; line-height: 62px }
+ 	[ class ^= "bgC-"] > span, .bgC-8 i { text-align: center }
+ 	[ class ^= "bgC-"] > p { width: 246px; bottom: 29%; color: #0a0a0a }
+ 	[ class ^= "bgC-"] > div,
+ 	.bgC-8 i { color: white }
+ 	.bgC-1 span { width: 980px; margin-left: -490px; top: 11% }
+ 	.bgC-2 > div { top: 28% }
+ 	.bgC-2 a { top: 7% }
+ 	.bgC-3 span { width: 860px; margin-left: -430px; top: 28% }
+ 	.bgC-4 > div { top: 32% }
+ 	.bgC-4 a { top: 10% }
+ 	.bgC-5 span { width: 740px; margin-left: -370px; top: 38% }
+	.bgC-6 > div { top: 40% }
+ 	.bgC-6 a { top: 20% }
+	.bgC-7 .txt-p1 { margin-left: -352px }
+	.bgC-7 .txt-p2 { margin-left: 280px }
+	.bgC-8 a { -2% }
+	.bgC-8 i { font-style: normal; width: 100%; left: 0; bottom: 10% }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

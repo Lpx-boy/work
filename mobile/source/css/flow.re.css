@@ -1,0 +1,92 @@
+/*
+  -流量充值
+ */
+ 
+ .clear:before, .clear:after { display: table; content: " "; clear: both }
+ .flow_lineb1 span,
+ .txt_1 i,
+ .txt_1 i:before,
+ .flow_lineb2 div div,
+ .line4_a a,
+ .line4_re a,
+ .line4_a > span,
+ .line4_a > span span,
+ .line4_a a:before {  display: inline-block }
+ header,
+ footer { margin: 0 auto }
+ .flow_lineb1 span:nth-child(3),
+ .flow_lineb2 div,
+ .line4_a { text-align: center } 
+ .flow_lineb1 span,
+ .txt_1 i,
+ .txt_1 i:before { border-radius: 100% }
+ .flow_lineb1 span,
+ .flow_lineb3 { cursor: pointer }
+
+ :focus { outline: 0 }
+ a, a:focus, a:hover { text-decoration: none; outline: 0; -webkit-tap-highlight-color:none } 
+ a,
+ input { outline: none }
+ body { margin: 0; padding: 0; background-color: #f0efef; overflow-x: hidden }
+ header { height: 11.7rem; background: url(../images/flow_re/banner.jpg) center/100% 100% no-repeat; }
+ [class^="flow_lineb"],
+ .line4_a {  background-color: white }
+ [class^="flow_lineb"] { border: solid 1px #dcdcdc }
+ .flow_lineb1 input,
+ .flow_lineb1 span:nth-child(2),
+ .flow_lineb2 div a,
+ .txt_1 i,
+ .flow_lineb3 span:first-child,
+ .line4_re div { float: left }
+ .flow_lineb1 span,
+ .flow_lineb3 span:last-child,
+ .line4_re a { float: right }
+
+ .flow_lineb1,
+ .flow_lineb3 { margin: .9rem 0; line-height: 4.1rem; font-size: 1.3rem }
+ .flow_lineb1 input { padding-left: .9rem; font-size: 1.3rem; width: 20rem; height: 4.1rem; border: none; background: none; }
+ .flow_lineb1 span { height: 4.1rem; line-height: 4.3rem }
+ .flow_lineb1 span:nth-child(2) { width: 6rem; font-size: 1rem; color: red } 
+ .flow_lineb1 span:nth-child(3) { margin-top: 1rem; margin-right: 1rem; width: 1.9rem; height: 1.9rem; line-height: 1.9rem; font-size: .9rem; color: #b2b2b2; border: solid 1px #b2b2b2; -webkit-transform: rotate(45deg); transform: rotate(45deg) } 
+ .flow_lineb2 div div { width: 32rem }
+ .flow_lineb2 div a { margin: 1.6rem .4rem 0; width: 9.5rem; height: 3.4rem; line-height: 3.4rem; border: solid .15rem #dbdbdb; border-radius: .45rem; color: #8e8e8e } 
+ .red { background-color: red; border-color: red !important; color: white !important }
+ .flow_lineb2 p { font-size: 1.1rem; text-align: left; color: red }
+ .txt_1 { padding-left: 1rem; line-height: 1.5rem }
+ .txt_1 i { margin-right: .5rem; width: 1.2rem; height: 1.2rem; border: solid 1px red; position: relative }
+ .txt_1 i:before { content: " "; position: absolute; left: .3rem; top: .3rem; width: .4rem; height: .4rem; border: solid 1px red; background-color: red }
+ .txt_2 { padding-left: 1rem } 
+ .flow_lineb3 { margin-bottom: 10rem }
+ .flow_lineb3 span:first-child { margin-left: 1rem }
+ .flow_lineb3 span:last-child { margin-right: 1rem; font-family: "宋体"; font-weight: bold } 
+ .flow_line4 { position: fixed; margin: 0 auto; width: 100%; left: 0; bottom: 0; -webkit-transition: all .6; transition: all .6s; -webkit-transition-delay: .5s; transition-delay: .5s } 
+ .line4_re { height: 4rem; background: url(../images/flow_re/footer.jpg) center/100% 100% no-repeat; color: white }
+ .line4_re div { margin-left: 1rem; height: inherit; line-height: 4rem; font-size: 1.3rem; } 
+ .line4_re a { margin-right: 3.5rem; height: inherit; line-height: 4rem; color: white; font-size: 1.3rem; font-weight: bold }
+ .line4_a { height: 5.2rem }
+ .line4_a > span { margin-top: .6rem }
+ .line4_a > span span { margin: 0 6rem }
+ .line4_a > span span,
+ .line4_a a { width: 2.1rem; height: 2.1rem } 
+ .line4_a a { position: relative; background-image: url(../images/flow_re/icon.png); background-size: cover; background-repeat: no-repeat; color: #848484 }
+ .line4_a a:before { width: 6rem; position: absolute; left: 50%; margin-left: -3rem; bottom: -2rem } 
+ .line4_a .on1:before { content: "充值记录" } 
+ .line4_a .on2:before { content: "会员中心" }
+ .on1 { background-position: 0 0 }
+ .on .on1 { background-position: 0 -2.1rem }
+ .on2 { background-position: 0 -4.25rem }
+ .on .on2 { background-position: 0 -6.4rem } 
+ .on a:before { color: #c7101d } 
+ 
+@media only screen and (min-width: 641px) {
+	.flow_lineb3 { margin-bottom: .9rem }
+	.flow_line4 {
+		position: static !important;
+		max-width: 32rem;
+		margin-left: auto
+	}
+} 
+ 
+
+
+

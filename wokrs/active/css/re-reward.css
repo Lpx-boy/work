@@ -1,0 +1,77 @@
+/*
+ *	活动( 推荐奖励太高，我和我的小伙伴都惊呆了 ) 
+ */
+
+ body { background-color: #5f9fd4 }
+ * { margin: 0; padding: 0; font-family: "微软雅黑" }
+ 
+ [ class ^= "reB-bg"], [ class ^= "re-bg"], [ class ^= "reB-bg"] > div { margin: 0 auto }
+ [ class ^= "reB-bg"], [ class ^= "re-bg"] { background-repeat: no-repeat; background-position: center }
+ [ class ^= "reB-bg"] > div, [ class ^= "re-bg"] { width: 1098px } 
+ .txt-1 a, .txt-5 > span, .txt-4 > span, .txt-4 > b { display: inline-block }
+ [ class ^= "reB-bg"] > div, [ class ^= "re-bg"] > div { position: relative }
+ .txt-1 a, .txt-2 p, .txt-3 p, .txt-4 > div, .txt-4 > span, .txt-4 > b, .txt-5 > span { position: absolute }
+ .txt-2 p b, .txt-4 > b { text-align: center }
+ .txt-2 p, .txt-3 p, .txt-4 > div, .txt-4 > b, .txt-5 > span { color: #6a3906 } 
+ 
+ [ class ^= "reB-bg"], [ class ^= "reB-bg"] > div { height: 330px }
+ 	.reB-bg1 { background-image: url(../images/re-reward/bgb-1.jpg) }
+ 	.reB-bg2 { background-image: url(../images/re-reward/bgb-2.jpg) }
+ 	.reB-bg3 { background-image: url(../images/re-reward/bgb-3.jpg) }
+ 	.reB-bg4 { background-image: url(../images/re-reward/bgb-4.jpg) }
+ 	.txt-1 a { width: 356px; height: 80px; left: 31.5%; bottom: 20% }
+ 	.txt-2 p { width: 660px; line-height: 30px; right: 13%; bottom: 30% }
+ 	.txt-2 p b { display: block; letter-spacing: 5px; font-size: 22px }
+ [ class ^= "re-bg"], [ class ^= "re-bg"] > div { height: 280px }
+ 	.re-bg1 { background-image: url(../images/re-reward/bg-1.jpg) }
+ 	.re-bg2 { background-image: url(../images/re-reward/bg-2.jpg) }
+ 	.re-bg3 { background-image: url(../images/re-reward/bg-3.jpg) }
+ 	.re-bg4 { background-image: url(../images/re-reward/bg-4.jpg) }
+ 	.txt-3 p { width: 760px; right: 10%; bottom: 23% }
+ 	.txt-4 > div { width: 630px; line-height: 70px; left: 16%; top: 48% }
+ 	.txt-4 > div b { margin-left: 25px }
+ 	.txt-4 > span { width: 204px; height: 22px; left: 28.5%; top: 60%; max-width: 204px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+ 	.txt-4 > b { width: 108px; height: 30px; line-height: 30px; left: 48.3%; bottom: 31%; cursor: pointer }
+ 	.txt-5 > span { width: 470px; left: 50%; margin-left: -235px; bottom: 24% }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

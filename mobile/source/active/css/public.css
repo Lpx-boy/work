@@ -1,0 +1,192 @@
+/*
+  -通用样式	 				 
+ * */
+ * { margin: 0; padding: 0 }  
+ ul, li { list-style-type: none } 
+ a { color: #666; background: none } 
+ a, a:focus, a:hover, input:focus { text-decoration: none !important } /** 去除下划线 **/
+
+/*
+ * 去除轮廓线 */  
+ a:focus, input:focus { outline: none !important }  
+
+/*
+ * 相同声明*/ 
+ .w_12 { width: 22rem; margin: 0 auto } /** 宽 240 **/
+ .w_22 { width: 22rem; margin: 0 auto } /** 宽 440 **/
+ .w_32 { width: 32rem; margin: 0 auto } /** 宽 640 **/ 
+ 
+/*
+ * 块*/  
+ .dis_ib { display: inline-block } /** 内联块 **/ 
+ .dis_b { display: block } /** 块 **/    
+ 
+/*
+ * 浮动*/  
+ .f_l { float: left } /** 浮动左 **/
+
+ .f_r { float: right } /** 浮动右 **/
+ 
+ .clear { clear: both }
+ .float_c:after,
+ .float_c:before { display: table; content: " "; clear: both }  /** 清除浮动 **/
+
+/*
+ * 背景颜色*/  
+ .bg_white { background: white } /** 白色背景 **/ 
+   
+/*
+ * 定位*/  
+ .pos_f { position: fixed } /** 固定定位 **/
+
+ .pos_r { position: relative } /** 相对定位 **/
+
+ .pos_a { position: absolute } /** 绝对定位 **/
+
+ .static { position: static } /** 取消定位 **/
+
+/*
+ * 过渡*/ 
+ .t_all05 { -webkit-transition: all .5s; transition: all .5s } /** 过渡时间 0.5秒 **/
+ .ts_a05e-in { -webkit-transition: all .5s ease-in; transition: all .5s ease-in }
+
+ .t_all08 { -webkit-transition: all .8s; transition: all .8s } /** 过渡时间 0.8秒 **/
+ .ts_a08e-in { -webkit-transition: all .8s ease-in; transition: all .8s ease-in }
+
+/*
+ * 颜色*/ 
+ .c_red { color: red !important } /** 颜色值为 白色 **/
+ 
+ .c_white { color: white } /** 颜色值为 白色 **/    
+ 
+/*
+ * 透明度*/  
+ .o_0 { opacity: 0 !important }
+ .o_1 { opacity: 1 !important }  
+ 
+/*
+ * 光标*/  
+ .cur_p { cursor: pointer } /** 手势光标 **/
+
+ .cur_d { cursor: default } /** 默认光标 **/    
+
+ .over_h { overflow: hidden } /** 溢出隐藏 **/
+
+/*
+ * 字号*/ 
+ .fs_06 { font-size: .6rem } /** 字号为12 **/
+
+ .fs_07 { font-size: .7rem } /** 字号为14 **/
+
+ .fs_075 { font-size: .75rem } /** 字号为15 **/
+
+ .fs_08 { font-size: .8rem } /** 字号为16 **/
+
+ .fs_09 { font-size: .9rem } /** 字号为18 **/
+
+ .fs_1 { font-size: 1rem } /** 字号为20 **/
+
+ .fs_103 { font-size: 1.3rem !important } /** 字号为28 **/
+
+/*
+ * 文本加粗*/ 
+ .fw_b { font-weight: bold } 
+ .fw_n { font-weight: normal }
+
+/*
+ * 文本对齐*/   
+ 
+ .txt_c { text-align: center } /** 文本居中 **/ 
+ 
+ .txt_l { text-align: left } /** 文本居左 **/ 
+ 
+ .txt_r { text-align: right } /** 文本居右 **/ 
+ 
+ .txt_j { text-align: justify } /** 文本两端对齐 **/  
+ 
+/*
+ * 外边距*/ 
+ .mt_05 { margin-top: .5rem !important }
+ .mt_075 { margin-top: .75rem !important }
+ .mt_1 { margin-top: 1rem !important }
+ .mt_1025 { margin-top: 1.25rem !important }
+ .mt_105 { margin-top: 1.5rem !important }
+ .mb_05 { margin-bottom: .5rem !important }
+ .mb_075 { margin-bottom: .75rem !important }
+ .mb_1 { margin-bottom: 1rem !important }
+ .mb_1025 { margin-bottom: 1.25rem !important }
+ .mb_105 { margin-bottom: 1.5rem !important } 
+ .ml_05 { margin-left: .5rem !important }
+ .ml_075 { margin-left: .75rem !important }
+ .ml_1 { margin-left: 1rem !important }
+ .ml_1025 { margin-left: 1.25rem !important }
+ .ml_105 { margin-left: 1.5rem !important }
+ .mr_05 { margin-right: .5rem !important }
+ .mr_075 { margin-right: .75rem !important }
+ .mr_1 { margin-right: 1rem !important }
+ .mr_1025 { margin-right: 1.25rem !important }
+ .mr_105 { margin-right: 1.5rem !important }
+ 
+/* 
+ * 内边距*/ 
+ .pt_05 { padding-top: .5rem !important }
+ .pt_075 { padding-top: .75rem !important }
+ .pt_1 { padding-top: 1rem !important }
+ .pt_1025 { padding-top: 1.25rem !important }
+ .pt_105 { padding-top: 1.5rem !important }
+ .pb_05 { padding-bottom: .5rem !important }
+ .pb_075 { padding-bottom: .75rem !important }
+ .pb_1 { padding-bottom: 1rem !important }
+ .pb_1025 { padding-bottom: 1.25rem !important }
+ .pb_105 { padding-bottom: 1.5rem !important }
+ .pl_05 { padding-left: .5rem !important } 
+ .pl_075 { padding-left: .75rem !important } 
+ .pl_1 { padding-left: 1rem !important } 
+ .pl_1025 { padding-left: 1.25rem !important } 
+ .pl_105 { padding-left: 1.5rem !important } 
+ .pl_2 { padding-left: 2rem !important } 
+ .pr_05 { padding-right: .5rem !important }
+ .pr_075 { padding-right: .75rem !important }
+ .pr_1 { padding-right: 1rem !important }
+ .pr_1025 { padding-right: 1.25rem !important }
+ .pr_105 { padding-right: 1.5rem !important }
+ .pr_2 { padding-right: 2rem !important }
+ 
+/*
+ * delay*/
+ .delay_t05 { -ms-transition-delay: .5s !important; -webkit-transition-delay: .5s !important; -o-transition-delay: .5s !important; transition-delay: .5s } /** 过渡延迟0.5s **/
+
+ .delay_t06 { -ms-transition-delay: .6s !important; -webkit-transition-delay: .6s !important; -o-transition-delay: .6s !important; transition-delay: .6s !important } /** 过渡延迟0.6s **/
+
+ .delay_t07 { -ms-transition-delay: .7s !important; -webkit-transition-delay: .7s !important; -o-transition-delay: .7s !important; transition-delay: .7s !important } /** 过渡延迟0.7s **/
+
+ .delay_t08 { -ms-transition-delay: .8s !important; -webkit-transition-delay: .8s !important; -o-transition-delay: .8s !important; transition-delay: .8s !important } /** 过渡延迟0.8s **/
+
+ .delay_t09 { -ms-transition-delay: .9s !important; -webkit-transition-delay: .9s !important; -o-transition-delay: .9s !important; transition-delay: .9s !important } /** 过渡延迟0.9s **/
+
+ .delay_t1 { -ms-transition-delay: 1s !important; -webkit-transition-delay: 1s !important; -o-transition-delay: 1s !important; transition-delay: 1s !important } /** 过渡延迟1s **/
+
+ .delay_t1_5 { -ms-transition-delay: 1.5s !important; -webkit-transition-delay: 1.5s !important; -o-transition-delay: 1.5s !important; transition-delay: 1.5s !important } /** 过渡延迟1.5s **/
+
+ .delay_t2 { -ms-transition-delay: 2s !important; -webkit-transition-delay: 2s !important; -o-transition-delay: 2s !important; transition-delay: 2s !important } /** 过渡延迟2s **/
+
+ .delay_t2_5 { -ms-transition-delay: 2.5s !important; -webkit-transition-delay: 2.5s !important; -o-transition-delay: 2.5s !important; transition-delay: 2.5s !important } /** 过渡延迟2.5s **/
+
+
+ .delay_t3 { -ms-transition-delay: 3s !important; -webkit-transition-delay: 3s !important; -o-transition-delay: 3s !important; transition-delay: 3s !important } /** 过渡延迟3s **/
+  
+ .delay_a05 { -ms-animation-delay: .5s !important; -webkit-animation-delay: .5s !important; -o-animation-delay: .5s !important; animation-delay: .5s !important } /** 动画延迟0.5s **/
+
+ .delay_a06 { -ms-animation-delay: .6s !important; -webkit-animation-delay: .6s !important; -o-animation-delay: .6s !important; animation-delay: .6s !important } /** 动画延迟0.6s **/
+
+ .delay_a07 { -ms-animation-delay: .7s !important; -webkit-animation-delay: .7s !important; -o-animation-delay: .7s !important; animation-delay: .7s !important } /** 动画延迟0.7s **/
+
+ .delay_a08 { -ms-animation-delay: .8s !important; -webkit-animation-delay: .8s !important; -o-animation-delay: .8s !important; animation-delay: .8s !important } /** 动画延迟0.8s **/
+
+ .delay_a09 { -ms-animation-delay: .9s !important; -webkit-animation-delay: .9s !important; -o-animation-delay: .9s !important; animation-delay: .9s !important } /** 动画延迟0.9s **/
+
+ .delay_a1 { -ms-animation-delay: 1s !important; -webkit-animation-delay: 1s !important; -o-animation-delay: 1s !important; animation-delay: 1s !important } /** 动画延迟1s **/
+
+ .delay_a2 { -ms-animation-delay: 2s !important; -webkit-animation-delay: 2s !important; -o-animation-delay: 2s !important; animation-delay: 2s !important } /** 动画延迟2s **/
+
+ 

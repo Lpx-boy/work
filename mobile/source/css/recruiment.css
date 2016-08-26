@@ -1,0 +1,562 @@
+/*css:
+ *** -recruiment
+ */
+* { margin: 0; padding: 0 }
+html,
+body { height: 100%; background-color: #444 }
+
+/*css:
+ *** -swiper
+ */ 
+.swiper-container { max-width: 32rem; width: 100%; height: 100% } 
+
+/*css:
+ *** -public
+ */  
+ .logo { width: 19.6rem } 
+ .logo l1 { height: 3.5rem } 
+ .logo l2 { width: 0; height: 0; border-top: 5.1rem solid white; border-right: 9.8rem solid transparent; border-left: 9.8rem solid transparent } 
+ .logo pic { margin-left: -6.975rem; width: 13.95rem; top: .4rem; height: 4.65rem; background-image: url(../images/recruiment/logo.png) } /**- 公共logo -**/  
+ html, body,
+ .logo,
+ .s1 content,
+ .s1 content c-bg4 > i,
+ .s2 content,
+ .s8 foot,
+ .s8 foot ul li b { position: relative } /**- 相对定位 -**/
+ .logo pic,
+ .s1 content c-bg1,
+ .s1 content c-bg2,
+ .s1 content c-bg3,
+ .s1 content c-bg4,
+ .s1 content c-bg4 i i,
+ .s1 foot i,
+ .s1 foot p,
+ .s2 content span,
+ .s3 foot, 
+ .treatment,
+ .s7 content,
+ .s7 content person,
+ .s7 content trophy,
+ trophy1,
+ trophy2,
+ .s7 content line, 
+ .s8 foot:before,
+ .s8 foot ul li b:before,
+ .s8 > i { position: absolute } /**- 绝对定位 -**/
+ .s1 foot { position: fixed } /**- 固定定位 -**/
+ logo, l2, pic,
+ content, c-bg1, c-bg2, c-bg3, c-bg4,
+ line, .s1 > content c-bg4 i,
+ .s1 foot i,
+ .s2 content span,
+ txt,
+ .s2 foot i,
+ .s3 foot p i,
+ .s3 logo span,
+ logo1,
+ logo2,
+ .s4 header i,
+ .picture span,
+ .s5 header p i,
+ .s6 content line span,
+ txt,
+ person,
+ trophy,
+ trophy1,
+ trophy2,
+ .s8 content > span,
+ .s8 foot,
+ .s8 foot:before,
+ .s8 foot ul li b:before,
+ .s8 > i,
+ .s4 header p > span span { display: inline-block } /**- 内联块 -**/
+ .logo pic,
+ c-bg3,
+ c-bg4,
+ .s1 foot i,
+ .s7 content,
+ trophy2 { left: 50% } /**- 定位left为50% -**/
+ .s1 content c-bg1,
+ .s1 content c-bg2,
+ trophy1 { left: 0; top: 0 } /**- 定位left为0,top为0 -**/
+ .s1 foot,
+ .s1 foot i,
+ .s2 .rou3,
+ .s3 foot, 
+ .treatment,
+ .s7 content line,
+ .s8 foot,
+ .s8 > i { bottom: 0 } /**- 定位bottom为0 -**/
+ l1,
+ foot,
+ .s3 logo,
+ .picture line,
+ .s6 content line,
+ .s8 content,
+ .s8 foot ul li b { display: block } /**- 块 -**/ 
+ .swiper-slide,
+ .logo l1,
+ .s3 foot,
+ .s7 content line { background-color: white } /**- 白色背景 -**/
+ .s1,
+ .s2 > p,
+ .s2 content span,
+ .s3,
+ .s6 content line span,
+ .s8 header { background-color: yellow }  /**- 黄色背景 -**/
+ .s1 content c-bg4 line { background-color: #231815 } /**- 背景色 #231815 -**/
+ .s7,
+ .s8 foot ul li b:before,
+ .s8 foot:before { background-color: #fed700 } /**- 背景色 #fed700 -**/
+ .s2,
+ .s8 { background-color: #fff5e1 } /**- 背景色 #fff5e1 -**/
+ .logo pic,
+ .s1 content c-bg1,
+ .s1 content c-bg2,
+ .s1 content c-bg3,
+ .s1 content c-bg4 i,
+ .s1 foot i,
+ .s2 foot i,
+ .s3 logo span logo1,
+ .s3 logo span logo2,
+ .s4 header i,
+ .picture span,
+ .treatment,
+ .s7 > txt,
+ .s7 content person,
+ .s7 content trophy trophy1,
+ .s7 content trophy trophy2,
+ .s8 > i { background-repeat: no-repeat; background-position: center; background-size: cover } /**- 公共背景属性 -**/
+ .s3 header,
+ .s6 { background: white url(../images/recruiment/about-us-bg.png) repeat }
+ .swiper-slide { text-align: center } /**- 文本居中 -**/
+ .s2 content span p,
+ .s2 foot p,
+ .s3 header,
+ .s3 foot p,
+ .s5 header p,
+ .s8 content > span p txt,
+ .s8 foot ul { text-align: left } /**- 文本居左 -**/
+ .s3 content { text-align: justify } /**- 文本两端对齐 -**/
+ .s1 content,
+ .s1 content c-bg1,
+ .s1 content c-bg2 { width: 27.45rem; height: 31.7rem }
+ .s1 content c-bg3,
+ .s1 content c-bg4 { margin-left: -11.375rem; width: 22.75rem; height: 26.25rem; top: 2.725rem }
+ .s1 content c-bg4 p,
+ .s4 header p,
+ .add { font-weight: bold } /**- 字体加粗 -**/
+ .s1 content c-bg4 p,
+ .s1 foot p { color: #231815 } /**- 字体颜色为231815 -**/
+ .s1 content c-bg1,
+ .s1 foot,
+ .s1 foot i,
+ .s1 foot p,
+ .s8 foot { z-index: 1 } /**- 堆叠1 -**/
+ .s3 logo span,
+ .picture line, 
+ .s8 content > span p txt,
+ .swiper-slide { overflow: hidden } /**- 溢出隐藏 -**/
+ .s8 content > span p txt { white-space: nowrap; text-overflow: ellipsis } /**- 溢出显示省略号 -**/
+ .s3 logo span logo1,
+ .s3 logo span logo2,
+ [class ^= "pic-l"],
+ .s6 content line span,
+ .s7 content line { float: left } /**- 浮动左 -**/
+ [class ^= "pic-r"],
+ .s8 foot ul li p span:nth-child( 2 ) { float: right } /**- 浮动右 -**/
+ .s1 foot,
+ .s1 foot p,
+ .s3 foot { width: 100% } /**- 宽度为100% -**/
+ .s2 content span,
+ .s6 content line span,
+ .s8 foot ul li b:before { border-radius: 100% } /**- 圆角为100% -**/ 
+ .s8 foot ul li b:before,
+ .s8 foot:before { content: " " }
+
+/*css:
+ *** -content
+ */    
+ .s1 content c-bg1 { background-image: url(../images/recruiment/polygon-b.png) }
+ .s1 content c-bg2 { background-image: url(../images/recruiment/polygon-bg.gif) }
+ .s1 content c-bg3 { background-image: url(../images/recruiment/polygon-s.png) }
+ .s1 content c-bg4 { z-index: 2 }
+ .s1 content c-bg4 > i { margin: 3rem auto 1.4rem; width: 12.25rem; height: 11.7rem; background-image: url(../images/recruiment/polygon-t.png) }
+ .s1 content c-bg4 i i { width: 8.25rem; height: 13.7rem; right: -.8rem; background-image: url(../images/recruiment/polygon-r.png) }
+ .s1 content c-bg4 p { font-family: "Helvetica"; font-size: 1.8rem }
+ .s1 content c-bg4 line { width: 15.9rem; height: .4rem !important }
+ .s1 foot { left: 0; height: 10rem }
+ .s1 foot i { margin-left: -6.625rem; width: 13.25rem; height: 15.5rem; background-image: url(../images/recruiment/polygon-head.gif) }
+ .s1 foot p { bottom: 1rem; font-size: 1.9rem } 
+  
+ .s2 > p { margin-top: .8rem; width: 19.5rem; line-height: 3.5rem; font-size: 2.1rem; color: #1c1c1c; border-radius: .3rem }
+ .s2 content { margin: 2.1rem 0 1.8rem; width: 29.4rem; height: 21.8rem }
+ .s2 content span { width: 11.7rem; height: 11.7rem }
+ .s2 content span txt { margin-top: 3rem; max-width: 8.7rem; font-size: 1rem; color: #4f350f }
+ .s2 content span b { font-size: 1.2rem; color: black }
+ .s2 content span p { margin-top: .6rem }
+ .s2 .rou1 { left: 0; top: 1rem }
+ .s2 .rou2 { right: 0; top: 0 }
+ .s2 .rou3 { left: 9rem } 
+ .s2 foot p { padding-bottom: 1rem; width: 24.9rem; margin: 0 auto; font-size: 1.4rem }
+ .s2 foot i { width: 20.45rem; height: 13.2rem; background-image: url(../images/recruiment/partner.jpg) }
+   
+ .s3 header { padding: 1.7rem 0 .3rem 1.5rem; font-size: 1.2rem; border-bottom: solid .15rem #2b2b2b }
+ .s3 header span { font-size: .8rem }
+ .s3 content { margin-top: 1rem; width: 26.5rem }
+ .s3 content p { line-height: 1.8rem; font-size: 1rem; color: #1d1d1d; text-indent: 2rem }
+ .s3 content p:nth-child( 2 ) { margin-top: 1rem } 
+ .s3 foot { padding-bottom: 3.5rem }
+ .s3 foot p,
+ .s5 header p { padding: .2rem 0 0 1.4rem; border-bottom: dashed 1px #696969 }
+ .s5 header p { padding: 1rem 0 1rem 2rem }
+ .s3 foot p i,
+ .s5 header p i { width: 10.85rem; height: 2.25rem; background: url(../images/recruiment/about-us-brand.jpg) center/cover no-repeat }  
+ .s3 logo { margin-top: 1.4rem }
+ .s3 logo span logo1 { width: 10.8rem; height: 3.55rem; background-image: url(../images/recruiment/about-us-logo1.jpg) }
+ .s3 logo span logo2 { margin: .7rem 0 0 3rem; width: 10.1rem; height: 2.5rem; background-image: url(../images/recruiment/about-us-logo2.jpg) }
+  
+ .s4 header { margin-top: 2.1rem }
+ .s4 header p { margin-bottom: 2rem; font-size: 1rem; text-transform: Uppercase; color: #1d1d1d; letter-spacing: .3rem }
+ .s4 header p > span { font-size: 1.6rem }
+ .s4 header i { width: 32rem; height: 18.05rem; background-image: url(../images/recruiment/mien-img1.jpg) }
+ .picture line { margin-top: .3rem }
+ .s4 foot span { width: 15.85rem; height: 8.8rem } 
+ .pic-l_1 { background-image: url(../images/recruiment/mien-1.jpg) }
+ .pic-r_1 { background-image: url(../images/recruiment/mien-2.jpg) }
+ .pic-l_2 { background-image: url(../images/recruiment/mien-3.jpg) }
+ .pic-r_2 { background-image: url(../images/recruiment/mien-4.jpg) }
+ .pic-l_3 { background-image: url(../images/recruiment/mien-5.jpg) }
+ .pic-r_3 { background-image: url(../images/recruiment/mien-6.jpg) }
+ .pic-l_4 { background-image: url(../images/recruiment/mien-7.jpg) }
+ .pic-r_4 { background-image: url(../images/recruiment/mien-8.jpg) }
+ .pic-l_5 { background-image: url(../images/recruiment/mien-9.jpg) }
+ .pic-r_5 { background-image: url(../images/recruiment/mien-10.jpg) }
+ .pic-l_6 { background-image: url(../images/recruiment/mien-11.jpg) }
+ .pic-r_6 { background-image: url(../images/recruiment/mien-12.jpg) }
+   
+ .s5 foot span { width: 15.9rem; height: 10.85rem }  
+ 
+ .s6 .logo l1 { background-color: #fedb00 }
+ .s6 .logo l2 { border-top: 5.1rem solid #fedb00 }
+ .s6 content { margin-top: 6rem; width: 25.7rem }
+ .s6 content line { padding-left: .3rem }
+ .s6 content line span { width: 3.1rem; height: 3.1rem; line-height: 3.1rem; font-size: 1.5rem }
+ .s6 content p { margin-top: 2.4rem; line-height: 2.4rem; font-size: 1.3rem; color: #363636 }
+ .treatment { width: 32rem; height: 19.5rem; background-image: url(../images/recruiment/treatment.jpg) }
+ 
+ .s7 > txt { margin-top: 5.3rem; width: 25.1rem; height: 11.8rem; background-image: url(../images/recruiment/ideal.gif) }
+ .s7 content { margin-left: -10.95rem; width: 21.9rem; bottom: 6.6rem; height: 9.5rem }
+ .s7 content line { width: 5.9rem; height: 0 }
+ .s7 content line:nth-child( 1 ) { left: 0 }
+ .s7 content line:nth-child( 2 ) { left: 8rem }
+ .s7 content line:nth-child( 3 ) { right: 0 }
+ .s7 content person { left: -1rem; bottom: 3rem; width: 13.25rem; height: 19.3rem; background-image: url(../images/recruiment/ideal-person.gif) }
+ .s7 content trophy { right: 0; top: -8rem; width: 5.8rem; height: 6.7rem }
+ .s7 content trophy trophy1 { width: inherit; height: inherit; background-image: url(../images/recruiment/ideal-trophy.png) }
+ .s7 content trophy trophy2 { margin-left: -6.65rem; top: -4.3rem; width: 13.3rem; height: 6.75rem; background-image: url(../images/recruiment/shine.png) }
+  
+ .s8 header { height: 5rem; line-height: 5rem; font-size: 2.3rem; color: #1b1700 }
+ .s8 content { padding: .5rem 0; background-color: #fff5bf }
+ .s8 content > span p { line-height: 1.9rem; font-size: 1rem; color: #010100 }
+ .s8 content > span p txt:first-of-type { width: 17.5rem; max-width: 17.5rem }
+ .s8 content > span p txt:last-of-type { width: 10.5rem; max-width: 10.5rem } 
+ .s8 foot { margin: 3rem 0 0 2rem; width: 25.8rem }
+ .s8 foot ul { list-style: none }
+ .s8 foot ul li { margin-bottom: .5rem; font-size: .9rem; color: #010100 }
+ .s8 foot ul li b { margin-bottom: .5rem; line-height: 1.3rem; font-size: 1.2rem }
+ .s8 foot ul li b:before { left: -2.3rem; top: .4rem; width: .7rem; height: .7rem }
+ .s8 .extrude { font-size: 1.3rem } /**- 大圆 -**/
+ .s8 .extrude:before { left: -2.5rem; top: 0; width: 1.1rem; height: 1.1rem }
+ .s8 foot ul li p { line-height: 1.8rem }
+ .add { margin-top: .5rem; color: #2a2a2a }
+ .s8 foot ul li p span { color: #3c3c3c }
+ .s8 foot:before { width: .2rem; height: 0; left: -2rem; top: 0 } 
+ .s8 > i { right: 0; width: 18.35rem; height: 18.25rem; background-image: url(../images/recruiment/ideal-person-1.jpg) }
+ 
+ .s9 foot,
+ .s10 foot { bottom: auto }
+ 
+ .s9 foot { top: 0 }
+ .s9 foot ul { padding-top: 1.8rem } 
+ 
+ .s10 foot { top: 6rem }
+ .s10 foot ul li { font-size: .8rem }
+ .s10 foot ul li p { line-height: 1.4rem }
+ 
+ .s11 foot ul li p { line-height: 1.5rem }
+ 
+/*css:
+ *** -media
+ */   
+ @media only screen and ( max-width: 342px ) and ( min-width: 321px ) {
+ 	.s3 content { margin-top: 0 }
+ 	.s4 foot span { width: 14.75rem } 
+ 	.s5 foot span { width: 14.65rem; height: 10.05rem }  
+ 	.s7 > txt { margin-top: 2rem }
+ 	.s8 foot { right: 1rem }
+ 	.s8 foot ul li p { line-height: 1.6rem }
+ 	.s8 foot ul li b { margin-bottom: 0; line-height: .8rem }
+ }
+ @media only screen and ( max-width: 342px ) and ( min-width: 324px ) {
+ 	.picture line { margin-top: .8rem }
+ }
+ @media only screen and ( max-height: 780px ) and ( min-height: 639px ) {
+ 	.s1 content { margin-top: 2rem }
+ 	.s2 content { margin: 6rem 0 1.8rem }
+ 	.s3 content { margin-top: 3rem } 
+ 	.s5 header p { padding: 3rem 0 1rem 1.4rem }
+ 	.s6 content { margin-top: 11rem } 
+ } 
+ @media only screen and ( min-height: 1000px ) {
+ 	.s2 content { margin: 4.1rem 0 3.8rem }
+ 	.s3 content { margin-top: 6rem }
+ 	.s5 header { margin-bottom: 4rem }
+ 	.s6 content p { margin-top: 4.4rem }
+ 	.s8 foot { padding-bottom: 4rem }
+ }
+ 
+/*css:
+ *** -animate
+ */   
+ 
+ /**- 过渡时间  -**/
+ .s1 content c-bg4 > i,
+ .s1 content c-bg4 p:nth-child( 2 ),
+ .s1 content c-bg4 line,
+ .s1 content c-bg4 p:nth-child( 4 ),
+ .s1 content c-bg4 p:nth-child( 5 ) { -webkit-transition: all .3s; transition: all .3s } 
+ .s1 content c-bg2,
+ .s1 foot i,
+ .s2 > p,
+ .s4 header p > span span,
+ .s6 content p,
+ .s7 content line { -webkit-transition: all .4s; transition: all .4s } 
+ .logo,
+ .logo pic,
+ .s1 content c-bg1,
+ .s1 foot p,
+ .s2 content span,
+ .s2 foot p,
+ .s2 foot i,
+ .s3 header,
+ .s3 content,
+ .s3 foot p i,
+ .s4 header i,
+ .picture span,
+ .s5 header p i,
+ .s6 content line span,
+ .s7 > txt,
+ .s7 content person,
+ .s8 .txt,
+ .s8 content,
+ .s8 foot ul li,
+ .s8 > i { -webkit-transition: all .5s; transition: all .5s } 
+ .s1 content c-bg3,
+ .s3 logo span logo1,
+ .s3 logo span logo2,
+ .s4 header p txt,
+ .treatment,
+ .s7 content trophy trophy1,
+ .s8 foot:before { -webkit-transition: all .6s; transition: all .6s } 
+ .s8 foot ul li b:before { -webkit-transition: all 1s; transition: all 1s }
+
+ /**- 延迟时间  -**/
+ .logo,
+ .s2 > p,
+ .s4 header p > span span:nth-child( 1 ),
+ .s7 > txt { -webkit-transition-delay: .1s; transition-delay: .1s }
+ .logo pic,
+ .swiper-slide-active .rou1,
+ .s3 content,
+ .s4 header p > span span:nth-child( 2 ),
+ .s6 content line span:nth-child( 1 ),
+ .s8 content { -webkit-transition-delay: .2s; transition-delay: .2s }  
+ .s1 content c-bg1,
+ .swiper-slide-active .rou2,
+ .s3 foot p i,
+ .s4 header p > span span:nth-child( 3 ),
+ .s6 content line span:nth-child( 2 ),
+ .s7 content line:nth-child( 1 ),
+ .s8 foot:before { -webkit-transition-delay: .3s; transition-delay: .3s }  
+ .s1 content c-bg3,
+ .swiper-slide-active .rou3,
+ .s3 logo span logo1,
+ .s4 header p > span span:nth-child( 4 ),
+ .s6 content line span:nth-child( 3 ),
+ .s7 content line:nth-child( 2 ),
+ .s8 foot ul li:nth-child( 1 ) { -webkit-transition-delay: .4s; transition-delay: .4s }  
+ .s1 content c-bg2,
+ .s2 foot p,
+ .s3 logo span logo2,
+ .s4 header p txt,
+ .s6 content line span:nth-child( 4 ),
+ .s7 content line:nth-child( 3 ),
+ .s8 foot ul li:nth-child( 2 ) { -webkit-transition-delay: .5s; transition-delay: .5s }  
+ .s1 content c-bg4 > i,
+ .s6 content p,
+ .s7 content person,
+ .s8 foot ul li:nth-child( 3 ),
+ .s8 foot ul li:nth-child( 1 ) b:before { -webkit-transition-delay: .6s; transition-delay: .6s }
+ .s1 content c-bg4 p:nth-child( 2 ),
+ .s2 foot i,
+ .s4 header i,
+ .treatment,
+ .s8 foot ul li:nth-child( 4 ),
+ .s8 foot ul li:nth-child( 2 ) b:before { -webkit-transition-delay: .7s; transition-delay: .7s }
+ .s1 content c-bg4 line,
+ .s4 foot .pic-l_1,
+ .s7 content trophy trophy1,
+ .s8 foot ul li:nth-child( 5 ),
+ .s8 foot ul li:nth-child( 3 ) b:before { -webkit-transition-delay: .8s; transition-delay: .8s }
+ .s1 content c-bg4 p:nth-child( 4 ),
+ .s4 foot .pic-r_1,
+ .s8 foot ul li:nth-child( 4 ) b:before,
+ .s8 > i { -webkit-transition-delay: .9s; transition-delay: .9s }
+ .s1 content c-bg4 p:nth-child( 5 ),
+ .s4 foot .pic-l_2,
+ .s8 foot ul li:nth-child( 5 ) b:before { -webkit-transition-delay: 1s; transition-delay: 1s }
+ .s1 foot i,
+ .s4 foot .pic-r_2 { -webkit-transition-delay: 1.15s; transition-delay: 1.15s }
+ .s1 foot p { -webkit-transition-delay: 1.2s; transition-delay: 1.2s }
+ 
+ /**- 透明度 -**/
+ .logo pic,
+ .s1 content c-bg1,
+ .s1 content c-bg3,
+ .s1 content c-bg4 i i,
+ .s1 foot i,
+ .s1 foot p,
+ .logo,
+ .s2 foot p,
+ .s3 header,
+ .s3 content,
+ .s3 foot p i,
+ .s4 header p > span span,
+ .s4 header p txt,
+ .s4 header i,
+ .s4 foot span,
+ .s5 header p i,
+ .picture span,
+ .s6 content p,
+ .s7 > txt,
+ .s7 content trophy trophy2,
+ .s8 content { opacity: 0 }
+ .swiper-slide-active .logo,
+ .swiper-slide-active .logo pic,
+ .swiper-slide-active content c-bg1,
+ .swiper-slide-active content c-bg3,
+ .swiper-slide-active foot i,
+ .swiper-slide-active foot p,
+ .swiper-slide-active header,
+ .swiper-slide-active content,
+ .swiper-slide-active foot p i,
+ .swiper-slide-active header p > span span,
+ .swiper-slide-active header p txt,
+ .swiper-slide-active header i,
+ .swiper-slide-active foot span,
+ .swiper-slide-active header p i,
+ .swiper-slide-active content p,
+ .swiper-slide-active > txt,
+ .swiper-slide-active content { opacity: 1 } 
+ 
+
+ /**- 控制器 -**/
+ .logo { -webkit-transform: translateY( -8.9rem ); transform: translateY( -8.9rem ) } 
+ .swiper-slide-active .logo { -webkit-transform: translateY( 0 ); transform: translateY( 0 ) }
+ .logo pic,
+ .s2 foot p,
+ .s4 header p > span span,
+ .s6 content p { -webkit-transform: scale( 8 ); transform: scale( 8 ) }
+ .s1 foot p,
+ .s2 content span,
+ .s3 logo span logo1,
+ .s3 logo span logo2,
+ .s4 foot span,
+ .picture span,
+ .s6 content line span,
+ .s8 foot ul li b:before { -webkit-transform: scale( 0 ); transform: scale( 0 ) }
+ .swiper-slide-active .logo pic,
+ .swiper-slide-active foot p,
+ .swiper-slide-active content span,
+ .swiper-slide-active logo span logo1,
+ .swiper-slide-active logo span logo2,
+ .swiper-slide-active header p > span span,
+ .swiper-slide-active foot span,
+ .swiper-slide-active content line span,
+ .swiper-slide-active content p,
+ .swiper-slide-active foot ul li b:before { -webkit-transform: scale( 1 ); transform: scale( 1 ) }   
+ .s1 content c-bg1,
+ .s1 content c-bg3 { -webkit-transform: rotateY( 0 ) scale( 0 ); transform: rotateY( 0 ) scale( 0 ) }
+ .swiper-slide-active content c-bg1,
+ .swiper-slide-active content c-bg3 { -webkit-transform: rotateY( 540deg ) scale( 1 ); transform: rotateY( 540deg ) scale( 1 ) }  
+ .s1 content c-bg2 { -webkit-transform: translate( -30rem, -27.5rem ); transform: translate( -30rem, -27.5rem ) }
+ .swiper-slide-active content c-bg2 { -webkit-transform: translate( 0 ); transform: translate( 0 ) }  
+ .s1 content c-bg4 > i { -webkit-transform: translateX( 23rem ); transform: translateX( 23rem ) }
+ .swiper-slide-active content c-bg4 i i,
+ .s7 content trophy trophy2 { -webkit-animation: hyaline 1.5s infinite; animation: hyaline 1.5s infinite }
+ .s1 content c-bg4 p:nth-child(2),
+ .s1 content c-bg4 line,
+ .s1 content c-bg4 p:nth-child(4),
+ .s1 content c-bg4 p:nth-child(5),
+ .s2 foot i { -webkit-transform: translateX( -28rem ); transform: translateX( -28rem ) } 
+ .s1 foot i { -webkit-transform: translateX( 23rem ); transform: translateX( 23rem ) }
+ .s2 > p { -webkit-transform: translateX( -20rem ); transform: translateX( -20rem ) }  
+ .s3 header { font-size: 5.2rem }
+ .swiper-slide-active .about-us { font-size: 1.2rem }
+ .s3 foot p i,
+ .s5 header p i { -webkit-transform: translateX( -12.5rem ); transform: translateX( -12.5rem ) } 
+ .s4 header i { -webkit-transform: rotateY( 180deg ); transform: rotateY( 180deg ) } 
+ .swiper-slide-active header i { -webkit-transform: rotateY( 0 ); transform: rotateY( 0 ) }  
+ .swiper-slide-active content line span { margin: 0 -.3rem }
+ .s6 .treatment,
+ .s7 content trophy trophy1,
+ .s8 > i { background-size: 0 }
+ .swiper-slide-active .treatment,
+ .swiper-slide-active content trophy trophy1,
+ .swiper-slide-active > i { background-size: 100% }
+ .s7 > txt { -webkit-transform: translateX( -29rem ); transform: translateX( -29rem ) }
+ .s7 content person { -webkit-transform: translateX( -18rem ); transform: translateX( -18rem ) }
+ .s8 foot ul li { -webkit-transform: translateX( 28rem ); transform: translateX( 28rem ) }
+ .swiper-slide-active content c-bg4 > i,
+ .swiper-slide-active content c-bg4 p:nth-child(2),
+ .swiper-slide-active content c-bg4 line,
+ .swiper-slide-active content c-bg4 p:nth-child(4),
+ .swiper-slide-active content c-bg4 p:nth-child(5),
+ .swiper-slide-active content c-bg4 > i,
+ .swiper-slide-active foot i,
+ .swiper-slide-active > p,
+ .swiper-slide-active foot p i,
+ .swiper-slide-active header p i,
+ .swiper-slide-active > txt,
+ .swiper-slide-active content person,
+ .swiper-slide-active foot ul li { -webkit-transform: translateX( 0 ); transform: translateX( 0 ) } 
+ .swiper-slide-active content line:nth-child( 1 ) { height: 2.5rem }
+ .swiper-slide-active content line:nth-child( 2 ) { height: 5.1rem }
+ .swiper-slide-active content line:nth-child( 3 ) { height: inherit }
+ .s7 content trophy trophy2 { -webkit-animation-delay: 1s; animation-delay: 1s }
+ .s8 .txt { -webkit-transform: rotateY( 180deg ); transform: rotateY( 180deg ) }
+ .swiper-slide-active .txt { -webkit-transform: rotateY( 0 ); transform: rotateY( 0 ) }
+ .s8 content { -webkit-transform: rotateX( 180deg ); transform: rotateX( 180deg ) }
+ .swiper-slide-active content { -webkit-transform: rotateX( 0 ); transform: rotateX( 0 ) }
+ .swiper-slide-active foot:before { height: 100% } 
+ 
+ @-webkit-keyframes hyaline { 
+ 	50% { opacity: .9 }
+ }  
+ @keyframes hyaline { 
+ 	50% { opacity: .9 }
+ }  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
